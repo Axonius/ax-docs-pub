@@ -1,0 +1,106 @@
+div.navbar.navbar-expand-lg.py-0.headerBg {
+  background-color: #000 !important;
+}
+
+div.navbar.navbar-expand-lg.py-0.headerBg a.navbar-brand img[alt="Microsoft Logo"] {
+content: url("https://raw.githubusercontent.com/Axonius/ax-docs/refs/heads/main/Axonius_FullLogo_White_RGB.png");
+height: 20px !important;
+width: auto !important;
+background: transparent !important;
+}
+
+div.navbar.navbar-expand-lg.py-0.headerBg span.ml-2.separator {
+  color: #FFF !important; 
+}
+
+div.navbar.navbar-expand-lg.py-0.headerBg div.title-d.left-section.pl-4 {
+  color: #FFF !important; 
+}
+
+pagination-controls ul.ngx-pagination li.current {
+  background: #3d3c3c !important; 
+}
+
+body {
+  font-family: 'Instrument Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Instrument Sans', sans-serif;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1.5rem !important;
+}
+
+h1 {
+  font-size: 2.2em;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 0.3em;
+  margin-top: 20px !important;
+  margin-bottom: 2rem !important;
+}
+
+h2 {
+  font-size: 1.8em;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.2em;
+}
+
+h3 {
+  font-size: 1.4em;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+h5 {
+  font-size: 1.1em;
+}
+h6 {
+  font-size: 1em;
+}
+
+pre, code {
+  font-family: 'Courier New', monospace;
+  background-color: #f4f4f4;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+b, strong {
+  font-family: 'PT Serif', serif;
+}
+
+/* Style for Overview blockquotes */
+blockquote.overview {
+  background-color: #FFC783; /* Light blue background */
+  border-left: 5px solid #FCA466; /* Blue left border */
+  padding: 10px;
+  margin: 1em 0;
+  font-style: italic;
+}
+
+li {
+  margin-top: 0.5em; /* Add space above each list item */
+  margin-bottom: 0.5em; /* Add space below each list item */
+}
+
+details {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.content-container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+pagination-controls ul.ngx-pagination li.current.current.current:not(#x),
+pagination-controls ul.ngx-pagination li.current > a,
+pagination-controls ul.ngx-pagination li.current > span {
+  background: #3d3c3c !important;
+  color: #fff !important;
+  border-color: #3d3c3c !important;
+}
