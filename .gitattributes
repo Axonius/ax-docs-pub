@@ -1,0 +1,7 @@
+# Set the default behavior for text files
+* text=auto
+
+# Explicitly mark binary files to prevent Git from touching them
+*.png binary
+*.jpg binary
+*.svg binary
