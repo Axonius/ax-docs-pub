@@ -1,0 +1,286 @@
+[
+    {
+        "id": "best_id",
+        "hostname": "best_hostname",
+        "name": "best_name",
+        "serial_number": "best_serial_number",
+        "ip": "203.0.113.65",
+        "mac": "00:1A:2B:3C:4D:42",
+        "username": "user1",
+        "first_name": "First Name",
+        "last_name": "Last Name",
+        "mail": "email1@gmail.com",
+        "user_manager": "The best manager",
+        "user_manager_mail": "manager@email.com",
+        "domain": "example.com",
+        "fgid": "FG12345",
+        "model": "BestDeviceModel",
+        "bios_serial": "BIOS123456",
+        "cloud_id": "CLD001",
+        "cloudprovider": "amazon-web-services",
+        "device_manufacturer": "BestManufacturer",
+        "os_name": "MacOS",
+        "device_company": "BestCompany",
+        "description": "Primary best device description",
+        "software":
+        [
+            {
+                "swname": "installed_software_1",
+                "swversion": "version_1",
+                "cve": "cve_1",
+                "cvedescription": "description_1",
+                "field_123": "value_1"
+            },
+            {
+                "swname": "installed_software_2",
+                "swversion": "version_2",
+                "cve": "cve_2",
+                "cvedescription": "description_2",
+                "field_123": "value_1"
+            },
+            {
+                "swname": "installed_software_3",
+                "swversion": "version_3",
+                "cve": "cve_3",
+                "cvedescription": "description_3",
+                "field_123": "value_1"
+            },
+            {
+                "swname": "installed_software_4",
+                "swversion": "version_4",
+                "cve": "cve_4",
+                "cvedescription": "description_4",
+                "field_123": "value_1"
+            },
+            {
+                "swname": "installed_software_5",
+                "swversion": "version_5",
+                "cve": "cve_5",
+                "cvedescription": "description_5",
+                "field_123": "value_1"
+            },
+            {
+                "swname": "installed_software_6",
+                "swversion": "version_6",
+                "cve": "cve_6",
+                "cvedescription": "description_6",
+                "field_123": "value_1"
+            },
+            {
+                "swname": "installed_software_7",
+                "swversion": "version_7",
+                "cve": "cve_7",
+                "cvedescription": "description_7",
+                "field_123": "value_1"
+            }
+        ]
+    },
+    {
+        "id": "worst_id",
+        "hostname": "SOME_DOMAIN\\hostname",
+        "name": "worst_name",
+        "serial_number": "worst_serial_number",
+        "ip": "203.0.113.42",
+        "mac": "00:1A:2B:3C:4D:5E",
+        "username": "user2",
+        "first_name": "First Name",
+        "last_name": "Last Name",
+        "mail": "email2@gmail.com",
+        "user_manager": "The best manager",
+        "user_manager_mail": "manager@email.com",
+        "domain": "sub.example.com",
+        "fgid": "FG67890",
+        "model": "WorstDeviceModel",
+        "bios_serial": "BIOS678901",
+        "cloud_id": "CLD002",
+        "cloudprovider": "azure",
+        "device_manufacturer": "WorstManufacturer",
+        "os_name": "Linux",
+        "device_company": "WorstCompany",
+        "description": "Secondary worst device description",
+        "software":
+        [
+            {
+                "swname": "installed_software_8",
+                "swversion": "version_8",
+                "cve": "cve_8",
+                "cvedescription": "description_8",
+                "field_123": "value_1"
+            }
+        ]
+    },
+    {
+        "id": "id_123",
+        "hostname": "hostname_123",
+        "name": "name_123",
+        "serial_number": "serial_number_123",
+        "ip": "203.0.52.42",
+        "mac": "00:1A:2B:3C:4D:74",
+        "username": "user3",
+        "first_name": "First Name",
+        "last_name": "Last Name",
+        "mail": "email3@gmail.com",
+        "user_manager": "The best manager",
+        "user_manager_mail": "manager@email.com",
+        "domain": null,
+        "fgid": "FG11122",
+        "model": "Model123",
+        "bios_serial": "BIOS789123",
+        "cloud_id": "CLD003",
+        "cloudprovider": "ibm",
+        "device_manufacturer": null,
+        "os_name": "Linux",
+        "device_company": "Company123",
+        "description": "Description for row 123",
+        "software":
+        [
+            {
+                "swname": "installed_software_9",
+                "swversion": "version_9",
+                "cve": "cve_9",
+                "cvedescription": "description_9",
+                "field_123": "value_9"
+            }
+        ]
+    },
+    {
+        "id": "id_124",
+        "hostname": "hostname_124",
+        "name": "name_124",
+        "serial_number": "serial_number_124",
+        "ip": "203.0.89.42",
+        "mac": "00:1A:2B:3C:4D:87",
+        "username": "user4",
+        "first_name": "First Name",
+        "last_name": "Last Name",
+        "mail": "email4@gmail.com",
+        "user_manager": "The best manager",
+        "user_manager_mail": "manager@email.com",
+        "domain": "company.local",
+        "fgid": "FG11223",
+        "model": "Model124",
+        "bios_serial": "BIOS456321",
+        "cloud_id": "CLD004",
+        "cloudprovider": "azure",
+        "device_manufacturer": "Manufacturer124",
+        "os_name": null,
+        "device_company": "Company124",
+        "description": null,
+        "software":
+        [
+            {
+                "swname": "installed_software_10",
+                "swversion": "version_10",
+                "cve": "cve_10",
+                "cvedescription": "description_10",
+                "field_123": "value_10"
+            }
+        ]
+    },
+    {
+        "id": "id_125",
+        "hostname": "hostname_125",
+        "name": "name_125",
+        "serial_number": "serial_number_125",
+        "ip": "203.0.64.42",
+        "mac": "00:1A:2B:3C:4D:35",
+        "username": "user5",
+        "first_name": "First Name",
+        "last_name": "Last Name",
+        "mail": "email5@gmail.com",
+        "user_manager": "The best manager",
+        "user_manager_mail": "manager@email.com",
+        "domain": "device.local",
+        "fgid": "FG11334",
+        "model": "Model125",
+        "bios_serial": "BIOS123789",
+        "cloud_id": "CLD005",
+        "cloudprovider": "oracle",
+        "device_manufacturer": "Manufacturer125",
+        "os_name": "Windows",
+        "device_company": "Company125",
+        "description": "Row 125 unique description",
+        "software":
+        [
+            {
+                "swname": "installed_software_11",
+                "swversion": "version_11",
+                "cve": "cve_11",
+                "cvedescription": "description_11",
+                "field_123": "value_11"
+            }
+        ]
+    },
+    {
+        "id": "id_126",
+        "hostname": "hostname_126",
+        "name": "name_126",
+        "serial_number": "serial_number_126",
+        "network_interfaces":
+        [
+            {
+                "ip": "203.0.75.42",
+                "mac": "00:1A:2B:3C:4D:69"
+            }
+        ],
+        "username": "user6",
+        "first_name": "First Name",
+        "last_name": "Last Name",
+        "mail": "email6@gmail.com",
+        "user_manager": "The best manager",
+        "user_manager_mail": "manager@email.com",
+        "domain": null,
+        "fgid": null,
+        "model": "Model126",
+        "bios_serial": "BIOS999888",
+        "cloud_id": "CLD006",
+        "cloudprovider": "linode",
+        "device_manufacturer": "Manufacturer126",
+        "os_name": "Ubuntu",
+        "device_company": null,
+        "description": "Description missing",
+        "software":
+        [
+            {
+                "swname": "installed_software_12",
+                "swversion": "version_12",
+                "cve": "cve_12",
+                "cvedescription": "description_12",
+                "field_123": "value_12"
+            }
+        ]
+    },
+    {
+        "id": "id_127",
+        "hostname": "hostname_127",
+        "serial_number": "serial_number_127",
+        "ip": "203.0.36.42",
+        "mac": "00:1A:2B:3C:4D:41",
+        "username": "user7",
+        "first_name": "First Name",
+        "last_name": "Last Name",
+        "mail": "email7@gmail.com",
+        "user_manager": "The best manager",
+        "user_manager_mail": "manager@email.com",
+        "domain": "network.local",
+        "fgid": "FG11556",
+        "model": "Model127",
+        "bios_serial": "BIOS456654",
+        "cloud_id": null,
+        "cloudprovider": "google",
+        "device_manufacturer": "Manufacturer127",
+        "os_name": "MacOS",
+        "device_company": "Company127",
+        "description": null,
+        "software":
+        [
+            {
+                "swname": "installed_software_13",
+                "swversion": "version_13",
+                "cve": "cve_13",
+                "cvedescription": "description_13",
+                "field_123": "value_13"
+            }
+        ]
+    }
+]
