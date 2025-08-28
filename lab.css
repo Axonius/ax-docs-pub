@@ -8,7 +8,7 @@ div.navbar.navbar-expand-lg.py-0.headerBg a.navbar-brand {
   display: inline-block !important;
   width: auto !important;  /* adjust as needed */
   height: 20px !important;  /* adjust as needed */
-  background-image: url("https://cdn.jsdelivr.net/gh/Axonius/ax-docs@main/Axonius_FullLogo_White_RGB.png") !important;
+  background-image: url("https://cdn.jsdelivr.net/gh/Axonius/ax-docs-pub@main/Axonius_FullLogo_White_RGB.png") !important;
   background-repeat: no-repeat !important;
   background-position: left center !important;
   background-size: contain !important;
