@@ -77,11 +77,12 @@ b, strong {
 
 /* Style for Overview blockquotes */
 blockquote.overview {
-  background-color: #ebedfc; /* Light blue background */
-  border-left: 5px solid #4B62F3; /* Blue left border */
+  background-color: #FCA466; /* Lighter Orange */
+  border-left: 5px solid #FF6112; /* Darkest Orange */
   padding: 10px;
   margin: 1em 0;
   font-style: italic;
+  color: #000; /* black text */
 }
 
 li {
