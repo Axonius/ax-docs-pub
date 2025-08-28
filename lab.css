@@ -4,7 +4,7 @@ div.navbar.navbar-expand-lg.py-0.headerBg {
   background-color: #000 !important;
 }
 
-div.navbar.navbar-expand-lg.py-0.headerBg a.navbar-brand img[alt="Microsoft Logo"] {
+div.navbar.navbar-expand-lg.py-0.headerBg a.navbar-brand img[alt="Axonius Logo"] {
 content: url("https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/Axonius_FullLogo_White_RGB.png");
 height: 20px !important;
 width: auto !important;
