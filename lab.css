@@ -4,11 +4,22 @@ div.navbar.navbar-expand-lg.py-0.headerBg {
   background-color: #000 !important;
 }
 
-div.navbar.navbar-expand-lg.py-0.headerBg a.navbar-brand img[alt="Axonius Logo"] {
-  content: url("https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/Axonius_FullLogo_White_RGB.png");
-  height: 20px !important;
-  width: auto !important;
-  background: transparent !important;
+div.navbar.navbar-expand-lg.py-0.headerBg a.navbar-brand {
+  display: inline-block !important;
+  width: auto !important;  /* adjust as needed */
+  height: 20px !important;  /* adjust as needed */
+  background-image: url("https://cdn.jsdelivr.net/gh/Axonius/ax-docs@main/Axonius_FullLogo_White_RGB.png") !important;
+  background-repeat: no-repeat !important;
+  background-position: left center !important;
+  background-size: contain !important;
+  margin-left: 4px !important;
+}
+
+div.navbar.navbar-expand-lg.py-0.headerBg a.navbar-brand img {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+  opacity: 0 !important;
 }
 
 div.navbar.navbar-expand-lg.py-0.headerBg span.ml-2.separator {
