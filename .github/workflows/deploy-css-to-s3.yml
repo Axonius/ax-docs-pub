@@ -20,7 +20,11 @@ jobs:
       - name: Install awscli & jq
         run: |
           sudo apt-get update
-          sudo apt-get install -y awscli jq
+          sudo apt-get install -y unzip curl jq
+          curl -sS "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+          unzip -q awscliv2.zip
+          sudo ./aws/install
+          aws --version
 
       - name: Get GitHub OIDC token
         id: oidc
@@ -35,7 +39,7 @@ jobs:
         id: assume
         env:
           AWS_REGION: us-east-1
-          ROLE_ARN: arn:aws:iam::240295276863:role/GHtoS3   # <-- your role name here
+          ROLE_ARN: arn:aws:iam::240295276863:role/GHtoS3
           OIDC_TOKEN: ${{ steps.oidc.outputs.token }}
         run: |
           set -euo pipefail
