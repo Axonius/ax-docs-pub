@@ -12,6 +12,7 @@ div.navbar.navbar-expand-lg.py-0.headerBg a.navbar-brand {
   background-repeat: no-repeat !important;
   background-position: center !important;
   background-size: contain !important;
+  margin-top: 4px !important;
 }
 
 div.navbar.navbar-expand-lg.py-0.headerBg a.navbar-brand img {
