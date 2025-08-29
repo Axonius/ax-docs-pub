@@ -1,0 +1,26 @@
+name: Deploy lab.css to S3
+
+on:
+  push:
+    branches: [ main, master ]
+    paths: [ 'lab.css' ]
+
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: arn:aws:iam::240295276863:role/GHtoS3
+          aws-region: us-east-1
+      - run: |
+          aws s3 cp lab.css s3://raphax/lab.css \
+            --acl public-read \
+            --content-type "text/css" \
+            --cache-control "no-cache, no-store, must-revalidate" \
+            --metadata-directive REPLACE
