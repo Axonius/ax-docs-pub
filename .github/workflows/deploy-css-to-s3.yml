@@ -31,31 +31,29 @@ jobs:
 
       - name: Get GitHub OIDC token
         id: oidc
-        env:
-          REQ_URL: ${{ env.ACTIONS_ID_TOKEN_REQUEST_URL }}
-          REQ_TOKEN: ${{ env.ACTIONS_ID_TOKEN_REQUEST_TOKEN }}
         run: |
           set -euo pipefail
-          OIDC_TOKEN=$(curl -sS -H "Authorization: bearer ${REQ_TOKEN}" "${REQ_URL}&audience=sts.amazonaws.com" | jq -r '.value')
-          echo "token=${OIDC_TOKEN}" >> $GITHUB_OUTPUT
+          OIDC_TOKEN=$(curl -sS \
+            -H "Authorization: Bearer $ACTIONS_ID_TOKEN_REQUEST_TOKEN" \
+            "$ACTIONS_ID_TOKEN_REQUEST_URL&audience=sts.amazonaws.com" | jq -r '.value')
+          echo "token=$OIDC_TOKEN" >> "$GITHUB_OUTPUT"
 
       - name: Assume AWS role with web identity
         id: assume
         env:
           AWS_REGION: us-east-1
           ROLE_ARN: arn:aws:iam::240295276863:role/GHtoS3
-          OIDC_TOKEN: ${{ steps.oidc.outputs.token }}
         run: |
           set -euo pipefail
           CREDS=$(aws sts assume-role-with-web-identity \
             --role-arn "$ROLE_ARN" \
             --role-session-name gha-labcss \
-            --web-identity-token "$OIDC_TOKEN" \
+            --web-identity-token "${{ steps.oidc.outputs.token }}" \
             --duration-seconds 3600)
-          echo "$CREDS" | jq -r '.Credentials.AccessKeyId'     | xargs -I{} echo "AWS_ACCESS_KEY_ID={}" >> $GITHUB_ENV
-          echo "$CREDS" | jq -r '.Credentials.SecretAccessKey' | xargs -I{} echo "AWS_SECRET_ACCESS_KEY={}" >> $GITHUB_ENV
-          echo "$CREDS" | jq -r '.Credentials.SessionToken'    | xargs -I{} echo "AWS_SESSION_TOKEN={}" >> $GITHUB_ENV
-          echo "AWS_REGION=$AWS_REGION" >> $GITHUB_ENV
+          echo "$CREDS" | jq -r '.Credentials.AccessKeyId'     | xargs -I{} echo "AWS_ACCESS_KEY_ID={}" >> "$GITHUB_ENV"
+          echo "$CREDS" | jq -r '.Credentials.SecretAccessKey' | xargs -I{} echo "AWS_SECRET_ACCESS_KEY={}" >> "$GITHUB_ENV"
+          echo "$CREDS" | jq -r '.Credentials.SessionToken'    | xargs -I{} echo "AWS_SESSION_TOKEN={}" >> "$GITHUB_ENV"
+          echo "AWS_REGION=$AWS_REGION" >> "$GITHUB_ENV"
 
       - name: Upload lab.css to S3
         run: |
