@@ -96,6 +96,22 @@ blockquote.overview {
   color: #000; /* black text */
 }
 
+blockquote.warning {
+  background-color: #FDE2E1;   /* very light red/pink for contrast */
+  border-left: 5px solid #D93025; /* bold warning red */
+  padding: 12px 16px;
+  margin: 1em 0;
+  font-style: normal;  /* clearer readability, remove italic if you prefer */
+  color: #222;  /* dark gray text for smoother contrast than pure black */
+  border-radius: 4px; /* optional: makes it feel more like a banner */
+}
+
+blockquote.warning::before {
+  content: "⚠️ ";
+  font-weight: bold;
+  margin-right: 6px;
+}
+
 li {
   margin-top: 0.5em; /* Add space above each list item */
   margin-bottom: 0.5em; /* Add space below each list item */
