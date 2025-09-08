@@ -4,11 +4,22 @@ div.navbar.navbar-expand-lg.py-0.headerBg {
   background-color: #000 !important;
 }
 
-div.navbar.navbar-expand-lg.py-0.headerBg a.navbar-brand img[alt="Microsoft Logo"] {
-content: url("https://raw.githubusercontent.com/Axonius/ax-docs/refs/heads/main/Axonius_FullLogo_White_RGB.png");
-height: 20px !important;
-width: auto !important;
-background: transparent !important;
+div.navbar.navbar-expand-lg.py-0.headerBg a.navbar-brand {
+  display: inline-block !important;
+  width: 140px !important;  /* adjust as needed */
+  height: 24px !important;  /* adjust as needed */
+  background-image: url("https://cdn.jsdelivr.net/gh/Axonius/ax-docs-pub@main/Axonius_FullLogo_White_RGB.png") !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: contain !important;
+  margin-top: 4px !important;
+}
+
+div.navbar.navbar-expand-lg.py-0.headerBg a.navbar-brand img {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+  opacity: 0 !important;
 }
 
 div.navbar.navbar-expand-lg.py-0.headerBg span.ml-2.separator {
@@ -77,11 +88,52 @@ b, strong {
 
 /* Style for Overview blockquotes */
 blockquote.overview {
-  background-color: #FFC783; /* Light blue background */
-  border-left: 5px solid #FCA466; /* Blue left border */
+  background-color: #DFEAFFFF; /* Cornflower, lightened */
+  border-left: 5px solid #4B62F3 ; /* Theme Blue */
   padding: 10px;
   margin: 1em 0;
   font-style: italic;
+  color: #000; /* black text */
+  border-radius: 4px; 
+  max-width: max-content;
+}
+
+blockquote.overview::before {
+  content: "ℹ️ ";
+  font-weight: bold;
+  margin-right: 6px;
+}
+
+blockquote.warning {
+  background-color: #fffbcf;   
+  border-left: 5px solid #ffc107; 
+  padding: 12px 16px;
+  margin: 1em 0;
+  font-style: normal;  
+  color: #000;  
+  border-radius: 4px;
+  max-width: max-content;
+}
+
+blockquote.warning::before {
+  content: "⚠️ ";
+  font-weight: bold;
+  margin-right: 6px;
+}
+
+blockquote.error {
+  background-color: #D93025;   /* bold red */
+  border-left: 5px solid #A50E0E; /* darker red */
+  padding: 12px 16px;
+  margin: 1em 0;
+  color: #fff; /* white text for contrast */
+  font-weight: bold;
+  border-radius: 4px;
+  max-width: max-content;
+}
+blockquote.error::before {
+  content: "🚨 ";
+  margin-right: 6px;
 }
 
 li {

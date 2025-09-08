@@ -1,0 +1,65 @@
+name: Deploy lab.css to S3 (OIDC, no external actions)
+
+on:
+  push:
+    branches: [ main, master ]
+    paths: [ 'lab.css' ]
+  workflow_dispatch:
+
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@50fbc622fc4ef5163becd7fab6573eac35f8462e
+
+      - name: Ensure awscli & jq
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install -y jq curl unzip
+          if ! command -v aws >/dev/null 2>&1; then
+            curl -sS "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o awscliv2.zip
+            unzip -q awscliv2.zip
+            sudo ./aws/install
+          else
+            echo "AWS CLI already present: $(aws --version)"
+          fi
+
+      - name: Get GitHub OIDC token
+        id: oidc
+        run: |
+          set -euo pipefail
+          OIDC_TOKEN=$(curl -sS \
+            -H "Authorization: Bearer $ACTIONS_ID_TOKEN_REQUEST_TOKEN" \
+            "$ACTIONS_ID_TOKEN_REQUEST_URL&audience=sts.amazonaws.com" | jq -r '.value')
+          echo "token=$OIDC_TOKEN" >> "$GITHUB_OUTPUT"
+
+      - name: Assume AWS role with web identity
+        id: assume
+        env:
+          AWS_REGION: us-east-1
+          ROLE_ARN: arn:aws:iam::240295276863:role/GHtoS3
+        run: |
+          set -euo pipefail
+          CREDS=$(aws sts assume-role-with-web-identity \
+            --role-arn "$ROLE_ARN" \
+            --role-session-name gha-labcss \
+            --web-identity-token "${{ steps.oidc.outputs.token }}" \
+            --duration-seconds 3600)
+          echo "$CREDS" | jq -r '.Credentials.AccessKeyId'     | xargs -I{} echo "AWS_ACCESS_KEY_ID={}" >> "$GITHUB_ENV"
+          echo "$CREDS" | jq -r '.Credentials.SecretAccessKey' | xargs -I{} echo "AWS_SECRET_ACCESS_KEY={}" >> "$GITHUB_ENV"
+          echo "$CREDS" | jq -r '.Credentials.SessionToken'    | xargs -I{} echo "AWS_SESSION_TOKEN={}" >> "$GITHUB_ENV"
+          echo "AWS_REGION=$AWS_REGION" >> "$GITHUB_ENV"
+
+      - name: Upload lab.css to S3
+        run: |
+          set -euo pipefail
+          aws s3 cp lab.css s3://raphax/lab.css \
+            --acl public-read \
+            --content-type "text/css" \
+            --cache-control "no-cache, no-store, must-revalidate" \
+            --metadata-directive REPLACE
