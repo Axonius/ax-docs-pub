@@ -159,20 +159,13 @@ pagination-controls ul.ngx-pagination li.current > span {
   border-color: #3d3c3c !important;
 }
 
+#lab_guideview .variable-binding span.copydetails a.copyelement {
+  position: absolute !important;
+  bottom: 6px !important;
+  right: 6px !important;
+  color: #000 !important;
+}
+
 #lab_guideview .variable-binding {
   position: relative !important;
-}
-
-/* pin the copy control to bottom-right */
-#lab_guideview .variable-binding span.copydetails {
-  position: absolute !important;
-  bottom: 6px !important;
-  right: 6px !important;
-}
-
-/* (optional) if the <a> needs the positioning instead of the span */
-#lab_guideview .variable-binding span.copydetails > a.copyelement {
-  position: absolute !important;
-  bottom: 6px !important;
-  right: 6px !important;
 }
