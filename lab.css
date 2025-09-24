@@ -159,6 +159,6 @@ pagination-controls ul.ngx-pagination li.current > span {
   border-color: #3d3c3c !important;
 }
 
-.variable-binding .copyelement {
+.ax-code-block .variable-binding .copyelement {
   float: right !important;
 }
