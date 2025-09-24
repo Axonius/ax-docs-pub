@@ -159,8 +159,14 @@ pagination-controls ul.ngx-pagination li.current > span {
   border-color: #3d3c3c !important;
 }
 
-#lab_guideview .variable-binding .copyelement {
+#lab_guideview .variable-binding {
+  position: relative !important;
+}
+
+/* Pin the copy button to the bottom right */
+#lab_guideview .variable-binding span.copydetails {
+  position: absolute !important;
+  bottom: 6px !important;
+  right: 6px !important;
   color: #000 !important;
-  position: relative;
-  float: right;
 }
