@@ -33,7 +33,7 @@ def create_docu():
     results = []
     for adapter_name, adapter_details in plugin_meta.items():
 
-        if adapter_details.get('status') != "GA" and adapter_details.get('title') not in disallow_listy:
+        if adapter_details.get('status') != "GA" or adapter_details.get('title') in disallow_listy:
             continue
         temp = []
         for category in adapter_details.get('categories',[]):

@@ -972,16 +972,6 @@
         ]
     },
     {
-        "logo": null,
-        "name": "Asset Custom Data",
-        "href": "",
-        "description": "Asset Custom Data",
-        "solutionCategories": [],
-        "assetsFetched": [
-            "Vulnerability Instances"
-        ]
-    },
-    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/asset_note_adapter.svg",
         "name": "Assetnote",
         "href": "/docs/Asset-Note",
@@ -1299,30 +1289,6 @@
         "assetsFetched": [
             "Devices"
         ]
-    },
-    {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/axonius_catalog_adapter.svg",
-        "name": "Axonius Catalog",
-        "href": "",
-        "description": "Axonius Catalog",
-        "solutionCategories": [],
-        "assetsFetched": []
-    },
-    {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/axonius_discovery_adapter.svg",
-        "name": "Axonius Discovery",
-        "href": "",
-        "description": "Axonius Discovery",
-        "solutionCategories": [],
-        "assetsFetched": []
-    },
-    {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/axonius_identity_management.png",
-        "name": "Axonius Identity Management",
-        "href": "",
-        "description": "Axonius Identity Management",
-        "solutionCategories": [],
-        "assetsFetched": []
     },
     {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/network_scanner_adapter.svg",
@@ -3736,16 +3702,6 @@
         ]
     },
     {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/gui.svg",
-        "name": "Custom Data",
-        "href": "",
-        "description": "Generic fields with values given by the user, that can be edited in the entity configuration page",
-        "solutionCategories": [],
-        "assetsFetched": [
-            "Devices"
-        ]
-    },
-    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/generic_file_adapter.svg",
         "name": "Custom Files",
         "href": "/docs/Custom-Files",
@@ -4592,14 +4548,6 @@
         "assetsFetched": [
             "Devices"
         ]
-    },
-    {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/axonius_draft_adapter.png",
-        "name": "Draft",
-        "href": "",
-        "description": "Axonius draft assets adapter",
-        "solutionCategories": [],
-        "assetsFetched": []
     },
     {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/dragos_platform_adapter.svg",
@@ -10343,16 +10291,6 @@
         ]
     },
     {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/nwis_adapter.png",
-        "name": "NWIS",
-        "href": "",
-        "description": "NWIS",
-        "solutionCategories": [],
-        "assetsFetched": [
-            "Devices"
-        ]
-    },
-    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/nxlog_adapter.svg",
         "name": "NXLog",
         "href": "/docs/Nxlog",
@@ -11471,16 +11409,6 @@
         ]
     },
     {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/pingidentity_adapter.svg",
-        "name": "Ping Identity",
-        "href": "",
-        "description": "Ping Identity is a standards-based platform that connects customers, employees and partners to their cloud, mobile, SaaS and on-premises applications and APIs.",
-        "solutionCategories": [],
-        "assetsFetched": [
-            "Devices"
-        ]
-    },
-    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/pingboard_adapter.svg",
         "name": "Pingboard",
         "href": "/docs/Pingboard",
@@ -11616,16 +11544,6 @@
         ],
         "assetsFetched": [
             "Users"
-        ]
-    },
-    {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/pm_status.png",
-        "name": "PM Status",
-        "href": "",
-        "description": "",
-        "solutionCategories": [],
-        "assetsFetched": [
-            "Devices"
         ]
     },
     {
@@ -15036,27 +14954,6 @@
         ]
     },
     {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/test_ticketing_adapter.png",
-        "name": "Test Ticketing",
-        "href": "",
-        "description": "This adapter provides a simplified way to test ticketing integrations without requiring a real 3rd-party connection.",
-        "solutionCategories": [
-            "CMDB",
-            "ITAM/ITSM",
-            "Ticketing",
-            "SaaS Management"
-        ],
-        "assetsFetched": [
-            "Devices",
-            "Tickets",
-            "Security Roles",
-            "Application Settings",
-            "Permissions",
-            "Users",
-            "Groups"
-        ]
-    },
-    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/thales_mfa_adapter.svg",
         "name": "Thales BSIDCA",
         "href": "/docs/Thales-Mfa",
@@ -16391,16 +16288,6 @@
             "Permissions",
             "Security Roles",
             "Secrets"
-        ]
-    },
-    {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/general_info.png",
-        "name": "WMI Info",
-        "href": "",
-        "description": "",
-        "solutionCategories": [],
-        "assetsFetched": [
-            "Devices"
         ]
     },
     {
