@@ -14,6 +14,7 @@ disallow_listy = [
     'PM Status',
     'Test Ticketing',
     'WMI Info',
+    'Ping Identity',
 ]
 
 def open_json_file(file_path):
@@ -32,7 +33,7 @@ def create_docu():
     results = []
     for adapter_name, adapter_details in plugin_meta.items():
 
-        if adapter_details.get('status') != "GA":
+        if adapter_details.get('status') != "GA" and adapter_details.get('title') not in disallow_listy:
             continue
         temp = []
         for category in adapter_details.get('categories',[]):
@@ -43,8 +44,7 @@ def create_docu():
         path_to_look = 'axonius-libs/src/libs/axonius-py/axonius/assets/logos/adapters/'
         logo = None
         for path in os.listdir(path_to_look):
-            if (adapter_name == path.split('/')[-1].split('.')[0] or adapter_name.replace('_adapter', '') == path.split('/')[-1].split('.')[0]) and \
-                adapter_details.get('title') not in disallow_listy:
+            if (adapter_name == path.split('/')[-1].split('.')[0] or adapter_name.replace('_adapter', '') == path.split('/')[-1].split('.')[0]):
                 logo = "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/" + path
                 break
         result = {
