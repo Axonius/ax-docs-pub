@@ -17,6 +17,11 @@ disallow_listy = [
     'Ping Identity',
 ]
 
+correct_names={
+    "urls": "Domains & URLs",
+    "saas spplications": "Discovered SaaS applications"
+}
+
 def open_json_file(file_path):
     with open(file_path, 'r') as file:
         return json.load(file)
@@ -44,16 +49,25 @@ def create_docu():
         path_to_look = 'axonius-libs/src/libs/axonius-py/axonius/assets/logos/adapters/'
         logo = None
         for path in os.listdir(path_to_look):
-            if (adapter_name == path.split('/')[-1].split('.')[0] or adapter_name.replace('_adapter', '') == path.split('/')[-1].split('.')[0]):
+            if adapter_name == path.split('/')[-1].split('.')[0]:
                 logo = "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/" + path
                 break
+        if not logo:
+            for path in os.listdir(path_to_look):
+                if adapter_name.replace('_adapter', '') == path.split('/')[-1].split('.')[0]:
+                    logo = "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/" + path
+                    break
+        assetsFetched = [asset.title().replace('_', ' ') for asset in adapter_details.get('assets')]
+        for i in assetsFetched:
+            if i.lower() in correct_names:
+                assetsFetched[assetsFetched.index(i)] = correct_names[i.lower()]
         result = {
             'logo': logo,
             'name': adapter_details.get('title'),
             'href': adapter_details.get('link','').replace('https://docs.axonius.com', ''),
             'description': adapter_details.get('description'),
             'solutionCategories': temp,
-            'assetsFetched': [asset.title().replace('_', ' ') for asset in adapter_details.get('assets')]
+            'assetsFetched': assetsFetched
         }
         results.append(result)
     results = sorted(results, key=by_name_lower)

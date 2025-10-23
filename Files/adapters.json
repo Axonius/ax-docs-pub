@@ -479,7 +479,7 @@
             "VA Tool"
         ],
         "assetsFetched": [
-            "Urls"
+            "Domains & URLs"
         ]
     },
     {
@@ -506,7 +506,7 @@
         "assetsFetched": [
             "Devices",
             "Firewalls",
-            "Urls"
+            "Domains & URLs"
         ]
     },
     {
@@ -1539,7 +1539,7 @@
             "Infra Monitoring"
         ],
         "assetsFetched": [
-            "Urls",
+            "Domains & URLs",
             "Application Services"
         ]
     },
@@ -1781,7 +1781,7 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Urls",
+            "Domains & URLs",
             "Networks"
         ]
     },
@@ -1842,7 +1842,7 @@
             "Devices",
             "Vulnerabilities",
             "Discovered Saas Applications",
-            "Urls",
+            "Domains & URLs",
             "Users",
             "Groups",
             "Certificates",
@@ -2217,7 +2217,7 @@
             "Devices",
             "Discovered Saas Applications",
             "Vulnerabilities",
-            "Urls"
+            "Domains & URLs"
         ]
     },
     {
@@ -2260,7 +2260,7 @@
         ]
     },
     {
-        "logo": null,
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/canva_adapter.svg",
         "name": "Canva",
         "href": "/docs/Canva",
         "description": "Canva is a graphic design platform that offers tools for creating visual content.",
@@ -2918,7 +2918,7 @@
             "Devices",
             "Users",
             "Networks",
-            "Urls",
+            "Domains & URLs",
             "Organizational Units",
             "Discovered Saas Applications"
         ]
@@ -3176,7 +3176,7 @@
             "Users",
             "Devices",
             "Certificates",
-            "Urls",
+            "Domains & URLs",
             "Load Balancers"
         ]
     },
@@ -3504,7 +3504,7 @@
             "Discovered Saas Applications",
             "Users",
             "Application Settings",
-            "Urls",
+            "Domains & URLs",
             "Containers",
             "Security Roles"
         ]
@@ -3562,7 +3562,7 @@
         "assetsFetched": [
             "Devices",
             "Certificates",
-            "Urls"
+            "Domains & URLs"
         ]
     },
     {
@@ -3686,7 +3686,7 @@
             "Cloud Security"
         ],
         "assetsFetched": [
-            "Urls"
+            "Domains & URLs"
         ]
     },
     {
@@ -3838,7 +3838,7 @@
             "Devices",
             "Organizational Units",
             "Users",
-            "Urls",
+            "Domains & URLs",
             "File Systems"
         ]
     },
@@ -3855,7 +3855,7 @@
             "Devices",
             "Vulnerabilities",
             "Discovered Saas Applications",
-            "Urls",
+            "Domains & URLs",
             "Certificates"
         ]
     },
@@ -4396,8 +4396,10 @@
             "Cloud Infra"
         ],
         "assetsFetched": [
-            "Users",
-            "Devices"
+            "Devices",
+            "Network Services",
+            "Load Balancers",
+            "Compute Services"
         ]
     },
     {
@@ -4450,7 +4452,7 @@
             "Security Awareness"
         ],
         "assetsFetched": [
-            "Urls"
+            "Domains & URLs"
         ]
     },
     {
@@ -5285,7 +5287,7 @@
             "Devices",
             "Firewalls",
             "Compute Services",
-            "Urls"
+            "Domains & URLs"
         ]
     },
     {
@@ -6028,7 +6030,7 @@
         "assetsFetched": [
             "Devices",
             "Certificates",
-            "Urls"
+            "Domains & URLs"
         ]
     },
     {
@@ -6130,7 +6132,7 @@
             "Discovered Saas Applications",
             "Users",
             "Software",
-            "Urls"
+            "Domains & URLs"
         ]
     },
     {
@@ -6868,7 +6870,7 @@
         ]
     },
     {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/iavm_enrichment.svg",
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/iavm_enrichment_adapter.svg",
         "name": "IAVM Enrichment",
         "href": "/docs/iavm-enrichment",
         "description": "IAVM is a DoD process for identifying and managing security vulnerabilities in critical systems, ensuring timely protection through alerts, bulletins, and advisories.",
@@ -7197,7 +7199,7 @@
             "Incidents",
             "Applications",
             "Devices",
-            "Urls"
+            "Domains & URLs"
         ]
     },
     {
@@ -7307,7 +7309,7 @@
         "assetsFetched": [
             "Devices",
             "Networks",
-            "Urls"
+            "Domains & URLs"
         ]
     },
     {
@@ -7425,7 +7427,7 @@
             "VA Tool"
         ],
         "assetsFetched": [
-            "Urls",
+            "Domains & URLs",
             "Vulnerabilities",
             "Discovered Saas Applications"
         ]
@@ -7481,7 +7483,7 @@
             "Application Services",
             "Discovered Saas Applications",
             "Vulnerabilities",
-            "Urls"
+            "Domains & URLs"
         ]
     },
     {
@@ -7498,9 +7500,9 @@
     },
     {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/ironclad_contract_lifecycle_management_adapter.png",
-        "name": "Ironclad Contract Lifecycle Management",
+        "name": "Ironclad",
         "href": "/docs/Ironclad-Contract-Lifecycle-Management",
-        "description": "Ironclad Contract Lifecycle Management is a contract lifecycle management platform that offers automated contract creation and management.",
+        "description": "Ironclad is a contract lifecycle management platform that offers automated contract creation and management.",
         "solutionCategories": [
             "Audit/Compliance"
         ],
@@ -7806,7 +7808,8 @@
             "Certificates",
             "Networks",
             "Business Applications",
-            "Application Services"
+            "Application Services",
+            "Databases"
         ]
     },
     {
@@ -8667,7 +8670,7 @@
             "Vulnerabilities",
             "Discovered Saas Applications",
             "Devices",
-            "Urls"
+            "Domains & URLs"
         ]
     },
     {
@@ -8737,7 +8740,7 @@
         "assetsFetched": [
             "Devices",
             "Users",
-            "Urls"
+            "Domains & URLs"
         ]
     },
     {
@@ -8907,7 +8910,7 @@
             "Networks",
             "Compute Services",
             "Organizational Units",
-            "Urls",
+            "Domains & URLs",
             "Permissions"
         ]
     },
@@ -8985,7 +8988,7 @@
             "Devices",
             "Vulnerabilities",
             "Discovered Saas Applications",
-            "Urls",
+            "Domains & URLs",
             "Certificates"
         ]
     },
@@ -9675,7 +9678,7 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Urls",
+            "Domains & URLs",
             "Certificates"
         ]
     },
@@ -9690,7 +9693,7 @@
             "Cloud Security"
         ],
         "assetsFetched": [
-            "Urls"
+            "Domains & URLs"
         ]
     },
     {
@@ -9990,7 +9993,7 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Urls"
+            "Domains & URLs"
         ]
     },
     {
@@ -10138,12 +10141,11 @@
     },
     {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/nokia_adapter.png",
-        "name": "Nokia",
+        "name": "Nokia Network Services Platform (NSP)",
         "href": "/docs/Nokia",
-        "description": "Nokia is a networking and telecommunications company that offers solutions for network infrastructure and services.",
+        "description": "Nokia Network Services Platform (NSP) is a network automation and management system that provides centralized control, provisioning, and monitoring of IP and optical networks.",
         "solutionCategories": [
-            "Infra Monitoring",
-            "Networking"
+            "OT"
         ],
         "assetsFetched": [
             "Devices"
@@ -11008,7 +11010,7 @@
             "Compute Services",
             "Vulnerabilities",
             "Discovered Saas Applications",
-            "Urls"
+            "Domains & URLs"
         ]
     },
     {
@@ -12070,7 +12072,7 @@
             "Discovered Saas Applications",
             "Vulnerabilities",
             "Repository Vulnerabilities",
-            "Urls"
+            "Domains & URLs"
         ]
     },
     {
@@ -12769,7 +12771,7 @@
         ]
     },
     {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/rumble.svg",
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/rumble_adapter.svg",
         "name": "runZero",
         "href": "/docs/rumble-network-discovery",
         "description": "runZero is a cloud-based network discovery platform that identifies and monitors network-connected IT assets.",
@@ -12780,7 +12782,7 @@
             "Devices",
             "Vulnerabilities",
             "Certificates",
-            "Urls",
+            "Domains & URLs",
             "Discovered Saas Applications"
         ]
     },
@@ -13353,7 +13355,7 @@
         "assetsFetched": [
             "Devices",
             "Vulnerabilities",
-            "Urls",
+            "Domains & URLs",
             "Discovered Saas Applications"
         ]
     },
@@ -13614,7 +13616,7 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Urls"
+            "Domains & URLs"
         ]
     },
     {
@@ -13799,7 +13801,7 @@
             "Databases",
             "Application Settings",
             "Security Roles",
-            "Urls",
+            "Domains & URLs",
             "Application Resources",
             "Permissions"
         ]
@@ -15527,7 +15529,7 @@
             "Discovered Saas Applications",
             "Users",
             "Devices",
-            "Urls"
+            "Domains & URLs"
         ]
     },
     {
@@ -16283,7 +16285,7 @@
             "Software",
             "Incidents",
             "Compute Images",
-            "Urls",
+            "Domains & URLs",
             "Certificates",
             "Permissions",
             "Security Roles",
@@ -16506,7 +16508,7 @@
         ]
     },
     {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/zabbix.svg",
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/zabbix_adapter.svg",
         "name": "Zabbix",
         "href": "/docs/zabbix",
         "description": "Zabbix is an open source monitoring software tool for networks, servers, virtual machines and cloud services.",
