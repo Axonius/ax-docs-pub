@@ -10563,7 +10563,7 @@
     {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/openstack_adapter.svg",
         "name": "OpenStack",
-        "href": "/docs//openstack",
+        "href": "/docs/openstack",
         "description": "OpenStack is an open source software solution for creating private and public clouds.",
         "solutionCategories": [
             "Cloud Infra"
