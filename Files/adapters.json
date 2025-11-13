@@ -1925,7 +1925,7 @@
     {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/blood_hound_adapter.svg",
         "name": "BloodHound",
-        "href": "/Bloodhound",
+        "href": "/docs/Bloodhound",
         "description": "BloodHound is used to find relationships within an Active Directory (AD) domain to discover attack paths.",
         "solutionCategories": [
             "External Attack Surface Management"
