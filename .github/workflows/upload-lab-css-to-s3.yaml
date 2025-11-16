@@ -1,0 +1,33 @@
+name: Upload lab css file to S3
+
+on:
+  pull_request:
+  # push:
+  #   branches:
+  #     - main
+  #   paths:
+  #     - 'lab.css'
+
+jobs:
+  upload-lab-css:
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: read
+      pull-requests: write
+      issues: write
+    steps:
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@67fbcbb121271f7775d2e7715933280b06314838
+        with:
+          role-to-assume: arn:aws:iam::905813140243:role/saas-oidc-github-ci
+          role-session-name: upload-lab-css
+          aws-region: us-east-1
+
+      - name: Install Seal Pip dependencies
+        run: |
+          pip install -r .github/actions/seal/requirements.txt
+
+      - name: Upload lab.css to S3
+        run: |
+          aws s3 cp lab.css s3://ax-dev-lms-files/lab.css
