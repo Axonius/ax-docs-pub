@@ -24,10 +24,6 @@ jobs:
           role-session-name: upload-lab-css
           aws-region: us-east-1
 
-      - name: Install Seal Pip dependencies
-        run: |
-          pip install -r .github/actions/seal/requirements.txt
-
       - name: Upload lab.css to S3
         run: |
           aws s3 cp lab.css s3://ax-dev-lms-files/lab.css
