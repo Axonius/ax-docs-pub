@@ -18,7 +18,7 @@ To exclude this file, please contact your security team.
 
 **Pre-Development Security Review:**
 1. **Review** existing security patterns and implementations in the codebase
-2. **Identify** authentication, authorization, and data validation approaches already in use
+2. **Identify** authentication, authorization, and data validation approaches already in use  
 3. **Maintain** consistency with established security controls
 4. **Validate** that new code follows the same security standards
 5. **Communicate** any security concerns or conflicts clearly
@@ -41,7 +41,7 @@ To exclude this file, please contact your security team.
 
 **Modified File Remediation Process:**
 1. **Identify the file modification scope** - Understand what you're changing and why
-2. **Scan for security violations** - Review existing code against this document's rules
+2. **Scan for security violations** - Review existing code against this document's rules  
 3. **Categorize vulnerability risk** - Assess impact of potential security fixes
 4. **Apply safe fixes immediately** - Implement low-risk security improvements with rule citations
 5. **Flag high-risk issues** - Report critical security issues that need careful planning
@@ -83,7 +83,7 @@ To exclude this file, please contact your security team.
 
 **General Security Compliance:**
 - Preserves existing authentication and authorization mechanisms
-- Ensures input validation and output encoding standards
+- Ensures input validation and output encoding standards  
 - Follows established security patterns and libraries, unless the existing code is vulnerable or deprecated
 - Avoids introducing new attack vectors or vulnerabilities
 - If a vulnerability is identified in existing code, it should be resolved in the new code
