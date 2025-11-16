@@ -1,12 +1,11 @@
 name: Upload lab css file to S3
 
 on:
-  pull_request:
-  # push:
-  #   branches:
-  #     - main
-  #   paths:
-  #     - 'lab.css'
+  push:
+    branches:
+      - main
+    paths:
+      - 'lab.css'
 
 jobs:
   upload-lab-css:
@@ -15,7 +14,6 @@ jobs:
       id-token: write
       contents: read
       pull-requests: write
-      issues: write
     steps:
       - uses: actions/checkout@50fbc622fc4ef5163becd7fab6573eac35f8462e
 
