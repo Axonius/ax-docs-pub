@@ -1,6 +1,4 @@
----
-type: "always_apply"
----
+<!-- ====== ARNICA AI CODING RULES START ====== -->
 
 ---
 **🔒 SECURITY RULES MANAGED BY ARNICA**
@@ -250,3 +248,5 @@ Prioritize security and clearly explain the security implications. Suggest secur
 - **API authentication** - use secure authentication methods (OAuth 2.0, JWT, API keys) for external communications | Rule ID:`[ARNIE_COMM_API_AUTHENTICATION]`
 - **Secure data transmission** - ensure sensitive data uses encryption during transmission | Rule ID:`[ARNIE_COMM_SECURE_DATA]`
 - **URL validation** - validate and sanitize URLs before making external requests | Rule ID:`[ARNIE_COMM_URL_VALIDATION]`
+
+<!-- ====== ARNICA AI CODING RULES END ====== -->
