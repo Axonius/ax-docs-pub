@@ -2019,7 +2019,7 @@
     {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/bmc_on_prem_adapter.svg",
         "name": "BMC Atrium CMDB onPrem",
-        "href": "/pl/docs/bmc-atrium-onprem",
+        "href": "/docs/bmc-atrium-onprem",
         "description": "Helix Client Management automates endpoint management, provides a view of hardware installations, ensures device adherence to organizational and industry policies, and supports systems and software currency",
         "solutionCategories": [
             "IT Agent",
