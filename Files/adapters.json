@@ -483,6 +483,22 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/akamai_cdn_cloud_adapter.svg",
+        "name": "Akamai CDN Cloud",
+        "href": "",
+        "description": "Akamai CDN Cloud is a content delivery network that accelerates web and video content delivery globally.",
+        "solutionCategories": [
+            "Cloud Infra",
+            "Cloud Mgmt",
+            "Cloud Security",
+            "Secure Web Gateways"
+        ],
+        "assetsFetched": [
+            "Users",
+            "Devices"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/akamai_eaa_adapter.svg",
         "name": "Akamai EAA",
         "href": "/docs/Akamai-Eaa",
@@ -1762,6 +1778,20 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/bindplane.svg",
+        "name": "Bindplane",
+        "href": "/docs/Bindplane",
+        "description": "Bindplane is a telemetry-pipeline tool that provides unified collection, processing and export of metrics, logs and traces from diverse sources to target platforms.",
+        "solutionCategories": [
+            "Infra Monitoring",
+            "DevOps",
+            "Cloud Security"
+        ],
+        "assetsFetched": [
+            "Devices"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/bionic_adapter.svg",
         "name": "Bionic",
         "href": "/docs/bionic",
@@ -1925,7 +1955,7 @@
     {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/blood_hound_adapter.svg",
         "name": "BloodHound",
-        "href": "/docs/Bloodhound",
+        "href": "/Bloodhound",
         "description": "BloodHound is used to find relationships within an Active Directory (AD) domain to discover attack paths.",
         "solutionCategories": [
             "External Attack Surface Management"
@@ -2028,6 +2058,20 @@
         ],
         "assetsFetched": [
             "Devices"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/bmc_footprints_adapter.svg",
+        "name": "BMC FootPrints",
+        "href": "/docs/Bmc-Footprints",
+        "description": "BMC FootPrints is an IT service management solution that offers comprehensive service desk capabilities.",
+        "solutionCategories": [
+            "ITAM/ITSM",
+            "Ticketing",
+            "Config/Patch Mgmt"
+        ],
+        "assetsFetched": [
+            "Tickets"
         ]
     },
     {
@@ -2138,6 +2182,21 @@
         ],
         "assetsFetched": [
             "Devices"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/bright_security_adapter.svg",
+        "name": "Bright Security",
+        "href": "/docs/Bright-Security",
+        "description": "Bright Security is a dynamic application and API security testing platform that automates vulnerability detection, remediation, and validation throughout the software development lifecycle.",
+        "solutionCategories": [
+            "DevOps",
+            "VA Tool"
+        ],
+        "assetsFetched": [
+            "Application Resources",
+            "Vulnerabilities",
+            "Discovered Saas Applications"
         ]
     },
     {
@@ -2260,7 +2319,7 @@
         ]
     },
     {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/canva_adapter.svg",
+        "logo": null,
         "name": "Canva",
         "href": "/docs/Canva",
         "description": "Canva is a graphic design platform that offers tools for creating visual content.",
@@ -2825,6 +2884,20 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/cisco_identity_intelligence_adapter.svg",
+        "name": "Cisco Identity Intelligence",
+        "href": "/docs/Cisco-Identity-Intelligence",
+        "description": "Cisco Identity Intelligence is an AI-powered solution that provides unified visibility across identity stores, analyzes identity behavior, and enables action on risky access attempts.",
+        "solutionCategories": [
+            "Cyber Intelligence",
+            "IAM",
+            "Risk Mgmt"
+        ],
+        "assetsFetched": [
+            "Users"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/cisco_ise_adapter.svg",
         "name": "Cisco Identity Services Engine (ISE)",
         "href": "/docs/cisco-identity-services-engine-ise",
@@ -3064,7 +3137,8 @@
             "Virtualization"
         ],
         "assetsFetched": [
-            "Devices"
+            "Devices",
+            "Application Settings"
         ]
     },
     {
@@ -3574,7 +3648,8 @@
             "License Mgmt"
         ],
         "assetsFetched": [
-            "Devices"
+            "Devices",
+            "Contracts"
         ]
     },
     {
@@ -3727,7 +3802,8 @@
             "User Initiated Extensions",
             "Application Keys",
             "Admin Managed Extension Instances",
-            "Business Applications"
+            "Business Applications",
+            "Incidents"
         ]
     },
     {
@@ -3796,7 +3872,8 @@
         "assetsFetched": [
             "Users",
             "Secrets",
-            "Groups"
+            "Groups",
+            "Devices"
         ]
     },
     {
@@ -4654,6 +4731,18 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/e_quip_adapter.svg",
+        "name": "E-Quip",
+        "href": "/docs/E-Quip",
+        "description": "E-Quip is an asset management software that provides inventory control and equipment.",
+        "solutionCategories": [
+            "ITAM/ITSM"
+        ],
+        "assetsFetched": [
+            "Devices"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/eagle_eye_networks_adapter.svg",
         "name": "Eagle Eye Networks",
         "href": "/docs/Eagle-Eye-Networks",
@@ -4694,7 +4783,7 @@
     },
     {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/easyvista_service_manager_adapter.svg",
-        "name": "Easyvista Service Manager",
+        "name": "EasyVista Service Manager",
         "href": "/docs/Easyvista-Service-Manager",
         "description": "EasyVista is an ITSM (IT Service Management) solution including change, release, incident, problem, and knowledge management.",
         "solutionCategories": [
@@ -4859,6 +4948,23 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/element_security_adapter.svg",
+        "name": "Element Security",
+        "href": "/docs/Element-Security",
+        "description": "Element Security is a platform that provides continuous threat-exposure management to discover internet-facing assets, validate exploitable exposures and guide remediation of risks.",
+        "solutionCategories": [
+            "Attack Surface Management"
+        ],
+        "assetsFetched": [
+            "Devices",
+            "Domains & URLs",
+            "Object Storages",
+            "Certificates",
+            "Discovered Saas Applications",
+            "Vulnerabilities"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/elisity_adapter.svg",
         "name": "Elisity",
         "href": "/docs/Elisity",
@@ -4895,6 +5001,20 @@
         "assetsFetched": [
             "Users",
             "Compute Services",
+            "Devices"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/empirical_security_enrichment_adapter.svg",
+        "name": "Empirical Security Enrichment",
+        "href": "/docs/empirical-security-enrichment",
+        "description": "Empirical Security provides vulnerability intelligence and exploitation activity data to enhance CVE analysis and prioritization.",
+        "solutionCategories": [
+            "Cyber Intelligence",
+            "SIEM",
+            "SOAR"
+        ],
+        "assetsFetched": [
             "Devices"
         ]
     },
@@ -5170,7 +5290,8 @@
             "Cloud Security"
         ],
         "assetsFetched": [
-            "Devices"
+            "Devices",
+            "Networks"
         ]
     },
     {
@@ -5287,7 +5408,9 @@
             "Devices",
             "Firewalls",
             "Compute Services",
-            "Domains & URLs"
+            "Domains & URLs",
+            "Certificates",
+            "Application Resources"
         ]
     },
     {
@@ -5313,7 +5436,9 @@
             "Cloud Mgmt"
         ],
         "assetsFetched": [
-            "Devices"
+            "Devices",
+            "Firewalls",
+            "Load Balancers"
         ]
     },
     {
@@ -6302,7 +6427,7 @@
     {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/halo_adapter.svg",
         "name": "HaloITSM",
-        "href": "/docs/Halo",
+        "href": "/docs/HaloITSM",
         "description": "HaloITSM is a cloud-based IT service management solution designed for ITIL-aligned service delivery.",
         "solutionCategories": [
             "ITAM/ITSM"
@@ -6494,7 +6619,9 @@
             "Risk Mgmt"
         ],
         "assetsFetched": [
-            "Devices"
+            "Devices",
+            "Vulnerabilities",
+            "Discovered Saas Applications"
         ]
     },
     {
@@ -6870,6 +6997,21 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/i_doit_adapter.svg",
+        "name": "i-doit",
+        "href": "/docs/I-Doit",
+        "description": "i-doit is a platform that offers integrated IT documentation and a configuration management database (CMDB) that enables tracking of IT assets, licences, contracts, mappings, and change processes.",
+        "solutionCategories": [
+            "CMDB",
+            "ITAM/ITSM",
+            "Risk Mgmt"
+        ],
+        "assetsFetched": [
+            "Devices",
+            "Users"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/iavm_enrichment_adapter.svg",
         "name": "IAVM Enrichment",
         "href": "/docs/iavm-enrichment",
@@ -7238,7 +7380,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Firewalls"
+            "Firewalls",
+            "Domains & URLs"
         ]
     },
     {
@@ -7468,7 +7611,8 @@
         "assetsFetched": [
             "Vulnerabilities",
             "Discovered Saas Applications",
-            "Devices"
+            "Devices",
+            "Domains & URLs"
         ]
     },
     {
@@ -7907,7 +8051,8 @@
             "Discovered Saas Applications",
             "Users",
             "Devices",
-            "Software"
+            "Software",
+            "Vulnerabilities"
         ]
     },
     {
@@ -8770,6 +8915,18 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/medimizer_cloud_adapter.svg",
+        "name": "MediMizer Cloud",
+        "href": "/docs/Medimizer-Cloud",
+        "description": "MediMizer Cloud is a healthcare asset management tool that offers equipment tracking and maintenance scheduling.",
+        "solutionCategories": [
+            "ITAM/ITSM"
+        ],
+        "assetsFetched": [
+            "Devices"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/meegle_adapter.png",
         "name": "Meegle",
         "href": "/docs/Meegle",
@@ -8972,7 +9129,16 @@
         ],
         "assetsFetched": [
             "Discovered Saas Applications",
-            "Users"
+            "Users",
+            "User Extensions",
+            "Admin Managed Extension Instances",
+            "Admin Managed Extensions",
+            "Extensions",
+            "User Initiated Extensions",
+            "User Initiated Extension Instances",
+            "Application Keys",
+            "Application Addons",
+            "Application Addon Instances"
         ]
     },
     {
@@ -9161,7 +9327,7 @@
     {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/lync_adapter.svg",
         "name": "Microsoft Lync",
-        "href": "/docs/microsoft_lync",
+        "href": "/docs/microsoft-lync",
         "description": "Microsoft Lync enables instant messaging (IM), audio and video calls, Lync Meetings, availability (presence) information, and sharing capabilities.",
         "solutionCategories": [
             "Collaboration"
@@ -9296,7 +9462,7 @@
     {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/minerva_adapter.svg",
         "name": "Minerva Labs Endpoint Malware Vaccination",
-        "href": "/pl/docs/minerva-labs-endpoint-malware-vaccination",
+        "href": "/docs/minerva-labs-endpoint-malware-vaccination",
         "description": "Minerva Labs Endpoint Malware Vaccination simulates infection markers, rather than creating them, to contain outbreaks that bypass AV tools.",
         "solutionCategories": [
             "EDR/EPP"
@@ -9616,7 +9782,9 @@
             "ITAM/ITSM"
         ],
         "assetsFetched": [
-            "Devices"
+            "Devices",
+            "Software",
+            "Discovered Saas Applications"
         ]
     },
     {
@@ -9796,6 +9964,8 @@
             "Networking"
         ],
         "assetsFetched": [
+            "Discovered Saas Applications",
+            "Software",
             "Devices"
         ]
     },
@@ -9919,6 +10089,7 @@
         ],
         "assetsFetched": [
             "Users",
+            "Groups",
             "Discovered Saas Applications",
             "Extensions",
             "Admin Managed Extensions",
@@ -10093,6 +10264,20 @@
         "assetsFetched": [
             "Users",
             "Firewalls"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/nice_cxone_adapter.svg",
+        "name": "NICE CXone",
+        "href": "/docs/Nice-Cxone",
+        "description": "NICE CXone is a cloud-based customer experience platform that offers omnichannel routing, workforce optimization, and AI-driven analytics to enhance agent productivity and customer interactions.",
+        "solutionCategories": [
+            "Cloud Mgmt",
+            "Cloud Security",
+            "Collaboration"
+        ],
+        "assetsFetched": [
+            "Users"
         ]
     },
     {
@@ -10404,7 +10589,7 @@
         ]
     },
     {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/horizon_omnissa_cloud_next_gen_adapter.png",
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/horizon_omnissa_cloud_next_gen_adapter.svg",
         "name": "Omnissa Horizon Cloud Service Next Gen",
         "href": "/docs/Omnissa-Horizon-Cloud-Service-Next-Gen",
         "description": "Omnissa Horizon Cloud Service Next Gen is a cloud management solution that provides advanced infrastructure optimization and security features.",
@@ -10415,6 +10600,22 @@
         ],
         "assetsFetched": [
             "Devices"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/airwatch_adapter.svg",
+        "name": "Omnissa Workspace ONE (Airwatch)",
+        "href": "/docs/vmware-airwatch",
+        "description": "Omnissa Workspace ONE (formerly AirWatch) provides enterprise mobility management (EMM) software and standalone management systems for content, applications, and email.",
+        "solutionCategories": [
+            "MDM/EMM",
+            "UEM"
+        ],
+        "assetsFetched": [
+            "Discovered Saas Applications",
+            "Users",
+            "Devices",
+            "Software"
         ]
     },
     {
@@ -10530,6 +10731,20 @@
         "assetsFetched": [
             "Users",
             "Groups"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/open_ai_adapter.svg",
+        "name": "OpenAI",
+        "href": "/docs/Open-Ai",
+        "description": "OpenAI is a research and deployment AI platform that provides large language and multimodal models such as GPT and Sora for generative and reasoning capabilities.",
+        "solutionCategories": [
+            "Cyber Intelligence",
+            "DevOps",
+            "Data Security"
+        ],
+        "assetsFetched": [
+            "Users"
         ]
     },
     {
@@ -11014,6 +11229,20 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/palo_alto_xsiam_adapter.svg",
+        "name": "Palo Alto Networks Cortex XSIAM",
+        "href": "/docs/Palo-Alto-Xsiam",
+        "description": "Palo Alto Networks Cortex XSIAM is an extended security intelligence and automation management platform that provides threat detection, investigation, and response capabilities across enterprise environments.",
+        "solutionCategories": [
+            "SIEM",
+            "SOAR",
+            "DevOps"
+        ],
+        "assetsFetched": [
+            "Devices"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/paloalto_xsoar_adapter.svg",
         "name": "Palo Alto Networks Cortex XSOAR",
         "href": "/docs/Paloalto-Xsoar",
@@ -11147,7 +11376,10 @@
             "Cloud Mgmt"
         ],
         "assetsFetched": [
-            "Devices"
+            "Devices",
+            "Firewalls",
+            "Vulnerabilities",
+            "Discovered Saas Applications"
         ]
     },
     {
@@ -11872,7 +12104,7 @@
     {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/prtg_adapter.svg",
         "name": "PRTG Network Monitor",
-        "href": "/pl/docs/prtg-network-monitor",
+        "href": "/docs/prtg-network-monitor",
         "description": "PRTG is a network monitoring application for Windows and Linux systems and servers, as well as miscellaneous hosts such as switches, routers, and other devices.",
         "solutionCategories": [
             "Infra Monitoring",
@@ -12472,6 +12704,21 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/greymatter_adapter.svg",
+        "name": "ReliaQuest GreyMatter",
+        "href": "/docs/Greymatter",
+        "description": "ReliaQuest GreyMatter is a security operations platform that provides unified threat detection, investigation, and automated response across cloud, endpoint, and network telemetry.",
+        "solutionCategories": [
+            "SIEM",
+            "SOAR",
+            "Cyber Intelligence"
+        ],
+        "assetsFetched": [
+            "Devices",
+            "Incidents"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/remediant_secureone_adapter.svg",
         "name": "Remediant SecureONE (JITA)",
         "href": "/docs/remediant-secureone",
@@ -12838,7 +13085,7 @@
             "SaaS Management"
         ],
         "assetsFetched": [
-            "Devices"
+            "Domains & URLs"
         ]
     },
     {
@@ -13388,6 +13635,19 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/senteon_adapter.svg",
+        "name": "Senteon",
+        "href": "/docs/Senteon",
+        "description": "Senteon is a cybersecurity platform that offers vulnerability assessment and risk management solutions.",
+        "solutionCategories": [
+            "Risk Mgmt",
+            "VA Tool"
+        ],
+        "assetsFetched": [
+            "Devices"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/sentinelone_adapter.svg",
         "name": "SentinelOne",
         "href": "/docs/sentinelone",
@@ -13523,7 +13783,9 @@
             "Threat Intel"
         ],
         "assetsFetched": [
-            "Devices"
+            "Devices",
+            "Vulnerabilities",
+            "Discovered Saas Applications"
         ]
     },
     {
@@ -13617,6 +13879,19 @@
         "assetsFetched": [
             "Devices",
             "Domains & URLs"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/skillcast_adapter.svg",
+        "name": "Skillcast",
+        "href": "/docs/Skillcast",
+        "description": "Skillcast is a platform that offers compliance training and e-learning solutions.",
+        "solutionCategories": [
+            "Security Awareness",
+            "Audit/Compliance"
+        ],
+        "assetsFetched": [
+            "Users"
         ]
     },
     {
@@ -14123,7 +14398,8 @@
         ],
         "assetsFetched": [
             "Users",
-            "Devices"
+            "Devices",
+            "Job Titles"
         ]
     },
     {
@@ -15953,22 +16229,6 @@
         ]
     },
     {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/airwatch_adapter.svg",
-        "name": "VMware Workspace ONE (Airwatch)",
-        "href": "/docs/vmware-airwatch",
-        "description": "VMWare Workspace ONE (formerly AirWatch) provides enterprise mobility management (EMM) software and standalone management systems for content, applications, and email.",
-        "solutionCategories": [
-            "MDM/EMM",
-            "UEM"
-        ],
-        "assetsFetched": [
-            "Discovered Saas Applications",
-            "Users",
-            "Devices",
-            "Software"
-        ]
-    },
-    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/saltstack_enterprise_adapter.svg",
         "name": "vRealize Automation SaltStack Config (formerly SaltStack)",
         "href": "/docs/saltstack-enterprise",
@@ -16452,7 +16712,9 @@
             "ITAM/ITSM"
         ],
         "assetsFetched": [
-            "Devices"
+            "Devices",
+            "Software",
+            "Discovered Saas Applications"
         ]
     },
     {
@@ -16466,6 +16728,22 @@
         ],
         "assetsFetched": [
             "Devices"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/xm_cyber_adapter.svg",
+        "name": "XM Cyber",
+        "href": "/docs/Xm-Cyber",
+        "description": "XM Cyber is an exposure management platform that provides graph‑based visibility of exposures, vulnerabilities, and enterprise assets.",
+        "solutionCategories": [
+            "Cyber Intelligence",
+            "VA Tool",
+            "Risk Mgmt"
+        ],
+        "assetsFetched": [
+            "Devices",
+            "Vulnerabilities",
+            "Discovered Saas Applications"
         ]
     },
     {
