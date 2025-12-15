@@ -1,0 +1,176 @@
+name: Update Adapter List
+
+on:
+  schedule:
+    # Run weekly on Sundays at 08:00 UTC
+    - cron: '0 8 * * 0'
+  workflow_dispatch: # Allow manual triggering for testing
+    inputs:
+      custom_release_branch_name:
+        type: string
+        description: 'insert a specific custom release branch'
+        required: false
+
+jobs:
+  update-adapters:
+    runs-on: self-hosted-common
+
+    permissions:
+      contents: write # Required to commit and push changes
+      id-token: write # Required for AWS OIDC authentication
+
+    steps:
+      - name: Checkout ax-docs-pub repository
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 #v4.2.2
+        with:
+          fetch-depth: 0 # Full history for proper git operations
+
+      - name: Prepare session name, AWS Account, and Assume Role
+        #       Reason to use env: https://docs:github:com/en/actions/security-for-github-actions/security-guides/security-hardening-for-github-actions#understanding-the-risk-of-script-injections:
+        env:
+          GH_REPO: ${{ github.repository }}
+          GH_REF_NAME: ${{ github.ref_name }}
+          GH_RUN_ID: ${{ github.run_id }}
+        run: |
+          AX_AWS_ACCOUNT="$(aws sts get-caller-identity --query "Account" --output text)"
+          SHORT_REPO_NAME="$(echo ${GH_REPO} | cut -d'/' -f2)"
+          echo "AX_AWS_ACCOUNT=${AX_AWS_ACCOUNT}" >> $GITHUB_ENV
+          echo "SHORT_REPO_NAME=${SHORT_REPO_NAME}" >> $GITHUB_ENV
+          echo "SESSION_NAME=${SHORT_REPO_NAME}_$(echo ${GH_REF_NAME}|tr '/' '-'| head -c 25)_${GH_RUN_ID}" >> $GITHUB_ENV
+          echo "OIDC_ASSUME_ROLE=arn:aws:iam::${AX_AWS_ACCOUNT}:role/oidc-gha-${SHORT_REPO_NAME}-all" >> $GITHUB_ENV
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@67fbcbb121271f7775d2e7715933280b06314838
+        with:
+          role-to-assume: ${{ env.OIDC_ASSUME_ROLE }}
+          role-session-name: ${{ env.SESSION_NAME }}
+          aws-region: ${{ env.AWS_REGION }}
+
+      - name: Setup Python 3.9
+        uses: actions/setup-python@42375524e23c412d93fb67b49958b491fce71c38 #v5.4.0
+        with:
+          python-version: '3.9'
+
+      - name: Get SSM parameter and extract version
+        id: get_branch
+        run: |
+          echo "Retrieving latest release version from AWS SSM Parameter Store..."
+
+          # Get the SSM parameter value using AWS CLI
+          SSM_JSON=$(aws ssm get-parameter \
+            --name "axonius-release-manager-latest" \
+            --query "Parameter.Value" \
+            --output text)
+
+          echo "SSM parameter retrieved successfully"
+
+          # Parse JSON and extract version using jq (pre-installed on GitHub runners)
+          VERSION=$(echo "$SSM_JSON" | jq -r '.latest_release.version')
+
+          # Validate version was extracted
+          if [ -z "$VERSION" ] || [ "$VERSION" = "null" ]; then
+            echo "Error: Failed to extract version from SSM parameter"
+            echo "SSM JSON: $SSM_JSON"
+            exit 1
+          fi
+
+          # Construct branch name
+          BRANCH_NAME="release/${VERSION}"
+
+          echo "Extracted version: $VERSION"
+          echo "Target branch: $BRANCH_NAME"
+
+          # Export for use in subsequent steps
+          echo "branch=$BRANCH_NAME" >> $GITHUB_OUTPUT
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+
+      - name: Clone cortex repository
+        run: |
+          BRANCH="${{ steps.get_branch.outputs.branch }}"
+
+          echo "Cloning cortex repository from branch: $BRANCH"
+
+          # Clone the specific branch
+          if git clone --branch "$BRANCH" --single-branch https://github.com/Axonius/cortex.git cortex-repo; then
+            echo "✅ Cortex repository cloned successfully from branch: $BRANCH"
+            cd cortex-repo
+            echo "Current branch: $(git branch --show-current)"
+            echo "Latest commit: $(git log -1 --oneline)"
+          else
+            echo "❌ Error: Failed to clone branch '$BRANCH' from cortex repository"
+            echo "This could mean the branch doesn't exist or there was a network issue"
+            exit 1
+          fi
+
+      - name: Execute script_copy.py
+        run: |
+          # Copy the script to the cortex repository directory
+          cp Files/script_copy.py cortex-repo/
+
+          # Change to cortex directory and execute the script
+          cd cortex-repo
+          python script_copy.py
+
+          # Verify the adapters.json file was created
+          if [ -f "adapters.json" ]; then
+            echo "adapters.json generated successfully"
+            ls -lh adapters.json
+          else
+            echo "Error: adapters.json was not generated"
+            exit 1
+          fi
+
+      - name: Copy generated adapters.json to Files directory
+        run: |
+          cp cortex-repo/adapters.json Files/adapters.json
+          echo "adapters.json copied to Files/ directory"
+
+      - name: Copy adapter icons from cortex to img directory
+        run: |
+          # Copy the adapter icons from cortex repository
+          cp -fr cortex-repo/axonius-libs/src/libs/axonius-py/axonius/assets/logos/adapters img/adapter_icons && \
+          echo "Adapter icons copied successfully"
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          git diff --quiet Files/adapters.json img/adapter_icons || echo "changes=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.changes == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+          VERSION="${{ steps.get_branch.outputs.version }}"
+          BRANCH="${{ steps.get_branch.outputs.branch }}"
+
+          git add Files/adapters.json img/adapter_icons
+          git commit -m "chore: update adapter list and icons from cortex ${BRANCH}
+
+          - Updated adapters.json with latest adapter metadata
+          - Synced adapter icons from cortex repository
+          - Source: cortex repository branch ${BRANCH} (version ${VERSION})
+          - Automated update via GitHub Actions"
+
+          git push
+
+      - name: Summary
+        if: always()
+        run: |
+          VERSION="${{ steps.get_branch.outputs.version }}"
+          BRANCH="${{ steps.get_branch.outputs.branch }}"
+
+          echo "================================================"
+          echo "Adapter Update Workflow Summary"
+          echo "================================================"
+          echo "Source: cortex repository"
+          echo "Branch: $BRANCH"
+          echo "Version: $VERSION"
+          echo "================================================"
+
+          if [ "${{ steps.check_changes.outputs.changes }}" == "true" ]; then
+            echo "✅ Adapter list and icons updated successfully"
+          else
+            echo "ℹ️ No changes detected - adapter list is up to date"
+          fi
