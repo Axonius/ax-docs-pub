@@ -84,23 +84,29 @@ jobs:
           echo "branch=$BRANCH_NAME" >> $GITHUB_OUTPUT
           echo "version=$VERSION" >> $GITHUB_OUTPUT
 
-      - name: Clone cortex repository
+      - name: Generate GitHub App token for cortex repository access
+        id: app_token
+        uses: actions/create-github-app-token@v1
+        with:
+          app-id: ${{ secrets.CORTEX_READ_APP_ID }}
+          private-key: ${{ secrets.CORTEX_READ_APP_PRIVATE_KEY }}
+          owner: Axonius
+          repositories: cortex
+
+      - name: Checkout cortex repository
+        uses: actions/checkout@v6
+        with:
+          repository: Axonius/cortex
+          ref: ${{ steps.get_branch.outputs.branch }}
+          token: ${{ steps.app_token.outputs.token }}
+          path: cortex-repo
+
+      - name: Verify cortex repository checkout
         run: |
-          BRANCH="${{ steps.get_branch.outputs.branch }}"
-
-          echo "Cloning cortex repository from branch: $BRANCH"
-
-          # Clone the specific branch
-          if git clone --branch "$BRANCH" --single-branch https://github.com/Axonius/cortex.git cortex-repo; then
-            echo "✅ Cortex repository cloned successfully from branch: $BRANCH"
-            cd cortex-repo
-            echo "Current branch: $(git branch --show-current)"
-            echo "Latest commit: $(git log -1 --oneline)"
-          else
-            echo "❌ Error: Failed to clone branch '$BRANCH' from cortex repository"
-            echo "This could mean the branch doesn't exist or there was a network issue"
-            exit 1
-          fi
+          cd cortex-repo
+          echo "✅ Cortex repository checked out successfully"
+          echo "Current branch: $(git branch --show-current)"
+          echo "Latest commit: $(git log -1 --oneline)"
 
       - name: Execute script_copy.py
         run: |
