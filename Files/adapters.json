@@ -390,6 +390,20 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/adyen_adapter.svg",
+        "name": "Adyen",
+        "href": "/docs/Adyen",
+        "description": "Adyen is a financial‑technology platform that provides end‑to‑end payment processing, risk management, and global acquiring for online, mobile, and point‑of‑sale transactions.",
+        "solutionCategories": [
+            "Cloud Infra",
+            "Risk Mgmt"
+        ],
+        "assetsFetched": [
+            "Devices",
+            "Users"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/agni_adapter.svg",
         "name": "AGNI",
         "href": "/docs/AGNI",
@@ -739,7 +753,10 @@
             "Virtualization"
         ],
         "assetsFetched": [
-            "Devices"
+            "Devices",
+            "Users",
+            "Domains & URLs",
+            "Networks"
         ]
     },
     {
@@ -771,13 +788,27 @@
         ]
     },
     {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/apple_business_manager_adapter.svg",
+        "logo": null,
         "name": "Apple Business Manager",
-        "href": "/docs/apple-business-manager",
-        "description": "Apple Business Manager supports deployment and remote MDM enrollment of corporate-owned Apple devices.",
+        "href": "/docs/Apple-Business-Manager-Ade",
+        "description": "Apple Business Manager is a web-based portal that provides device management, app distribution, and user access control for organizations integrating with Mobile Device Management (MDM) solutions.",
         "solutionCategories": [
             "MDM/EMM",
-            "RMM"
+            "Cloud Mgmt",
+            "IAM"
+        ],
+        "assetsFetched": [
+            "Devices"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/apple_business_manager_adapter.svg",
+        "name": "Apple Device Management",
+        "href": "/docs/apple-business-manager",
+        "description": "Apple Device Management is a service that enables administrators to remotely enrol, configure, monitor and secure Apple devices via configuration profiles and commands.",
+        "solutionCategories": [
+            "MDM/EMM",
+            "ITAM/ITSM"
         ],
         "assetsFetched": [
             "Devices"
@@ -1081,7 +1112,8 @@
             "Security Roles",
             "Permissions",
             "Users",
-            "Groups"
+            "Groups",
+            "Secrets"
         ]
     },
     {
@@ -1160,6 +1192,23 @@
         ],
         "assetsFetched": [
             "Devices"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/audit_board_adapter.svg",
+        "name": "AuditBoard",
+        "href": "/docs/Audit-Board",
+        "description": "AuditBoard is a connected risk platform that provides audit, risk, and compliance teams with workflow automation and analytics across controls and frameworks.",
+        "solutionCategories": [
+            "Cyber Intelligence",
+            "Risk Mgmt",
+            "Audit/Compliance"
+        ],
+        "assetsFetched": [
+            "Groups",
+            "Permissions",
+            "Security Roles",
+            "Users"
         ]
     },
     {
@@ -1399,7 +1448,7 @@
         ],
         "assetsFetched": [
             "Users",
-            "Devices"
+            "Object Storages"
         ]
     },
     {
@@ -1955,7 +2004,7 @@
     {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/blood_hound_adapter.svg",
         "name": "BloodHound",
-        "href": "/Bloodhound",
+        "href": "/docs/bloodhound",
         "description": "BloodHound is used to find relationships within an Active Directory (AD) domain to discover attack paths.",
         "solutionCategories": [
             "External Attack Surface Management"
@@ -3357,7 +3406,7 @@
         ]
     },
     {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/colortokens_xshield_v3_adapter.png",
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/colortokens_xshield_v3_adapter.svg",
         "name": "ColorTokens Xshield",
         "href": "/docs/Colortokens-Xshield-V3",
         "description": "ColorTokens XShield is a cybersecurity platform that offers zero trust security and micro-segmentation solutions.",
@@ -3580,7 +3629,8 @@
             "Application Settings",
             "Domains & URLs",
             "Containers",
-            "Security Roles"
+            "Security Roles",
+            "Accounts"
         ]
     },
     {
@@ -3803,7 +3853,9 @@
             "Application Keys",
             "Admin Managed Extension Instances",
             "Business Applications",
-            "Incidents"
+            "Incidents",
+            "Databases",
+            "Contracts"
         ]
     },
     {
@@ -4158,6 +4210,21 @@
             "Groups",
             "Security Roles",
             "Secrets"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/delinea_server_suite_adapter.svg",
+        "name": "Delinea Server Suite",
+        "href": "/docs/Delinea-Server-Suite",
+        "description": "Delinea Server Suite is an IT management solution that provides access control, privilege management, and auditing services for managing Windows, Linux, and UNIX systems.",
+        "solutionCategories": [
+            "IAM",
+            "PAM",
+            "Audit/Compliance"
+        ],
+        "assetsFetched": [
+            "Devices",
+            "Groups"
         ]
     },
     {
@@ -4923,9 +4990,9 @@
         "href": "/docs/Elastic-Fleet",
         "description": "Elastic Fleet is a management component that offers centralized control over Elastic Agents, policies, and integrations for data collection and protection.",
         "solutionCategories": [
-            "Cloud Security",
-            "EDR/EPP",
-            "Infra Monitoring"
+            "Infra Monitoring",
+            "IT Agent",
+            "SIEM"
         ],
         "assetsFetched": [
             "Devices"
@@ -5150,7 +5217,10 @@
             "Devices",
             "Users",
             "Discovered Saas Applications",
-            "Vulnerabilities"
+            "Vulnerabilities",
+            "Serverless Functions",
+            "Object Storages",
+            "Databases"
         ]
     },
     {
@@ -5528,6 +5598,22 @@
         "assetsFetched": [
             "Devices",
             "Firewalls"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/fivetran_adapter.svg",
+        "name": "Fivetran",
+        "href": "/docs/Fivetran",
+        "description": "Fivetran is a data integration tool that provides automated data pipelines for seamless data movement.",
+        "solutionCategories": [
+            "Cloud Infra",
+            "Data Security"
+        ],
+        "assetsFetched": [
+            "Application Resources",
+            "Groups",
+            "Security Roles",
+            "Users"
         ]
     },
     {
@@ -6510,7 +6596,7 @@
         "solutionCategories": [
             "IAM",
             "Encryption",
-            "HR"
+            "Data Security"
         ],
         "assetsFetched": [
             "Users",
@@ -6579,6 +6665,19 @@
         "solutionCategories": [
             "Data Security",
             "EDR/EPP"
+        ],
+        "assetsFetched": [
+            "Devices"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/hetzner_adapter.svg",
+        "name": "Hetzner",
+        "href": "/docs/Hetzner",
+        "description": "Hetzner is a hosting provider that offers dedicated servers and cloud solutions for various IT needs.",
+        "solutionCategories": [
+            "Cloud Infra",
+            "Cloud Mgmt"
         ],
         "assetsFetched": [
             "Devices"
@@ -6918,7 +7017,7 @@
         ]
     },
     {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/hunters_security_adapter.png",
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/hunters_security_adapter.svg",
         "name": "Hunters",
         "href": "/docs/Hunters-Security",
         "description": "Hunters is a security platform that offers threat detection and response capabilities.",
@@ -7381,7 +7480,8 @@
         "assetsFetched": [
             "Devices",
             "Firewalls",
-            "Domains & URLs"
+            "Domains & URLs",
+            "Incidents"
         ]
     },
     {
@@ -7546,6 +7646,18 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/interact_software_adapter.svg",
+        "name": "Interact Software",
+        "href": "/docs/Interact-Software",
+        "description": "Interact Software is a collaboration platform that offers tools for internal communication and employee engagement.",
+        "solutionCategories": [
+            "Collaboration"
+        ],
+        "assetsFetched": [
+            "Users"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/intezer_protect_adapter.svg",
         "name": "Intezer Protect",
         "href": "/docs/intezer",
@@ -7644,14 +7756,15 @@
     },
     {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/ironclad_contract_lifecycle_management_adapter.png",
-        "name": "Ironclad",
+        "name": "Ironclad Contract Lifecycle Management",
         "href": "/docs/Ironclad-Contract-Lifecycle-Management",
         "description": "Ironclad is a contract lifecycle management platform that offers automated contract creation and management.",
         "solutionCategories": [
             "Audit/Compliance"
         ],
         "assetsFetched": [
-            "Users"
+            "Users",
+            "Groups"
         ]
     },
     {
@@ -8213,7 +8326,8 @@
         ],
         "assetsFetched": [
             "Users",
-            "Devices"
+            "Devices",
+            "Compliance Findings"
         ]
     },
     {
@@ -9309,7 +9423,8 @@
         "assetsFetched": [
             "Devices",
             "Software",
-            "Discovered Saas Applications"
+            "Discovered Saas Applications",
+            "Configurations"
         ]
     },
     {
@@ -9528,7 +9643,8 @@
         "assetsFetched": [
             "Discovered Saas Applications",
             "Devices",
-            "Software"
+            "Software",
+            "Certificates"
         ]
     },
     {
@@ -10388,7 +10504,8 @@
             "Networking"
         ],
         "assetsFetched": [
-            "Devices"
+            "Devices",
+            "Network Services"
         ]
     },
     {
@@ -11300,6 +11417,21 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/palo_alto_networks_prisma_access_browser_adapter.svg",
+        "name": "Palo Alto Networks Prisma Access Browser",
+        "href": "/docs/Palo-Alto-Networks-Prisma-Access-Browser",
+        "description": "Prisma Access Browser is a secure enterprise browser that offers integrated threat prevention, data-loss protection, and zero-trust access for web and SaaS applications on managed or unmanaged devices.",
+        "solutionCategories": [
+            "Secure Web Gateways",
+            "Risk Mgmt",
+            "IAM"
+        ],
+        "assetsFetched": [
+            "Devices",
+            "Users"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/paloalto_prisma_access_insights_adapter.svg",
         "name": "Palo Alto Networks Prisma Access Insights",
         "href": "/docs/Paloalto-Prisma-Access-Insights",
@@ -12000,7 +12132,8 @@
             "Email Security"
         ],
         "assetsFetched": [
-            "Users"
+            "Users",
+            "Application Settings"
         ]
     },
     {
@@ -12690,6 +12823,25 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/red_sift_asm_adapter.svg",
+        "name": "Red Sift ASM",
+        "href": "/docs/Red-Sift-Asm",
+        "description": "Red Sift ASM is a solution that provides continuous discovery, inventory, and management of external-facing and cloud assets for attack surface visibility.",
+        "solutionCategories": [
+            "Attack Surface Management",
+            "Cyber Intelligence",
+            "Audit/Compliance"
+        ],
+        "assetsFetched": [
+            "Certificates",
+            "Discovered Saas Applications",
+            "Network Services",
+            "Domains & URLs",
+            "Vulnerability Instances",
+            "Vulnerabilities"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/redseal_adapter.svg",
         "name": "RedSeal",
         "href": "/docs/redseal",
@@ -12917,6 +13069,23 @@
         "assetsFetched": [
             "Devices",
             "Users"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/robo_shadow_adapter.svg",
+        "name": "RoboShadow",
+        "href": "/docs/Robo-Shadow",
+        "description": "RoboShadow is a cybersecurity platform that offers internal and external vulnerability assessment and remediation capabilities for endpoints, networks and applications.",
+        "solutionCategories": [
+            "VA Tool",
+            "EDR/EPP",
+            "Attack Surface Management"
+        ],
+        "assetsFetched": [
+            "Devices",
+            "Users",
+            "Vulnerabilities",
+            "Discovered Saas Applications"
         ]
     },
     {
@@ -13246,6 +13415,19 @@
         "description": "Samsung Knox is built-in solution used to secure, deploy, and manage Samsung and Galaxy devices.",
         "solutionCategories": [
             "MDM/EMM"
+        ],
+        "assetsFetched": [
+            "Devices"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/samsung_knox_mobile_enrollment_adapter.svg",
+        "name": "Samsung Knox Mobile Enrollment",
+        "href": "/docs/Samsung-Knox-Mobile-Enrollment",
+        "description": "Samsung Knox Mobile Enrollment is a device enrollment tool that provides automated bulk registration and configuration of Samsung mobile devices for enterprise management.",
+        "solutionCategories": [
+            "MDM/EMM",
+            "ITAM/ITSM"
         ],
         "assetsFetched": [
             "Devices"
@@ -13623,6 +13805,21 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/seismic_adapter.svg",
+        "name": "Seismic",
+        "href": "/docs/Seismic",
+        "description": "Seismic is a unified AI-powered sales enablement platform that provides customer-facing teams with the skills, content, tools, and insights needed to engage buyers and drive revenue growth.",
+        "solutionCategories": [
+            "Cloud Security",
+            "Collaboration",
+            "DevOps"
+        ],
+        "assetsFetched": [
+            "Users",
+            "Security Roles"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/sensu_adapter.svg",
         "name": "Sensu",
         "href": "/docs/sensu",
@@ -13744,7 +13941,9 @@
             "Object Storages",
             "Databases",
             "Load Balancers",
+            "Domains & URLs",
             "Business Applications",
+            "Vulnerabilities",
             "Application Services"
         ]
     },
@@ -13829,7 +14028,8 @@
         "assetsFetched": [
             "Vulnerabilities",
             "Discovered Saas Applications",
-            "Devices"
+            "Devices",
+            "Domains & URLs"
         ]
     },
     {
@@ -13866,6 +14066,19 @@
         ],
         "assetsFetched": [
             "Devices"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/sirion_labs_adapter.svg",
+        "name": "SirionLabs",
+        "href": "/docs/Sirion-Labs",
+        "description": "SirionLabs is a contract lifecycle management platform that offers automated contract creation and analytics.",
+        "solutionCategories": [
+            "Risk Mgmt",
+            "Audit/Compliance"
+        ],
+        "assetsFetched": [
+            "Users"
         ]
     },
     {
@@ -14719,11 +14932,13 @@
         ]
     },
     {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/symantec_endpoint_protection_mobile_adapter.png",
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/symantec_endpoint_protection_mobile_adapter.svg",
         "name": "Symantec Endpoint Protection Mobile",
         "href": "/docs/Symantec-Endpoint-Protection-Mobile",
         "description": "Symantec Endpoint Protection Mobile is a security solution that offers mobile device protection and management.",
-        "solutionCategories": [],
+        "solutionCategories": [
+            "MDM/EMM"
+        ],
         "assetsFetched": [
             "Devices",
             "Users",
@@ -15333,6 +15548,7 @@
             "Audit/Compliance"
         ],
         "assetsFetched": [
+            "Devices",
             "Users"
         ]
     },
@@ -15955,7 +16171,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Certificates"
+            "Certificates",
+            "Users"
         ]
     },
     {
@@ -16079,6 +16296,20 @@
         ],
         "assetsFetched": [
             "Devices"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/viso_trust_adapter.svg",
+        "name": "VISO Trust",
+        "href": "/docs/Viso-Trust",
+        "description": "VISO Trust is a third-party risk management platform that offers automated security due diligence and continuous assessment of vendor trust data using AI insights.",
+        "solutionCategories": [
+            "Risk Mgmt",
+            "Audit/Compliance"
+        ],
+        "assetsFetched": [
+            "Users",
+            "Organizational Units"
         ]
     },
     {
@@ -16365,6 +16596,7 @@
             "Devices",
             "Discovered Saas Applications",
             "Object Storages",
+            "Domains & URLs",
             "Vulnerabilities"
         ]
     },
@@ -16500,25 +16732,8 @@
         ]
     },
     {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/wiz_reports_adapter.svg",
-        "name": "Wiz Reports",
-        "href": "/docs/wiz-reports",
-        "description": "Wiz Reports provides additional data for Wiz assets.",
-        "solutionCategories": [
-            "Cloud Security"
-        ],
-        "assetsFetched": [
-            "Containers",
-            "Databases",
-            "Devices",
-            "Discovered Saas Applications",
-            "Object Storages",
-            "Software"
-        ]
-    },
-    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/wiz_adapter.svg",
-        "name": "wiz.io",
+        "name": "Wiz",
         "href": "/docs/wiz",
         "description": "Wiz analyzes all layers of the cloud stack to identify high-risk attack vectors to be prioritized and fixed.",
         "solutionCategories": [
@@ -16550,6 +16765,23 @@
             "Permissions",
             "Security Roles",
             "Secrets"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/wiz_reports_adapter.svg",
+        "name": "Wiz Reports",
+        "href": "/docs/wiz-reports",
+        "description": "Wiz Reports provides additional data for Wiz assets.",
+        "solutionCategories": [
+            "Cloud Security"
+        ],
+        "assetsFetched": [
+            "Containers",
+            "Databases",
+            "Devices",
+            "Discovered Saas Applications",
+            "Object Storages",
+            "Software"
         ]
     },
     {
@@ -16980,6 +17212,7 @@
             "IAM"
         ],
         "assetsFetched": [
+            "Application Settings",
             "Devices"
         ]
     },
