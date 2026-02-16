@@ -19,7 +19,9 @@ disallow_listy = [
 
 correct_names={
     "urls": "Domains & URLs",
-    "saas spplications": "Discovered SaaS applications"
+    "saas spplications": "Discovered SaaS applications",
+    "vulnerabilities": "Aggregated Security Findings",
+    "vulnerability instances": "Security Findings" 
 }
 
 def open_json_file(file_path):
