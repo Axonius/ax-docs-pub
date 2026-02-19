@@ -1955,7 +1955,53 @@
         "assetsFetched": [
             "Discovered Saas Applications",
             "Vulnerabilities",
-            "Application Resources"
+            "Application Resources",
+            "Application Services"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/white_hat_adapter.svg",
+        "name": "Black Duck Continuous Dynamic (NTT Application Security)",
+        "href": "/docs/WhiteHat",
+        "description": "Black Duck Continuous Dynamic (formerly NTT Application Security/WhiteHat Security) is a Dynamic Application Security Testing (DAST) tool that provides automated dynamic analysis to identify runtime vulnerabilities during application testing and development workflows.",
+        "solutionCategories": [
+            "VA Tool"
+        ],
+        "assetsFetched": [
+            "Vulnerabilities",
+            "Discovered Saas Applications",
+            "Users",
+            "Devices",
+            "Repository Vulnerabilities"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/black_kite_adapter.svg",
+        "name": "Black Kite",
+        "href": "/docs/black-kite",
+        "description": "Black Kite provides cyber risk assessments that analyze the organization’s supply chain cybersecurity posture from three dimensions: technical, financial and compliance.",
+        "solutionCategories": [
+            "Risk Mgmt"
+        ],
+        "assetsFetched": [
+            "Devices",
+            "Domains & URLs"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/black_kite_v2_adapter.svg",
+        "name": "Black Kite V2",
+        "href": "/docs/black-kite-v2",
+        "description": "Black Kite is a risk management tool that provides cyber risk intelligence and third-party risk assessment solutions.",
+        "solutionCategories": [
+            "Risk Mgmt"
+        ],
+        "assetsFetched": [
+            "Devices",
+            "Domains & URLs",
+            "Users",
+            "Vulnerabilities",
+            "Discovered Saas Applications"
         ]
     },
     {
@@ -2464,7 +2510,8 @@
             "Discovered Saas Applications",
             "Certificates",
             "Audit Activities",
-            "Application Resources"
+            "Application Resources",
+            "Domains & URLs"
         ]
     },
     {
@@ -3935,6 +3982,7 @@
             "Databases",
             "Contracts",
             "Network Services",
+            "Certificates",
             "Compliance Findings"
         ]
     },
@@ -5651,7 +5699,21 @@
         "assetsFetched": [
             "Devices",
             "Firewalls",
-            "Load Balancers"
+            "Load Balancers",
+            "Compute Services"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/fastly_adapter.svg",
+        "name": "Fastly",
+        "href": "/docs/Fastly",
+        "description": "Fastly is an edge cloud platform that provides content delivery, network acceleration, API security, DDoS protection and web application firewall services to process, deliver and secure traffic.",
+        "solutionCategories": [
+            "Cloud Infra",
+            "Cloud Security"
+        ],
+        "assetsFetched": [
+            "Certificates"
         ]
     },
     {
@@ -6079,6 +6141,20 @@
         "description": "FortiNAC is a network access control solution that provides protection against IoT threats, control of third-party devices, and automated responses to networking events.",
         "solutionCategories": [
             "NAC"
+        ],
+        "assetsFetched": [
+            "Devices"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/forti_analyzer_adapter.svg",
+        "name": "Fortinet FortiAnalyzer",
+        "href": "/docs/Forti-Analyzer",
+        "description": "FortiAnalyzer is a centralized log management and analytics platform that provides log collection, correlation, analysis, and reporting from Fortinet devices and third-party syslog sources for security monitoring and compliance.",
+        "solutionCategories": [
+            "SIEM",
+            "Infra Monitoring",
+            "Audit/Compliance"
         ],
         "assetsFetched": [
             "Devices"
@@ -6906,6 +6982,20 @@
         ]
     },
     {
+        "logo": null,
+        "name": "Holm Security",
+        "href": "/docs/Holm-Security",
+        "description": "Holm Security is a cybersecurity platform that provides vulnerability management, attack surface visibility, compliance reporting, and risk assessment across external and internal digital assets.",
+        "solutionCategories": [
+            "Attack Surface Management",
+            "VA Tool",
+            "Risk Mgmt"
+        ],
+        "assetsFetched": [
+            "Devices"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/honeywell_cyberwatch_adapter.svg",
         "name": "Honeywell Cyber Watch",
         "href": "/docs/Honeywell-Cyberwatch",
@@ -7250,6 +7340,20 @@
         ],
         "assetsFetched": [
             "Devices"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/hyland_onbase_adapter.svg",
+        "name": "Hyland OnBase",
+        "href": "/docs/Hyland-Onbase",
+        "description": "Hyland OnBase is an enterprise content management platform that provides document management, workflow automation, and case management functions.",
+        "solutionCategories": [
+            "Storage Mgmt",
+            "Audit/Compliance",
+            "Collaboration"
+        ],
+        "assetsFetched": [
+            "Users"
         ]
     },
     {
@@ -8819,6 +8923,19 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/live_nx_adapter.svg",
+        "name": "LiveNX",
+        "href": "/docs/LiveNX",
+        "description": "LiveNX is a network and application performance monitoring platform that provides end-to-end visualization, real-time analytics, and actionable insights for enterprise network infrastructure.",
+        "solutionCategories": [
+            "Infra Monitoring",
+            "Networking"
+        ],
+        "assetsFetched": [
+            "Devices"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/lmntrix_adapter.svg",
         "name": "LMNTRIX",
         "href": "/docs/Lmntrix",
@@ -9296,6 +9413,20 @@
             "Vulnerabilities",
             "Application Resources",
             "Discovered Saas Applications"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/menlo_security_adapter.svg",
+        "name": "Menlo Security",
+        "href": "/docs/Menlo-Security",
+        "description": "Menlo Security is a cybersecurity solution that offers isolation technology to prevent web-based threats.",
+        "solutionCategories": [
+            "Secure Web Gateways",
+            "Email Security",
+            "Cloud Security"
+        ],
+        "assetsFetched": [
+            "Users"
         ]
     },
     {
@@ -10254,7 +10385,8 @@
         "assetsFetched": [
             "Devices",
             "Users",
-            "Groups"
+            "Groups",
+            "Security Roles"
         ]
     },
     {
@@ -10430,6 +10562,7 @@
         ],
         "assetsFetched": [
             "Devices",
+            "Groups",
             "Compliance Findings"
         ]
     },
@@ -10751,22 +10884,6 @@
         "assetsFetched": [
             "Devices",
             "Network Services"
-        ]
-    },
-    {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/white_hat_adapter.svg",
-        "name": "NTT Application Security",
-        "href": "/docs/WhiteHat",
-        "description": "NTT Application Security (formerly WhiteHat Security) offers application security solutions with expertise in dynamic application security testing (DAST)",
-        "solutionCategories": [
-            "VA Tool"
-        ],
-        "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
-            "Users",
-            "Devices",
-            "Repository Vulnerabilities"
         ]
     },
     {
@@ -15037,7 +15154,8 @@
             "Audit/Compliance"
         ],
         "assetsFetched": [
-            "Devices"
+            "Devices",
+            "Compliance Findings"
         ]
     },
     {
@@ -15391,7 +15509,8 @@
             "Cyber Intelligence"
         ],
         "assetsFetched": [
-            "Users"
+            "Users",
+            "Application Settings"
         ]
     },
     {
@@ -16067,6 +16186,18 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/trimedx_adapter.svg",
+        "name": "TRIMEDX",
+        "href": "/docs/TRIMEDX",
+        "description": "TRIMEDX is a healthcare technology management service that offers medical equipment management and maintenance solutions.",
+        "solutionCategories": [
+            "ITAM/ITSM"
+        ],
+        "assetsFetched": [
+            "Devices"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/tripwire_enterprise_adapter.svg",
         "name": "Tripwire Enterprise",
         "href": "/docs/tripwrie-enterprise",
@@ -16098,6 +16229,19 @@
             "Users",
             "Networks",
             "Discovered Saas Applications"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/troverlo_adapter.svg",
+        "name": "Troverlo",
+        "href": "/docs/Troverlo",
+        "description": "Troverlo is a network intelligence platform that offers asset tracking and monitoring solutions for real-time asset location, current active user tracking, and remote asset action commands.",
+        "solutionCategories": [
+            "IoT",
+            "Infra Monitoring"
+        ],
+        "assetsFetched": [
+            "Devices"
         ]
     },
     {
