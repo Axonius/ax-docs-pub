@@ -1,41 +1,43 @@
 #!/bin/bash
+set -euo pipefail
 
-# --- Default Variables ---
-INPUT_FILE="data.json"
-OUTPUT_FILE="dash.json"
+INPUT_FILE=""
+OUTPUT_FILE=""
 NEW_VALUE=""
 
-# --- Function to show usage ---
 usage() {
-    echo "Usage: $0 -v [replacement_value]"
-    echo "Example: $0 -v 'my_custom_string'"
-    exit 1
+  echo "Usage: $0 -v <replacement_value> [-i input.json] [-o output.json]"
+  echo "Examples:"
+  echo "  curl -s <data.json_url> | bash <(curl -s <dash.sh_url>) -v 'raph' > dash.json"
+  echo "  ./dash.sh -v 'raph' -i data.json -o dash.json"
+  exit 1
 }
 
-# --- Flag Parsing ---
-# 'v:' means the 'v' flag requires an argument
-while getopts "v:" opt; do
-  case $opt in
+while getopts "v:i:o:" opt; do
+  case "$opt" in
     v) NEW_VALUE="$OPTARG" ;;
+    i) INPUT_FILE="$OPTARG" ;;
+    o) OUTPUT_FILE="$OPTARG" ;;
     *) usage ;;
   esac
 done
 
-# --- Validation ---
-# Ensure the user actually provided a value
-if [[ -z "$NEW_VALUE" ]]; then
-    echo "Error: You must provide a replacement value using the -v flag."
-    usage
+if [[ -z "${NEW_VALUE}" ]]; then
+  echo "Error: You must provide a replacement value using -v."
+  usage
 fi
 
-# Ensure the input file exists
-if [[ ! -f "$INPUT_FILE" ]]; then
-    echo "Error: File '$INPUT_FILE' not found."
-    exit 1
+# Read input from file if provided, else stdin
+if [[ -n "${INPUT_FILE}" ]]; then
+  [[ -f "${INPUT_FILE}" ]] || { echo "Error: File '${INPUT_FILE}' not found."; exit 1; }
+  IN_CMD=(cat "${INPUT_FILE}")
+else
+  IN_CMD=(cat)
 fi
 
-# --- Logic ---
-# Perform the replacement using sed
-sed "s/GKO1/$NEW_VALUE/g" "$INPUT_FILE" > "$OUTPUT_FILE"
-
-echo "Success! Replaced 'GKO1' with '$NEW_VALUE' in $OUTPUT_FILE."
+# Write output to file if provided, else stdout
+if [[ -n "${OUTPUT_FILE}" ]]; then
+  "${IN_CMD[@]}" | sed "s/GKO1/${NEW_VALUE}/g" > "${OUTPUT_FILE}"
+else
+  "${IN_CMD[@]}" | sed "s/GKO1/${NEW_VALUE}/g"
+fi
