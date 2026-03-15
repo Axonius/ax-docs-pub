@@ -1309,6 +1309,19 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/autotask_psa_adapter.svg",
+        "name": "Autotask PSA",
+        "href": "/docs/Autotask-Psa",
+        "description": "Autotask PSA (Professional Services Automation) by Datto is an IT service management platform. This adapter fetches ticket data and supports EC actions to create and update tickets.",
+        "solutionCategories": [
+            "ITAM/ITSM",
+            "Ticketing"
+        ],
+        "assetsFetched": [
+            "Tickets"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/auvik_adapter.svg",
         "name": "Auvik",
         "href": "/docs/auvik",
@@ -1350,6 +1363,18 @@
         "name": "Awake Security",
         "href": "/docs/awake-security",
         "description": "Awake Security is a network traffic analysis solution that's capable of detecting and visualizing behavioral, mal-intent and compliance incidents.",
+        "solutionCategories": [
+            "Networking"
+        ],
+        "assetsFetched": [
+            "Devices"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/bacnet_scanner_adapter.svg",
+        "name": "Axonius BACnet Scanner",
+        "href": "/docs/bacnet-scanner",
+        "description": "Axonius-provided BACnet scanner, discovers BACnet devices on a network using the BACnet/IP protocol (Who-Is/I-Am)",
         "solutionCategories": [
             "Networking"
         ],
@@ -2086,7 +2111,8 @@
         ],
         "assetsFetched": [
             "Networks",
-            "Devices"
+            "Devices",
+            "Domains & URLs"
         ]
     },
     {
@@ -5700,7 +5726,8 @@
             "Devices",
             "Firewalls",
             "Load Balancers",
-            "Compute Services"
+            "Compute Services",
+            "Domains & URLs"
         ]
     },
     {
@@ -6617,6 +6644,20 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/google_threat_intel_adapter.svg",
+        "name": "Google Threat Intelligence Vulnerability Intelligence",
+        "href": "/docs/Google-Threat-Intelligence-Vulnerability-Intelligence",
+        "description": "Google Threat Intelligence Vulnerability Intelligence is a security intelligence service that provides vulnerability data, exploitation context, and threat insights to support risk assessment and remediation workflows.",
+        "solutionCategories": [
+            "Cyber Intelligence",
+            "Attack Surface Management",
+            "VA Tool"
+        ],
+        "assetsFetched": [
+            "Devices"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/google_mdm_adapter.svg",
         "name": "Google Workspace (G Suite)",
         "href": "/docs/g-suite-by-google",
@@ -6796,6 +6837,16 @@
             "Users",
             "Devices"
         ]
+    },
+    {
+        "logo": null,
+        "name": "HappyFox",
+        "href": "/docs/happyfox",
+        "description": "HappyFox is a help desk and customer support software that provides asset management capabilities.",
+        "solutionCategories": [
+            "ITAM/ITSM"
+        ],
+        "assetsFetched": []
     },
     {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/haproxy_adapter.svg",
@@ -6982,7 +7033,7 @@
         ]
     },
     {
-        "logo": null,
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/holm_security_adapter.svg",
         "name": "Holm Security",
         "href": "/docs/Holm-Security",
         "description": "Holm Security is a cybersecurity platform that provides vulnerability management, attack surface visibility, compliance reporting, and risk assessment across external and internal digital assets.",
@@ -7161,7 +7212,8 @@
             "NAC"
         ],
         "assetsFetched": [
-            "Devices"
+            "Devices",
+            "Users"
         ]
     },
     {
@@ -8371,7 +8423,8 @@
             "Application Services",
             "Databases",
             "Software",
-            "Discovered Saas Applications"
+            "Discovered Saas Applications",
+            "Firewalls"
         ]
     },
     {
@@ -8933,6 +8986,18 @@
         ],
         "assetsFetched": [
             "Devices"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/liveperson_adapter.svg",
+        "name": "LivePerson",
+        "href": "/docs/liveperson",
+        "description": "LivePerson is a conversational AI platform that enables businesses to engage with customers through messaging, chatbots, and agent tools.",
+        "solutionCategories": [
+            "HR"
+        ],
+        "assetsFetched": [
+            "Users"
         ]
     },
     {
@@ -9817,6 +9882,19 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/microsoft_power_platform_adapter.svg",
+        "name": "Microsoft Power Platform",
+        "href": "/docs/Microsoft-Power-Platform",
+        "description": "Microsoft Power Platform is a low-code development suite that enables organizations to build custom business applications (PowerApps), automate workflows, and analyze data.",
+        "solutionCategories": [
+            "Collaboration",
+            "SaaS Management"
+        ],
+        "assetsFetched": [
+            "Application Resources"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/microsoft_scom_adapter.svg",
         "name": "Microsoft SCOM",
         "href": "/docs/scom",
@@ -10068,7 +10146,8 @@
             "Databases",
             "Incidents",
             "Audit Activities",
-            "Application Resources"
+            "Application Resources",
+            "Application Settings"
         ]
     },
     {
@@ -11860,7 +11939,8 @@
             "Object Storages",
             "Databases",
             "Vulnerabilities",
-            "Discovered Saas Applications"
+            "Discovered Saas Applications",
+            "Software"
         ]
     },
     {
@@ -12741,7 +12821,8 @@
             "Tickets",
             "Certificates",
             "Compliance Findings",
-            "Security Roles"
+            "Security Roles",
+            "Accounts"
         ]
     },
     {
@@ -13062,6 +13143,20 @@
         ],
         "assetsFetched": [
             "Users",
+            "Devices"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/raritan_command_center_secure_gateway.svg",
+        "name": "Raritan CommandCenter Secure Gateway",
+        "href": "",
+        "description": "Raritan CommandCenter Secure Gateway is a centralized management platform that provides secure access, monitoring, and control of data center infrastructure devices and connected assets.",
+        "solutionCategories": [
+            "ITAM/ITSM",
+            "Infra Monitoring",
+            "OT"
+        ],
+        "assetsFetched": [
             "Devices"
         ]
     },
@@ -15707,6 +15802,20 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/tenable_cloud_security_adapter.svg",
+        "name": "Tenable Cloud Security",
+        "href": "/docs/Tenable-Cloud-Security",
+        "description": "Tenable Cloud Security (formerly Ermetic) provides cloud-native application protection platform (CNAPP) capabilities for vulnerability management, compliance, and security posture management across multi-cloud environments.",
+        "solutionCategories": [
+            "Cyber Intelligence"
+        ],
+        "assetsFetched": [
+            "Devices",
+            "Vulnerabilities",
+            "Discovered Saas Applications"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/tenable_ad_adapter.svg",
         "name": "Tenable Identity Exposure (formerly Tenable.ad)",
         "href": "/docs/tenable-ad",
@@ -15732,7 +15841,8 @@
             "Vulnerabilities",
             "Discovered Saas Applications",
             "Devices",
-            "Repository Vulnerabilities"
+            "Repository Vulnerabilities",
+            "Domains & URLs"
         ]
     },
     {
@@ -15759,14 +15869,15 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Vulnerabilities",
+            "Groups",
             "Discovered Saas Applications",
+            "Network Services",
+            "Compliance Findings",
             "Users",
             "Software",
-            "Groups",
-            "Network Services",
-            "Containers",
-            "Compliance Findings"
+            "Vulnerabilities",
+            "Load Balancers",
+            "Containers"
         ]
     },
     {
@@ -15836,7 +15947,8 @@
             "Discovered Saas Applications",
             "Software",
             "Users",
-            "Compliance Findings"
+            "Compliance Findings",
+            "Certificates"
         ]
     },
     {
@@ -16548,6 +16660,32 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/upwind_adapter.svg",
+        "name": "Upwind",
+        "href": "/docs/Upwind",
+        "description": "Upwind is a unified cloud-native application protection platform that provides runtime‑powered insights for detecting risks and mitigating misconfigurations across infrastructure and applications.",
+        "solutionCategories": [
+            "Cloud Security",
+            "DevOps",
+            "VA Tool"
+        ],
+        "assetsFetched": [
+            "Devices",
+            "Compute Services",
+            "Serverless Functions",
+            "Databases",
+            "Load Balancers",
+            "Network Services",
+            "Networks",
+            "Disks",
+            "File Systems",
+            "Object Storages",
+            "Secrets",
+            "Discovered Saas Applications",
+            "Vulnerabilities"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/uyuni_adapter.svg",
         "name": "Uyuni",
         "href": "/docs/uyuni",
@@ -16632,7 +16770,8 @@
             "Networking"
         ],
         "assetsFetched": [
-            "Devices"
+            "Devices",
+            "Users"
         ]
     },
     {
@@ -16837,6 +16976,7 @@
         ],
         "assetsFetched": [
             "Devices",
+            "Users",
             "Software",
             "Discovered Saas Applications"
         ]
@@ -17011,7 +17151,8 @@
         "assetsFetched": [
             "Devices",
             "Vulnerabilities",
-            "Discovered Saas Applications"
+            "Discovered Saas Applications",
+            "Application Services"
         ]
     },
     {
@@ -17279,7 +17420,8 @@
             "Certificates",
             "Permissions",
             "Security Roles",
-            "Secrets"
+            "Secrets",
+            "Configurations"
         ]
     },
     {
