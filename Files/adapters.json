@@ -1383,6 +1383,18 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/modbus_scanner_adapter.svg",
+        "name": "Axonius Modbus TCP Scanner",
+        "href": "/docs/modbus-scanner",
+        "description": "Axonius-provided Modbus TCP scanner, discovers Modbus devices on a network by reading device identification (MEI Type 0x0E)",
+        "solutionCategories": [
+            "Networking"
+        ],
+        "assetsFetched": [
+            "Devices"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/network_scanner_adapter.svg",
         "name": "Axonius Network Discovery",
         "href": "/docs/network-scanner",
@@ -1435,7 +1447,8 @@
             "Databases",
             "Network Services",
             "Networks",
-            "Devices"
+            "Devices",
+            "Network Devices"
         ]
     },
     {
@@ -2710,7 +2723,8 @@
             "Devices",
             "Firewalls",
             "Users",
-            "Network Routes"
+            "Network Routes",
+            "Network Devices"
         ]
     },
     {
@@ -2971,7 +2985,8 @@
         "assetsFetched": [
             "Devices",
             "Vulnerabilities",
-            "Discovered Saas Applications"
+            "Discovered Saas Applications",
+            "Network Devices"
         ]
     },
     {
@@ -3007,7 +3022,8 @@
             "Storage Mgmt"
         ],
         "assetsFetched": [
-            "Devices"
+            "Devices",
+            "Network Devices"
         ]
     },
     {
@@ -3022,7 +3038,8 @@
             "Devices",
             "Networks",
             "Firewalls",
-            "Network Routes"
+            "Network Routes",
+            "Network Devices"
         ]
     },
     {
@@ -3049,7 +3066,9 @@
         ],
         "assetsFetched": [
             "Users",
-            "Devices"
+            "Devices",
+            "Network Devices",
+            "Certificates"
         ]
     },
     {
@@ -3074,7 +3093,8 @@
             "Cluster Mgmt"
         ],
         "assetsFetched": [
-            "Devices"
+            "Devices",
+            "Network Devices"
         ]
     },
     {
@@ -3094,7 +3114,8 @@
             "Application Settings",
             "Firewalls",
             "Incidents",
-            "Network Routes"
+            "Network Routes",
+            "Network Devices"
         ]
     },
     {
@@ -3370,7 +3391,8 @@
             "Vulnerabilities",
             "Discovered Saas Applications",
             "Devices",
-            "Databases"
+            "Databases",
+            "Network Devices"
         ]
     },
     {
@@ -4639,7 +4661,8 @@
         "assetsFetched": [
             "Discovered Saas Applications",
             "Devices",
-            "Software"
+            "Software",
+            "Network Devices"
         ]
     },
     {
@@ -5696,7 +5719,8 @@
             "Domains & URLs",
             "Certificates",
             "Application Resources",
-            "Network Routes"
+            "Network Routes",
+            "Network Devices"
         ]
     },
     {
@@ -6158,7 +6182,8 @@
             "Devices",
             "Firewalls",
             "Incidents",
-            "Network Routes"
+            "Network Routes",
+            "Network Devices"
         ]
     },
     {
@@ -6170,7 +6195,8 @@
             "NAC"
         ],
         "assetsFetched": [
-            "Devices"
+            "Devices",
+            "Network Devices"
         ]
     },
     {
@@ -6201,7 +6227,8 @@
             "Firewalls",
             "Incidents",
             "Groups",
-            "Network Routes"
+            "Network Routes",
+            "Network Devices"
         ]
     },
     {
@@ -6340,7 +6367,8 @@
         "assetsFetched": [
             "Discovered Saas Applications",
             "Devices",
-            "Software"
+            "Software",
+            "Vulnerabilities"
         ]
     },
     {
@@ -6585,7 +6613,8 @@
             "Software",
             "Serverless Functions",
             "Application Services",
-            "Network Routes"
+            "Network Routes",
+            "Network Devices"
         ]
     },
     {
@@ -6837,16 +6866,6 @@
             "Users",
             "Devices"
         ]
-    },
-    {
-        "logo": null,
-        "name": "HappyFox",
-        "href": "/docs/happyfox",
-        "description": "HappyFox is a help desk and customer support software that provides asset management capabilities.",
-        "solutionCategories": [
-            "ITAM/ITSM"
-        ],
-        "assetsFetched": []
     },
     {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/haproxy_adapter.svg",
@@ -7151,7 +7170,8 @@
             "Networking"
         ],
         "assetsFetched": [
-            "Devices"
+            "Devices",
+            "Network Devices"
         ]
     },
     {
@@ -7200,7 +7220,8 @@
             "Networking"
         ],
         "assetsFetched": [
-            "Devices"
+            "Devices",
+            "Network Devices"
         ]
     },
     {
@@ -7213,7 +7234,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Users"
+            "Users",
+            "Network Devices"
         ]
     },
     {
@@ -7767,7 +7789,8 @@
             "Users",
             "Load Balancers",
             "Firewalls",
-            "Networks"
+            "Networks",
+            "Network Devices"
         ]
     },
     {
@@ -8092,6 +8115,7 @@
         ],
         "assetsFetched": [
             "Application Services",
+            "Devices",
             "Discovered Saas Applications",
             "Vulnerabilities",
             "Domains & URLs"
@@ -8895,7 +8919,8 @@
             "Networking"
         ],
         "assetsFetched": [
-            "Devices"
+            "Devices",
+            "Network Devices"
         ]
     },
     {
@@ -9035,7 +9060,8 @@
             "Infra Monitoring"
         ],
         "assetsFetched": [
-            "Devices"
+            "Devices",
+            "Network Devices"
         ]
     },
     {
@@ -9702,7 +9728,8 @@
             "Vulnerabilities",
             "Discovered Saas Applications",
             "Users",
-            "Software"
+            "Software",
+            "Network Devices"
         ]
     },
     {
@@ -10071,7 +10098,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Users"
+            "Users",
+            "Network Devices"
         ]
     },
     {
@@ -10532,7 +10560,8 @@
         "assetsFetched": [
             "Discovered Saas Applications",
             "Software",
-            "Devices"
+            "Devices",
+            "Network Devices"
         ]
     },
     {
@@ -10544,7 +10573,8 @@
             "Networking"
         ],
         "assetsFetched": [
-            "Devices"
+            "Devices",
+            "Network Devices"
         ]
     },
     {
@@ -11860,7 +11890,8 @@
             "Users",
             "Networks",
             "Firewalls",
-            "Network Routes"
+            "Network Routes",
+            "Network Devices"
         ]
     },
     {
@@ -13149,7 +13180,7 @@
     {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/raritan_command_center_secure_gateway.svg",
         "name": "Raritan CommandCenter Secure Gateway",
-        "href": "",
+        "href": "/docs/Raritan-CommandCenter-Secure-Gateway",
         "description": "Raritan CommandCenter Secure Gateway is a centralized management platform that provides secure access, monitoring, and control of data center infrastructure devices and connected assets.",
         "solutionCategories": [
             "ITAM/ITSM",
@@ -14628,7 +14659,8 @@
             "Discovered Saas Applications",
             "Firewalls",
             "Devices",
-            "Network Routes"
+            "Network Routes",
+            "Network Devices"
         ]
     },
     {
@@ -14846,7 +14878,8 @@
             "Discovered Saas Applications",
             "Devices",
             "Software",
-            "Networks"
+            "Networks",
+            "Network Devices"
         ]
     },
     {
@@ -16133,7 +16166,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Tickets"
+            "Tickets",
+            "Network Devices"
         ]
     },
     {
