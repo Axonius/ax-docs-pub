@@ -118,6 +118,20 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/abion_adapter.svg",
+        "name": "Abion",
+        "href": "/docs/Abion",
+        "description": "Abion is a cybersecurity platform that offers solutions for managing and securing digital assets.",
+        "solutionCategories": [
+            "Risk Mgmt",
+            "Attack Surface Management"
+        ],
+        "assetsFetched": [
+            "Domains & URLs",
+            "Organizational Units"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/abnormal_security_adapter.svg",
         "name": "Abnormal Security",
         "href": "/docs/Abnormal-Security",
@@ -694,11 +708,12 @@
             "Vulnerabilities",
             "Cloud Security Exposures",
             "Users",
-            "Network Routes"
+            "Network Routes",
+            "Domains & URLs"
         ]
     },
     {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/tmf_inventory_adapter.png",
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/tmf_inventory_adapter.svg",
         "name": "Amdocs TMF639 Inventory",
         "href": "/docs/Tmf-Framework",
         "description": "TMF Framework is a tool that provides a standardized approach to managing telecommunications services and operations.",
@@ -1268,7 +1283,7 @@
         ]
     },
     {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/afs_adapter.png",
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/afs_adapter.svg",
         "name": "Automated Financial Systems",
         "href": "/docs/Afs",
         "description": "AFS is a commercial lending platform that offers real-time portfolio management, integrated workflows, and API-driven automation for financial institutions.",
@@ -1408,7 +1423,7 @@
         ]
     },
     {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/axonius_users_adapter.png",
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/axonius_users_adapter.svg",
         "name": "Axonius Users",
         "href": "/docs/axonius-users",
         "description": "The Axonius Users adapter fetches users with Axonius credentials and their permissions using our API client.",
@@ -1609,7 +1624,7 @@
         ]
     },
     {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/beeline_connect_adapter.png",
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/beeline_connect_adapter.svg",
         "name": "Beeline Professional Edition Connect",
         "href": "/docs/Beeline-Connect",
         "description": "Beeline Professional Edition Connect is a workforce management solution that offers vendor management and talent acquisition capabilities.",
@@ -1622,7 +1637,7 @@
         ]
     },
     {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/bently_nevada_adapter.png",
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/bently_nevada_adapter.svg",
         "name": "Bently Nevada",
         "href": "/docs/Bently-Nevada",
         "description": "Bently Nevada is a condition monitoring system that provides asset protection and predictive maintenance solutions.",
@@ -1842,6 +1857,20 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/binary_defense_mdr.svg",
+        "name": "Binary Defense MDR",
+        "href": "/docs/binary-defense-mdr",
+        "description": "Binary Defense MDR is a managed detection and response service that provides continuous monitoring, threat detection, and incident response using integrated threat intelligence and expert analysis across IT environments.",
+        "solutionCategories": [
+            "NDR",
+            "SIEM",
+            "VA Tool"
+        ],
+        "assetsFetched": [
+            "Devices"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/binary_edge_adapter.svg",
         "name": "BinaryEdge",
         "href": "/docs/binaryedge",
@@ -1932,7 +1961,8 @@
         "assetsFetched": [
             "Devices",
             "Discovered Saas Applications",
-            "Software"
+            "Software",
+            "Containers"
         ]
     },
     {
@@ -3623,6 +3653,21 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/connectwise_asio_adapter.svg",
+        "name": "ConnectWise Asio",
+        "href": "/docs/connectwise-asio",
+        "description": "ConnectWise Asio is a platform that offers remote monitoring and management solutions for IT service providers.",
+        "solutionCategories": [
+            "ITAM/ITSM",
+            "RMM"
+        ],
+        "assetsFetched": [
+            "Devices",
+            "Discovered Saas Applications",
+            "Software"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/connectwise_automate_adapter.svg",
         "name": "ConnectWise Automate",
         "href": "/docs/connectwise",
@@ -5095,7 +5140,7 @@
         ]
     },
     {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/reports.png",
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/reports.svg",
         "name": "EC: Artifacts",
         "href": "",
         "description": "Enforcement Center artifacts on assets",
@@ -6775,6 +6820,20 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/group_ib_adapter.svg",
+        "name": "Group-IB Threat Intelligence CVE Enrichment",
+        "href": "/docs/group-ib",
+        "description": "Group-IB provides threat intelligence and vulnerability data from the OSI Vulnerability feed to enhance CVE analysis.",
+        "solutionCategories": [
+            "Cyber Intelligence",
+            "SIEM",
+            "SOAR"
+        ],
+        "assetsFetched": [
+            "Devices"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/grouper_adapter.svg",
         "name": "Grouper",
         "href": "/docs/grouper",
@@ -7098,7 +7157,7 @@
         ]
     },
     {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/honeywell_tdc_3000_adapter.png",
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/honeywell_tdc_3000_adapter.svg",
         "name": "Honeywell TDC 3000",
         "href": "/docs/honeywell-tdc-3000",
         "description": "Honeywell TDC 3000 is a legacy Distributed Control System (DCS) used in industrial automation to manage and monitor complex process operations. It features modular controllers, proprietary networks, and operator stations for real-time control and visualization.",
@@ -9179,7 +9238,7 @@
         ]
     },
     {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/manage_engine_admanager_plus_adapter.png",
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/manage_engine_admanager_plus_adapter.svg",
         "name": "ManageEngine ADManager Plus",
         "href": "/docs/Manage-Engine-Admanager-Plus",
         "description": "ManageEngine ADManager Plus is an IT management software suite that offers solutions for IT operations and service management.\n",
@@ -9225,7 +9284,7 @@
         ]
     },
     {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/manage_engine_event_log_analyzer_adapter.png",
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/manage_engine_event_log_analyzer_adapter.svg",
         "name": "ManageEngine EventLog Analyzer",
         "href": "/docs/Manage-Engine-Event-Log-Analyzer",
         "description": "ManageEngine EventLog Analyzer is a web-based SIEM solution that provides real-time log monitoring, threat detection, compliance reporting, and forensic analysis across diverse IT environments.",
@@ -9261,6 +9320,20 @@
         ],
         "assetsFetched": [
             "Certificates"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/manageengine_log360_cloud_adapter.svg",
+        "name": "ManageEngine Log360 Cloud",
+        "href": "/docs/ManageEngine-Log360-Cloud",
+        "description": "ManageEngine Log360 Cloud is a unified security analytics platform that provides log management, threat detection, correlation, and compliance reporting across network, server, and application sources.",
+        "solutionCategories": [
+            "SIEM",
+            "UEBA",
+            "Audit/Compliance"
+        ],
+        "assetsFetched": [
+            "Devices"
         ]
     },
     {
@@ -9658,7 +9731,8 @@
             "Discovered Saas Applications",
             "Configurations",
             "Cloud Security Exposures",
-            "Network Routes"
+            "Network Routes",
+            "Software"
         ]
     },
     {
@@ -9759,7 +9833,6 @@
             "HR"
         ],
         "assetsFetched": [
-            "Users",
             "Devices"
         ]
     },
@@ -9854,7 +9927,7 @@
         ]
     },
     {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/intune_adapter.png",
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/intune_adapter.svg",
         "name": "Microsoft Intune",
         "href": "/docs/MicrosoftIntune",
         "description": "Microsoft Intune is a management tool that offers mobile device and application management capabilities.",
@@ -10537,6 +10610,20 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/netbeez_adapter.svg",
+        "name": "NetBeez",
+        "href": "/docs/NetBeez",
+        "description": "NetBeez is a network monitoring platform that provides active performance testing, traffic visibility, and diagnostics to identify availability, latency, and application delivery issues.",
+        "solutionCategories": [
+            "Infra Monitoring",
+            "Networking",
+            "ITAM/ITSM"
+        ],
+        "assetsFetched": [
+            "Devices"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/netbox_adapter.svg",
         "name": "NetBox",
         "href": "/docs/netbox",
@@ -10928,7 +11015,7 @@
         ]
     },
     {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/nokia_adapter.png",
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/nokia_adapter.svg",
         "name": "Nokia Network Services Platform (NSP)",
         "href": "/docs/Nokia",
         "description": "Nokia Network Services Platform (NSP) is a network automation and management system that provides centralized control, provisioning, and monitoring of IP and optical networks.",
@@ -11576,7 +11663,7 @@
         ]
     },
     {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/oracle_idcs_adapter.png",
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/oracle_idcs_adapter.svg",
         "name": "Oracle Identity Cloud Service (IDCS)",
         "href": "/docs/Oracle-Idcs",
         "description": "Oracle IDCS is an identity and access management service that provides user provisioning, SSO, and authentication across hybrid IT environments.",
@@ -11715,6 +11802,19 @@
         "description": "Outreach is a sales engagement platform that provides automation and analytics for sales teams.",
         "solutionCategories": [
             "CRM"
+        ],
+        "assetsFetched": [
+            "Users"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/outthink_adapter.svg",
+        "name": "OutThink",
+        "href": "/docs/OutThink",
+        "description": "OutThink is a human risk management platform that provides security awareness training, phishing simulations, and behavioral analytics to reduce human cyber risk through data-driven interventions.",
+        "solutionCategories": [
+            "Risk Mgmt",
+            "Security Awareness"
         ],
         "assetsFetched": [
             "Users"
@@ -13095,7 +13195,7 @@
         ]
     },
     {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/rapid7_insight_connect_adapter.png",
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/rapid7_insight_connect_adapter.svg",
         "name": "Rapid7 InsightConnect",
         "href": "/docs/Rapid7-Insight-Connect",
         "description": "Rapid7 InsightConnect is a security orchestration, automation, and response tool that offers streamlined incident response workflows.",
@@ -13542,7 +13642,7 @@
         ]
     },
     {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/riverbed_app_response_adapter.png",
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/riverbed_app_response_adapter.svg",
         "name": "Riverbed AppResponse",
         "href": "/docs/Riverbed-App-Response",
         "description": "Riverbed AppResponse is a network performance monitoring tool that offers deep packet inspection and analysis.",
@@ -14082,7 +14182,7 @@
         ]
     },
     {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/schneider_electric_triconex_adapter.png",
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/schneider_electric_triconex_adapter.svg",
         "name": "Schneider Electric EcoStruxure Triconex Safety Systems",
         "href": "/docs/Schneider-Electric-Triconex",
         "description": "Triconex Safety Systems is a suite of safety instrumented systems that provides critical control and shutdown functions for industrial processes using triple modular redundancy technology.",
@@ -15287,7 +15387,7 @@
         ]
     },
     {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/stig_manager_adapter.png",
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/stig_manager_adapter.svg",
         "name": "STIG Manager",
         "href": "/docs/Stig-Manager",
         "description": "STIG Manager is a compliance management tool that offers automated security compliance checks and reporting.",
@@ -15552,7 +15652,9 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Users"
+            "Users",
+            "Software",
+            "Discovered Saas Applications"
         ]
     },
     {
@@ -16072,6 +16174,20 @@
         "assetsFetched": [
             "Software",
             "Discovered Saas Applications",
+            "Devices"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/threat_connect_adapter.svg",
+        "name": "Threat Connect",
+        "href": "/docs/Threat-Connect",
+        "description": "ThreatConnect is a threat intelligence operations platform that provides ingestion, enrichment, automation, orchestration, and cyber risk quantification in a unified workflow.",
+        "solutionCategories": [
+            "Cyber Intelligence",
+            "SOAR",
+            "VA Tool"
+        ],
+        "assetsFetched": [
             "Devices"
         ]
     },
@@ -17641,7 +17757,7 @@
         ]
     },
     {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/xen_server_adapter.png",
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/xen_server_adapter.svg",
         "name": "XenServer",
         "href": "/docs/Xen-Server",
         "description": "XenServer is a virtualization platform that enables the creation and management of virtualized server infrastructures.",
@@ -17851,7 +17967,7 @@
         ]
     },
     {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/ziphq_adapter.png",
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/ziphq_adapter.svg",
         "name": "ZipHQ",
         "href": "/docs/Ziphq",
         "description": "ZipHQ License Management is a comprehensive software solution designed to streamline and automate the management of software licenses across an organization.",
@@ -17926,7 +18042,7 @@
         ]
     },
     {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/zscaler_sspm_adapter.png",
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/zscaler_sspm_adapter.svg",
         "name": "Zscaler SSPM",
         "href": "/docs/Zscaler-Sspm",
         "description": "Zscaler SSPM is a solution that provides continuous monitoring and remediation of SaaS application security configurations to enhance data protection and compliance.",

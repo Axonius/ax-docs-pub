@@ -1,1 +1,13 @@
-<svg id="Delinea_Platform" data-name="Delinea Platform" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400"><defs><style>.cls-1{fill:#00ff5a;}.cls-2{fill:#231556;}</style></defs><rect class="cls-1" x="254.7" y="108.12" width="50.63" height="37"/><rect class="cls-1" x="254.7" y="182.71" width="50.63" height="37"/><rect class="cls-1" x="254.7" y="257.3" width="50.63" height="37"/><rect class="cls-2" x="94.91" y="108.12" width="141.95" height="37"/><rect class="cls-2" x="94.91" y="182.71" width="141.95" height="37"/><rect class="cls-2" x="94.91" y="257.3" width="141.95" height="37"/><polygon class="cls-2" points="323.16 170.36 360.16 170.36 360.16 39.94 267.15 39.94 267.15 76.94 323.16 76.94 323.16 170.36"/><polygon class="cls-2" points="323.63 230.46 323.63 324.12 267.62 324.12 267.62 361.12 360.63 361.12 360.63 230.46 323.63 230.46"/><polygon class="cls-2" points="76.95 229.53 39.95 229.53 39.95 359.95 132.96 359.95 132.96 322.95 76.95 322.95 76.95 229.53"/><polygon class="cls-2" points="77.1 76.61 133.11 76.61 133.11 39.61 40.1 39.61 40.1 170.27 77.1 170.27 77.1 76.61"/></svg>
+<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="50" height="50" fill="#231556"/>
+<path d="M35.4817 15.8188H30.4295V19.5014H35.4817V15.8188Z" fill="#00FF5A"/>
+<path d="M35.4817 23.2428H30.4295V26.9254H35.4817V23.2428Z" fill="#00FF5A"/>
+<path d="M35.4817 30.6668H30.4295V34.3494H35.4817V30.6668Z" fill="#00FF5A"/>
+<path d="M28.6492 15.8188H14.4843V19.5014H28.6492V15.8188Z" fill="white"/>
+<path d="M28.6492 23.2428H14.4843V26.9254H28.6492V23.2428Z" fill="white"/>
+<path d="M28.6492 30.6668H14.4843V34.3494H28.6492V30.6668Z" fill="white"/>
+<path d="M37.2609 22.0136H40.9531V9.03284H31.6718V12.7155H37.2609V22.0136Z" fill="white"/>
+<path d="M37.3078 27.9954V37.3174H31.7187V41H41V27.9954H37.3078Z" fill="white"/>
+<path d="M12.6922 27.9028H9V40.8835H18.2813V37.2009H12.6922V27.9028Z" fill="white"/>
+<path d="M12.7071 12.6826H18.2962V9H9.01497V22.0046H12.7071V12.6826Z" fill="white"/>
+</svg>
