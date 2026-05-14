@@ -1283,20 +1283,6 @@
         ]
     },
     {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/afs_adapter.svg",
-        "name": "Automated Financial Systems",
-        "href": "/docs/Afs",
-        "description": "AFS is a commercial lending platform that offers real-time portfolio management, integrated workflows, and API-driven automation for financial institutions.",
-        "solutionCategories": [
-            "ERP",
-            "Audit/Compliance"
-        ],
-        "assetsFetched": [
-            "Security Roles",
-            "Groups"
-        ]
-    },
-    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/automatos_adapter.svg",
         "name": "Automatos",
         "href": "/docs/Automatos",
@@ -5137,17 +5123,6 @@
         ],
         "assetsFetched": [
             "Devices"
-        ]
-    },
-    {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/reports.svg",
-        "name": "EC: Artifacts",
-        "href": "",
-        "description": "Enforcement Center artifacts on assets",
-        "solutionCategories": [],
-        "assetsFetched": [
-            "Devices",
-            "Users"
         ]
     },
     {
