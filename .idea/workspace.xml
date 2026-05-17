@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="be002e45-454c-4b6c-8add-a0d53ef6dbe3" name="Changes" comment="chore: update adapter list and icons from cortex release/8_0_20">
+      <change beforePath="$PROJECT_DIR$/Images/Cato.png" beforeDir="false" afterPath="$PROJECT_DIR$/Images/Cato.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/EditQueryIcon.png" beforeDir="false" afterPath="$PROJECT_DIR$/Images/EditQueryIcon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/NetBox.png" beforeDir="false" afterPath="$PROJECT_DIR$/Images/NetBox.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/Randori_adapter.png" beforeDir="false" afterPath="$PROJECT_DIR$/Images/Randori_adapter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/Zabbix.png" beforeDir="false" afterPath="$PROJECT_DIR$/Images/Zabbix.png" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;bronweg&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:Axonius/ax-docs-pub.git&quot;,
+    &quot;accountId&quot;: &quot;54f60339-d1d5-42e2-b56b-fb1dbf240d1a&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="39Fo9H17oEfdAYoVlJ3KsLhEV1t" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;augment.onboarding.workspace.first.indexed./Users/ilya.ulis/git/ax-docs-pub&quot;: &quot;true&quot;,
+    &quot;augment.onboarding.workspace.summary.shown.d08934b60bfaa27c8a284f34c85a59fd3ae5699b13aee7a7693362996f2df5fe&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ilya.ulis/git/ax-docs-pub/img&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img" />
+      <recent name="$PROJECT_DIR$/Files" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-a101402ee41c-968fe969f28a-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.28238.29" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="be002e45-454c-4b6c-8add-a0d53ef6dbe3" name="Changes" comment="" />
+      <created>1770301027515</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1770301027515</updated>
+      <workItem from="1770301028715" duration="2234000" />
+      <workItem from="1771506260270" duration="330000" />
+      <workItem from="1772371045816" duration="16000" />
+    </task>
+    <task id="LOCAL-00001" summary="chore: update adapter list and icons from cortex release/8_0_14">
+      <option name="closed" value="true" />
+      <created>1770301957696</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1770301957696</updated>
+    </task>
+    <task id="LOCAL-00002" summary="chore: update adapter list and icons from cortex release/8_0_16">
+      <option name="closed" value="true" />
+      <created>1771506584323</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1771506584323</updated>
+    </task>
+    <task id="LOCAL-00003" summary="chore: update adapter list and icons from cortex release/8_0_19">
+      <option name="closed" value="true" />
+      <created>1773597096265</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1773597096265</updated>
+    </task>
+    <task id="LOCAL-00004" summary="chore: update adapter list and icons from cortex release/8_0_20">
+      <option name="closed" value="true" />
+      <created>1774208571808</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1774208571808</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="chore: update adapter list and icons from cortex release/8_0_14" />
+    <MESSAGE value="chore: update adapter list and icons from cortex release/8_0_16" />
+    <MESSAGE value="chore: update adapter list and icons from cortex release/8_0_19" />
+    <MESSAGE value="chore: update adapter list and icons from cortex release/8_0_20" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: update adapter list and icons from cortex release/8_0_20" />
+  </component>
+</project>

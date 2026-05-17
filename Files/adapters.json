@@ -293,6 +293,20 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/adaptive_security_adapter.svg",
+        "name": "Adaptive Security",
+        "href": "/docs/adaptive-security",
+        "description": "Adaptive Security is a security awareness and phishing simulation platform that provides human risk management, employee training, and behavioral analytics to reduce social engineering and email-borne threats.",
+        "solutionCategories": [
+            "Security Awareness",
+            "Email Security",
+            "Risk Mgmt"
+        ],
+        "assetsFetched": [
+            "Users"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/adaptive_shield_adapter.svg",
         "name": "Adaptive Shield",
         "href": "/docs/adaptive-shield",
@@ -364,6 +378,21 @@
         ],
         "assetsFetched": [
             "Users"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/adobe_learning_manager_adapter.svg",
+        "name": "Adobe Learning Manager",
+        "href": "/docs/Adobe-Learning-Manager",
+        "description": "Adobe Learning Manager is a learning management system that provides automated training delivery, compliance tracking, skill development, and learner progress monitoring across enterprise workforces.",
+        "solutionCategories": [
+            "HR",
+            "Audit/Compliance",
+            "SaaS Management"
+        ],
+        "assetsFetched": [
+            "Users",
+            "Groups"
         ]
     },
     {
@@ -498,10 +527,25 @@
         ]
     },
     {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/akamai_security_api_adapter.svg",
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/akamai_api_security_adapter.svg",
         "name": "Akamai API Security",
         "href": "/docs/Akamai-Api-Security",
-        "description": "Akamai API Security is a solution that provides continuous API discovery, runtime threat detection, and active testing to protect APIs across environments",
+        "description": "Akamai API Security is an API security platform that provides API discovery, posture management, runtime threat detection, and compliance monitoring across enterprise API environments.",
+        "solutionCategories": [
+            "Attack Surface Management",
+            "Audit/Compliance"
+        ],
+        "assetsFetched": [
+            "Discovered Saas Applications",
+            "Domains & URLs",
+            "Vulnerabilities"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/akamai_security_api_adapter.svg",
+        "name": "Akamai Application Security",
+        "href": "/docs/Akamai-Application-Security",
+        "description": "Akamai Application Security is a solution that provides continuous API discovery, runtime threat detection, and active testing to protect APIs across environments",
         "solutionCategories": [
             "Attack Surface Management",
             "VA Tool"
@@ -564,6 +608,22 @@
         ],
         "assetsFetched": [
             "Devices"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/alation_adapter.svg",
+        "name": "Alation",
+        "href": "/docs/Alation",
+        "description": "Alation is a data intelligence platform that provides data catalog, governance, lineage, and data product capabilities for discovering, understanding, and governing enterprise data.",
+        "solutionCategories": [
+            "Data Security",
+            "SaaS Management",
+            "Audit/Compliance"
+        ],
+        "assetsFetched": [
+            "Users",
+            "Groups",
+            "Application Resources"
         ]
     },
     {
@@ -709,7 +769,8 @@
             "Cloud Security Exposures",
             "Users",
             "Network Routes",
-            "Domains & URLs"
+            "Domains & URLs",
+            "Expenses"
         ]
     },
     {
@@ -955,6 +1016,19 @@
         ]
     },
     {
+        "logo": null,
+        "name": "Arctic Wolf Aurora Endpoint Defense",
+        "href": "/docs/arctic-wolf-aurora-endpoint-defense",
+        "description": "Arctic Wolf Aurora Endpoint Defense is an endpoint protection and detection platform that offers threat prevention, agent management, and device security monitoring.",
+        "solutionCategories": [
+            "EDR/EPP",
+            "SIEM"
+        ],
+        "assetsFetched": [
+            "Devices"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/arista_cvp_adapter.svg",
         "name": "Arista CloudVision",
         "href": "/docs/arista-cloudvision",
@@ -996,6 +1070,23 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/armor_code_adapter.svg",
+        "name": "ArmorCode",
+        "href": "/docs/Armor-Code",
+        "description": "ArmorCode is an application security posture management platform that provides unified exposure management, vulnerability prioritization, and remediation orchestration across security and development tooling.",
+        "solutionCategories": [
+            "VA Tool",
+            "Risk Mgmt"
+        ],
+        "assetsFetched": [
+            "Business Applications",
+            "Discovered Saas Applications",
+            "Groups",
+            "Users",
+            "Vulnerabilities"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/arnica_adapter.svg",
         "name": "Arnica.io",
         "href": "/docs/Arnica",
@@ -1005,7 +1096,9 @@
             "Cloud Security"
         ],
         "assetsFetched": [
-            "Devices"
+            "Discovered Saas Applications",
+            "Application Resources",
+            "Vulnerabilities"
         ]
     },
     {
@@ -1227,6 +1320,20 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/audiocodes_ovoc_adapter.svg",
+        "name": "AudioCodes OVOC",
+        "href": "/docs/Audiocodes-Ovoc",
+        "description": "AudioCodes OVOC is a web‑based voice network management solution that provides centralized lifecycle control of VoIP devices and quality of experience monitoring across deployments.",
+        "solutionCategories": [
+            "Infra Monitoring",
+            "Networking",
+            "Config/Patch Mgmt"
+        ],
+        "assetsFetched": [
+            "Devices"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/audit_board_adapter.svg",
         "name": "AuditBoard",
         "href": "/docs/Audit-Board",
@@ -1280,6 +1387,20 @@
         "assetsFetched": [
             "Devices",
             "Users"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/afs_adapter.svg",
+        "name": "Automated Financial Systems",
+        "href": "/docs/Afs",
+        "description": "AFS is a commercial lending platform that offers real-time portfolio management, integrated workflows, and API-driven automation for financial institutions.",
+        "solutionCategories": [
+            "ERP",
+            "Audit/Compliance"
+        ],
+        "assetsFetched": [
+            "Security Roles",
+            "Groups"
         ]
     },
     {
@@ -1476,7 +1597,9 @@
         ],
         "assetsFetched": [
             "Users",
-            "Groups"
+            "Groups",
+            "Application Resources",
+            "Audit Activities"
         ]
     },
     {
@@ -1620,6 +1743,22 @@
         ],
         "assetsFetched": [
             "Users"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/belarc_belmanage_adapter.svg",
+        "name": "Belarc BelManage",
+        "href": "/docs/Belarc-Belmanage",
+        "description": "Belarc BelManage is an IT asset management and configuration monitoring platform that provides automated discovery, CMDB generation, software license tracking, security configuration visibility, and compliance reporting across enterprise infrastructure.",
+        "solutionCategories": [
+            "CMDB",
+            "ITAM/ITSM",
+            "Audit/Compliance"
+        ],
+        "assetsFetched": [
+            "Devices",
+            "Discovered Saas Applications",
+            "Software"
         ]
     },
     {
@@ -1797,7 +1936,8 @@
         "assetsFetched": [
             "Vulnerabilities",
             "Discovered Saas Applications",
-            "Devices"
+            "Devices",
+            "Compliance Findings"
         ]
     },
     {
@@ -1948,7 +2088,8 @@
             "Devices",
             "Discovered Saas Applications",
             "Software",
-            "Containers"
+            "Containers",
+            "Vulnerabilities"
         ]
     },
     {
@@ -2183,7 +2324,11 @@
         "assetsFetched": [
             "Discovered Saas Applications",
             "Devices",
-            "Software"
+            "Network Devices",
+            "Software",
+            "Databases",
+            "Compute Services",
+            "Containers"
         ]
     },
     {
@@ -3837,7 +3982,8 @@
             "Discovered Saas Applications",
             "Users",
             "Devices",
-            "Software"
+            "Software",
+            "Vulnerabilities"
         ]
     },
     {
@@ -4062,7 +4208,12 @@
             "Contracts",
             "Network Services",
             "Certificates",
-            "Compliance Findings"
+            "Compliance Findings",
+            "Firewalls",
+            "Load Balancers",
+            "Domains & URLs",
+            "Network Routes",
+            "Licenses"
         ]
     },
     {
@@ -4391,6 +4542,21 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/defect_dojo_adapter.svg",
+        "name": "DefectDojo",
+        "href": "/docs/Defect-Dojo",
+        "description": "DefectDojo is an application security orchestration and vulnerability management platform that provides centralized tracking and workflow automation for security findings",
+        "solutionCategories": [
+            "Risk Mgmt",
+            "VA Tool"
+        ],
+        "assetsFetched": [
+            "Application Services",
+            "Discovered Saas Applications",
+            "Vulnerabilities"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/defensestorm_adapter.svg",
         "name": "DefenseStorm",
         "href": "/docs/DefenseStorm",
@@ -4429,7 +4595,8 @@
         ],
         "assetsFetched": [
             "Audit Activities",
-            "Devices"
+            "Devices",
+            "Users"
         ]
     },
     {
@@ -5016,6 +5183,19 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/dryrun_security_adapter.svg",
+        "name": "DryRun Security",
+        "href": "/docs/dryrun-security",
+        "description": "DryRun Security is an AI-native application security solution that provides contextual code analysis and automated security insights to detect and mitigate vulnerabilities during software development workflows.",
+        "solutionCategories": [
+            "VA Tool",
+            "DevOps"
+        ],
+        "assetsFetched": [
+            "Application Resources"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/duo_adapter.svg",
         "name": "Duo Beyond",
         "href": "/docs/duo-beyond",
@@ -5126,6 +5306,17 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/reports.svg",
+        "name": "EC: Artifacts",
+        "href": "",
+        "description": "Enforcement Center artifacts on assets",
+        "solutionCategories": [],
+        "assetsFetched": [
+            "Devices",
+            "Users"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/fmaudit_adapter.svg",
         "name": "ECI FMAudit",
         "href": "/docs/ECI-FMAudit",
@@ -5182,7 +5373,8 @@
         "assetsFetched": [
             "Software",
             "Discovered Saas Applications",
-            "Devices"
+            "Devices",
+            "Incidents"
         ]
     },
     {
@@ -5195,7 +5387,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Networks"
+            "Networks",
+            "Domains & URLs"
         ]
     },
     {
@@ -5553,7 +5746,8 @@
             "Cloud Security"
         ],
         "assetsFetched": [
-            "Devices"
+            "Devices",
+            "Users"
         ]
     },
     {
@@ -5772,6 +5966,20 @@
             "Load Balancers",
             "Compute Services",
             "Domains & URLs"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/f5_os_adapter.svg",
+        "name": "F5 rSeries",
+        "href": "/docs/F5-Os",
+        "description": "F5 rSeries is an application delivery controller platform that provides traffic management, security services, and API-driven infrastructure control through F5OS for modern application environments.",
+        "solutionCategories": [
+            "Networking",
+            "Firewall",
+            "Cloud Infra"
+        ],
+        "assetsFetched": [
+            "Devices"
         ]
     },
     {
@@ -6294,6 +6502,20 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/forti_sase_adapter.svg",
+        "name": "FortiSASE",
+        "href": "/docs/Forti-Sase",
+        "description": "FortiSASE is a secure access service edge platform that provides network security, secure web gateway, zero trust access, and traffic inspection for distributed users and devices",
+        "solutionCategories": [
+            "Secure Web Gateways",
+            "Cloud Security",
+            "Networking"
+        ],
+        "assetsFetched": [
+            "Users"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/forward_networks_adapter.svg",
         "name": "Forward Networks",
         "href": "/docs/Forward-Networks",
@@ -6415,6 +6637,20 @@
         "assetsFetched": [
             "Users",
             "Groups"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/genesys_cloud_adapter.svg",
+        "name": "Genesys Cloud",
+        "href": "/docs/genesys-cloud",
+        "description": "Genesys Cloud is a cloud-based contact center and customer experience platform. This adapter fetches user data and SSPM security settings to help organizations maintain compliance and security posture.",
+        "solutionCategories": [
+            "Email Security",
+            "SaaS Management"
+        ],
+        "assetsFetched": [
+            "Users",
+            "Application Settings"
         ]
     },
     {
@@ -6634,7 +6870,8 @@
             "Serverless Functions",
             "Application Services",
             "Network Routes",
-            "Network Devices"
+            "Network Devices",
+            "Domains & URLs"
         ]
     },
     {
@@ -6642,6 +6879,18 @@
         "name": "Google Security Operations SIEM",
         "href": "/docs/Google-Chronicle-Security",
         "description": "Google Security Operations SIEM is designed for enterprises to privately retain, analyze, and search security and network telemetry.",
+        "solutionCategories": [
+            "Deception"
+        ],
+        "assetsFetched": [
+            "Devices"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/google_chronicle_security_rest_adapter.svg",
+        "name": "Google Security Operations SIEM REST",
+        "href": "/docs/Google-Chronicle-Security-Rest",
+        "description": "Google Chronicle REST adapter for Google Security Operations SIEM",
         "solutionCategories": [
             "Deception"
         ],
@@ -6844,6 +7093,7 @@
             "Risk Mgmt"
         ],
         "assetsFetched": [
+            "Application Settings",
             "Users",
             "Permissions"
         ]
@@ -6860,6 +7110,22 @@
         "assetsFetched": [
             "Users",
             "Devices"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/hacker_one_adapter.svg",
+        "name": "HackerOne",
+        "href": "/docs/Hacker-One",
+        "description": "HackerOne is a vulnerability coordination platform that provides bug bounty programs, penetration testing, and coordinated disclosure for ethical security research.",
+        "solutionCategories": [
+            "VA Tool",
+            "Risk Mgmt"
+        ],
+        "assetsFetched": [
+            "Devices",
+            "Domains & URLs",
+            "Vulnerabilities",
+            "Discovered Saas Applications"
         ]
     },
     {
@@ -7242,7 +7508,8 @@
             "Networking"
         ],
         "assetsFetched": [
-            "Devices"
+            "Devices",
+            "Network Devices"
         ]
     },
     {
@@ -7897,6 +8164,20 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/incidentio_adapter.svg",
+        "name": "Incident.io",
+        "href": "/docs/incident-io",
+        "description": "Incident.io is an incident management platform that provides on-call scheduling, automated response workflows, and status pages directly within chat applications to streamline engineering operations.",
+        "solutionCategories": [
+            "ITAM/ITSM",
+            "DevOps",
+            "Collaboration"
+        ],
+        "assetsFetched": [
+            "Users"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/infinidat_adapter.svg",
         "name": "InfiniBox",
         "href": "/docs/Infinidat",
@@ -8269,6 +8550,19 @@
         ],
         "assetsFetched": [
             "Devices"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/ivanti_neurons_itsm_adapter.svg",
+        "name": "Ivanti Neurons for ITSM",
+        "href": "/docs/Ivanti-Neurons-for-ITSM",
+        "description": "Ivanti Neurons for ITSM is a service management platform with CMDB capabilities for asset lifecycle and configuration management.",
+        "solutionCategories": [
+            "UEM"
+        ],
+        "assetsFetched": [
+            "Devices",
+            "Users"
         ]
     },
     {
@@ -9778,7 +10072,8 @@
             "Discovered Saas Applications",
             "Users",
             "Software",
-            "Network Devices"
+            "Network Devices",
+            "Certificates"
         ]
     },
     {
@@ -10334,6 +10629,20 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/mps_monitor_cloud_adapter.svg",
+        "name": "MPS Monitor Cloud",
+        "href": "/docs/mps-monitor-cloud",
+        "description": "MPS Monitor Cloud is a platform that provides remote monitoring and management of print and multifunctional device fleets via a web portal and APIs.",
+        "solutionCategories": [
+            "ITAM/ITSM",
+            "Infra Monitoring",
+            "IoT"
+        ],
+        "assetsFetched": [
+            "Devices"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/msp_manager_adapter.svg",
         "name": "MSP Manager",
         "href": "/docs/Msp-Manager",
@@ -10800,6 +11109,21 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/netwrix_endpoint_protector_adapter.png",
+        "name": "Netwrix Endpoint Protector",
+        "href": "/docs/Netwrix-Endpoint-Protector",
+        "description": "Netwrix Endpoint Protector is an agent-based DLP solution that provides device control, content-aware protection, and enforced encryption for endpoint security management.",
+        "solutionCategories": [
+            "DLP",
+            "EDR/EPP",
+            "Cloud Mgmt"
+        ],
+        "assetsFetched": [
+            "Devices",
+            "Users"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/neushield_adapter.svg",
         "name": "NeuShield Data Sentinel",
         "href": "/docs/Neushield",
@@ -10844,7 +11168,8 @@
             "Databases",
             "Containers",
             "Application Services",
-            "Network Services"
+            "Network Services",
+            "Vulnerabilities"
         ]
     },
     {
@@ -10943,6 +11268,20 @@
         ],
         "assetsFetched": [
             "Users"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/nightfall_adapter.svg",
+        "name": "Nightfall DLP",
+        "href": "/docs/Nightfall-DLP",
+        "description": "Nightfall is a DLP (Data Loss Prevention) platform that discovers, monitors, and protects sensitive data across SaaS applications and endpoints via agent-based device coverage.",
+        "solutionCategories": [
+            "DLP",
+            "Data Security",
+            "EDR/EPP"
+        ],
+        "assetsFetched": [
+            "Devices"
         ]
     },
     {
@@ -11175,6 +11514,24 @@
         ],
         "assetsFetched": [
             "Users"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/odoo_adapter.svg",
+        "name": "Odoo",
+        "href": "/docs/odoo",
+        "description": "Odoo is an integrated suite of applications that provides ERP, CRM, inventory, and accounting modules to manage business operations efficiently.",
+        "solutionCategories": [
+            "CRM",
+            "ERP",
+            "HR"
+        ],
+        "assetsFetched": [
+            "Devices",
+            "Users",
+            "Vulnerabilities",
+            "Security Roles",
+            "Discovered Saas Applications"
         ]
     },
     {
@@ -11577,7 +11934,8 @@
             "Groups",
             "Users",
             "Load Balancers",
-            "Network Routes"
+            "Network Routes",
+            "Accounts"
         ]
     },
     {
@@ -11907,7 +12265,8 @@
             "Compute Services",
             "Vulnerabilities",
             "Discovered Saas Applications",
-            "Domains & URLs"
+            "Domains & URLs",
+            "Alert Findings"
         ]
     },
     {
@@ -11966,7 +12325,8 @@
             "Networks",
             "Firewalls",
             "Network Routes",
-            "Network Devices"
+            "Network Devices",
+            "Certificates"
         ]
     },
     {
@@ -12339,7 +12699,8 @@
             "Application Addons",
             "User Initiated Extensions",
             "Discovered Saas Applications",
-            "Certificates"
+            "Certificates",
+            "Application Services"
         ]
     },
     {
@@ -14274,6 +14635,7 @@
             "Certificate Mgmt"
         ],
         "assetsFetched": [
+            "Application Settings",
             "Users",
             "Devices",
             "Certificates"
@@ -14302,6 +14664,22 @@
         ],
         "assetsFetched": [
             "Users"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/verve_security_center_adapter.svg",
+        "name": "SecureOT (formerly Verve Security Center)",
+        "href": "/docs/Verve-Security-Center",
+        "description": "SecureOT (formerly Verve Security Center) is a cybersecurity platform that offers comprehensive protection for industrial control systems.",
+        "solutionCategories": [
+            "OT",
+            "VA Tool",
+            "Cyber Intelligence"
+        ],
+        "assetsFetched": [
+            "Devices",
+            "Vulnerabilities",
+            "Discovered Saas Applications"
         ]
     },
     {
@@ -14429,7 +14807,8 @@
         ],
         "assetsFetched": [
             "Users",
-            "Security Roles"
+            "Security Roles",
+            "Application Settings"
         ]
     },
     {
@@ -14510,6 +14889,20 @@
         "description": "Sepio is an asset risk management platform that provides visibility into organizations' hardware assets and their related security posture.",
         "solutionCategories": [
             "VA Tool"
+        ],
+        "assetsFetched": [
+            "Devices"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/seraphic_security_adapter.svg",
+        "name": "Seraphic Security",
+        "href": "/docs/seraphic-security",
+        "description": "Seraphic is a browser security platform that provides zero-trust access controls, secure web gateway capabilities, and protection against web-based threats and SaaS application risks.",
+        "solutionCategories": [
+            "Secure Web Gateways",
+            "Cloud Security",
+            "EDR/EPP"
         ],
         "assetsFetched": [
             "Devices"
@@ -14850,6 +15243,18 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/snmp_adapter.svg",
+        "name": "SNMP",
+        "href": "/docs/snmp-adapter",
+        "description": "SNMP is a network management protocol that allows for the monitoring and management of network devices.",
+        "solutionCategories": [
+            "CMDB"
+        ],
+        "assetsFetched": [
+            "Devices"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/snow_atlas_adapter.svg",
         "name": "Snow Atlas",
         "href": "/docs/Snow-Atlas",
@@ -14938,7 +15343,9 @@
             "Deception"
         ],
         "assetsFetched": [
-            "Application Resources"
+            "Application Resources",
+            "Vulnerabilities",
+            "Discovered Saas Applications"
         ]
     },
     {
@@ -15259,7 +15666,8 @@
             "Devices",
             "Databases",
             "Networks",
-            "Accounts"
+            "Accounts",
+            "Application Resources"
         ]
     },
     {
@@ -15372,6 +15780,18 @@
         ],
         "assetsFetched": [
             "Devices"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/sublime_security_adapter.svg",
+        "name": "Sublime Security",
+        "href": "/docs/Sublime-Security",
+        "description": "Sublime Security is an email security platform that provides detection and response for phishing and email threats using signals, automation, and security workflows.",
+        "solutionCategories": [
+            "Email Security"
+        ],
+        "assetsFetched": [
+            "Users"
         ]
     },
     {
@@ -15843,7 +16263,9 @@
             "Vulnerabilities",
             "Discovered Saas Applications",
             "Devices",
-            "Software"
+            "Software",
+            "Users",
+            "Certificates"
         ]
     },
     {
@@ -15908,7 +16330,8 @@
             "PAM"
         ],
         "assetsFetched": [
-            "Users"
+            "Users",
+            "Devices"
         ]
     },
     {
@@ -15987,7 +16410,9 @@
             "Software",
             "Vulnerabilities",
             "Load Balancers",
-            "Containers"
+            "Containers",
+            "Domains & URLs",
+            "Certificates"
         ]
     },
     {
@@ -16013,6 +16438,7 @@
             "External Attack Surface Management"
         ],
         "assetsFetched": [
+            "Domains & URLs",
             "Devices"
         ]
     },
@@ -16462,10 +16888,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Vulnerabilities",
             "Users",
-            "Networks",
-            "Discovered Saas Applications"
+            "Networks"
         ]
     },
     {
@@ -17007,22 +17431,6 @@
         "assetsFetched": [
             "Devices",
             "Users"
-        ]
-    },
-    {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/verve_security_center_adapter.svg",
-        "name": "Verve Security Center",
-        "href": "/docs/Verve-Security-Center",
-        "description": "Verve Security Center is a cybersecurity platform that offers comprehensive protection for industrial control systems.",
-        "solutionCategories": [
-            "OT",
-            "VA Tool",
-            "Cyber Intelligence"
-        ],
-        "assetsFetched": [
-            "Devices",
-            "Vulnerabilities",
-            "Discovered Saas Applications"
         ]
     },
     {
@@ -17951,7 +18359,11 @@
         ],
         "assetsFetched": [
             "Licenses",
-            "Discovered Saas Applications"
+            "Discovered Saas Applications",
+            "Users",
+            "Groups",
+            "Security Roles",
+            "Organizational Units"
         ]
     },
     {
@@ -18048,7 +18460,8 @@
             "Discovered Saas Applications",
             "Users",
             "Devices",
-            "Firewalls"
+            "Firewalls",
+            "Application Settings"
         ]
     },
     {
