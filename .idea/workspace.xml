@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be002e45-454c-4b6c-8add-a0d53ef6dbe3" name="Changes" comment="chore: update adapter list and icons from cortex release/8_0_20">
-      <change beforePath="$PROJECT_DIR$/Images/Cato.png" beforeDir="false" afterPath="$PROJECT_DIR$/Images/Cato.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/EditQueryIcon.png" beforeDir="false" afterPath="$PROJECT_DIR$/Images/EditQueryIcon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/NetBox.png" beforeDir="false" afterPath="$PROJECT_DIR$/Images/NetBox.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/Randori_adapter.png" beforeDir="false" afterPath="$PROJECT_DIR$/Images/Randori_adapter.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/Zabbix.png" beforeDir="false" afterPath="$PROJECT_DIR$/Images/Zabbix.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +15,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
