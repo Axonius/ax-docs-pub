@@ -896,9 +896,9 @@
     },
     {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/apple_business_manager_ade_adapter.svg",
-        "name": "Apple Business Manager v2",
+        "name": "Apple Business Manager",
         "href": "/docs/Apple-Business-Manager-Ade",
-        "description": "Apple Business Manager v2 is a web-based portal that provides device management, app distribution, and user access control for organizations integrating with Mobile Device Management (MDM) solutions.",
+        "description": "Apple Business Manager is a web-based portal that provides device management, app distribution, and user access control for organizations integrating with Mobile Device Management (MDM) solutions.",
         "solutionCategories": [
             "MDM/EMM",
             "Cloud Mgmt",
@@ -910,9 +910,9 @@
     },
     {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/apple_business_manager_adapter.svg",
-        "name": "Apple Device Management (Legacy)",
+        "name": "Apple Device Management",
         "href": "/docs/apple-business-manager",
-        "description": "Apple Device Management (Legacy) is a service that enables administrators to remotely enrol, configure, monitor and secure Apple devices via configuration profiles and commands.",
+        "description": "Apple Device Management is a service that enables administrators to remotely enrol, configure, monitor and secure Apple devices via configuration profiles and commands.",
         "solutionCategories": [
             "MDM/EMM",
             "ITAM/ITSM"
@@ -1511,19 +1511,6 @@
         "name": "Axonius BACnet Scanner",
         "href": "/docs/bacnet-scanner",
         "description": "Axonius-provided BACnet scanner, discovers BACnet devices on a network using the BACnet/IP protocol (Who-Is/I-Am)",
-        "solutionCategories": [
-            "Networking",
-            "Active Scanner"
-        ],
-        "assetsFetched": [
-            "Devices"
-        ]
-    },
-    {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/cip_scanner_adapter.svg",
-        "name": "Axonius CIP Scanner",
-        "href": "/docs/cip-scanner",
-        "description": "Axonius-provided CIP scanner, discovers EtherNet/IP devices on a network using the Common Industrial Protocol ListIdentity command (0x63)",
         "solutionCategories": [
             "Networking",
             "Active Scanner"
@@ -2432,20 +2419,6 @@
         ]
     },
     {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/bmc_helix_itsm_adapter.svg",
-        "name": "BMC Helix ITSM",
-        "href": "/docs/bmc-helix-itsm",
-        "description": "BMC Helix ITSM is an IT service management platform that provides incident, change, and problem management workflows with platform REST API integration capabilities.",
-        "solutionCategories": [
-            "ITAM/ITSM",
-            "Ticketing",
-            "CMDB"
-        ],
-        "assetsFetched": [
-            "Tickets"
-        ]
-    },
-    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/bmc_truesight_server_automation_adapter.svg",
         "name": "BMC TrueSight Automation for Servers",
         "href": "/docs/bmc-truesight-automation-for-servers",
@@ -3121,11 +3094,10 @@
             "Encryption"
         ],
         "assetsFetched": [
-            "Compute Services",
             "Devices",
+            "Compute Services",
             "Discovered Saas Applications",
-            "Licenses",
-            "Secrets"
+            "Licenses"
         ]
     },
     {
@@ -3503,8 +3475,7 @@
         ],
         "assetsFetched": [
             "Users",
-            "Devices",
-            "Application Settings"
+            "Devices"
         ]
     },
     {
@@ -4283,8 +4254,6 @@
             "Network Services",
             "Certificates",
             "Compliance Findings",
-            "Permissions",
-            "Security Roles",
             "Firewalls",
             "Load Balancers",
             "Domains & URLs",
@@ -4673,7 +4642,6 @@
         ],
         "assetsFetched": [
             "Audit Activities",
-            "Application Resources",
             "Devices",
             "Users"
         ]
@@ -6848,8 +6816,7 @@
             "Vulnerabilities",
             "Repository Vulnerabilities",
             "Software",
-            "Tickets",
-            "Accounts"
+            "Tickets"
         ]
     },
     {
@@ -7169,21 +7136,6 @@
         ]
     },
     {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/grip_security_adapter.svg",
-        "name": "Grip Security",
-        "href": "/docs/Grip-Security",
-        "description": "Grip Security is a SaaS Security Control Plane that provides continuous discovery, identity risk management, and access governance for SaaS and AI services.",
-        "solutionCategories": [
-            "Cloud Security",
-            "IAM",
-            "SaaS Management"
-        ],
-        "assetsFetched": [
-            "Users",
-            "Discovered Saas Applications"
-        ]
-    },
-    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/group_ib_adapter.svg",
         "name": "Group-IB Threat Intelligence CVE Enrichment",
         "href": "/docs/group-ib",
@@ -7465,21 +7417,6 @@
         ],
         "assetsFetched": [
             "Devices"
-        ]
-    },
-    {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/hexnode_adapter.svg",
-        "name": "Hexnode",
-        "href": "/docs/hexnode",
-        "description": "Hexnode is a unified endpoint management platform that provides device enrollment, application management, security policy enforcement, and remote management across mobile and desktop endpoints.",
-        "solutionCategories": [
-            "MDM/EMM",
-            "UEM",
-            "Config/Patch Mgmt"
-        ],
-        "assetsFetched": [
-            "Devices",
-            "Users"
         ]
     },
     {
@@ -8896,8 +8833,7 @@
         ],
         "assetsFetched": [
             "Users",
-            "Devices",
-            "Application Resources"
+            "Devices"
         ]
     },
     {
@@ -13937,8 +13873,7 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Containers",
-            "Compute Images"
+            "Containers"
         ]
     },
     {
@@ -15097,19 +15032,6 @@
         ]
     },
     {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/serval_adapter.svg",
-        "name": "Serval",
-        "href": "/docs/serval",
-        "description": "Serval is an identity and access management platform that provides user lifecycle management and access control capabilities.",
-        "solutionCategories": [
-            "IAM",
-            "ITAM/ITSM"
-        ],
-        "assetsFetched": [
-            "Users"
-        ]
-    },
-    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/service_now_adapter.svg",
         "name": "ServiceNow",
         "href": "/docs/servicenow",
@@ -15667,8 +15589,7 @@
         "assetsFetched": [
             "Devices",
             "Users",
-            "Groups",
-            "Incidents"
+            "Groups"
         ]
     },
     {
@@ -15858,8 +15779,7 @@
             "Databases",
             "Networks",
             "Accounts",
-            "Application Resources",
-            "Domains & URLs"
+            "Application Resources"
         ]
     },
     {
@@ -15930,9 +15850,7 @@
             "Audit/Compliance"
         ],
         "assetsFetched": [
-            "Devices",
-            "Discovered Saas Applications",
-            "Vulnerabilities"
+            "Devices"
         ]
     },
     {
@@ -17638,8 +17556,7 @@
         "assetsFetched": [
             "Vulnerabilities",
             "Discovered Saas Applications",
-            "Devices",
-            "Software"
+            "Devices"
         ]
     },
     {
@@ -18389,21 +18306,6 @@
         ],
         "assetsFetched": [
             "Devices"
-        ]
-    },
-    {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/yogosha_adapter.svg",
-        "name": "Yogosha",
-        "href": "/docs/Yogosha",
-        "description": "Yogosha is a penetration testing and bug bounty platform that manages security assessments, vulnerability tracking, and attack surface monitoring for digital assets.",
-        "solutionCategories": [
-            "VA Tool",
-            "Attack Surface Management"
-        ],
-        "assetsFetched": [
-            "Domains & URLs",
-            "Discovered Saas Applications",
-            "Vulnerabilities"
         ]
     },
     {
