@@ -15,13 +15,16 @@ disallow_listy = [
     'Test Ticketing',
     'WMI Info',
     'Ping Identity',
+    'Automated Financial Systems',
+    'Browser Extension Adapter',
 ]
 
 correct_names={
     "urls": "Domains & URLs",
-    "saas spplications": "Discovered SaaS applications",
+    "discovered saas applications": "SaaS Applications",
     "vulnerabilities": "Aggregated Security Findings",
-    "vulnerability instances": "Security Findings" 
+    "vulnerability instances": "Security Findings",
+    "security roles": "Roles",
 }
 
 def open_json_file(file_path):
@@ -60,6 +63,10 @@ def create_docu():
                     logo = "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/" + path
                     break
         assetsFetched = [asset.title().replace('_', ' ') for asset in adapter_details.get('assets')]
+
+        if 'Repository Vulnerabilities' in assetsFetched:
+            assetsFetched.remove('Repository Vulnerabilities')
+
         for i in assetsFetched:
             if i.lower() in correct_names:
                 assetsFetched[assetsFetched.index(i)] = correct_names[i.lower()]
