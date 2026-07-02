@@ -29,13 +29,14 @@
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/one_pwd_adapter.svg",
         "name": "1Password Account Management",
         "href": "/docs/One-Pwd",
-        "description": "1Password Account Management provides information about audit activities, including actions performed by team members in a 1Password account, such as changes made to the account, vaults, groups, users, and more.",
+        "description": "1Password Account Management provides comprehensive visibility into programmatic user operations and audit activities across a 1Password Business account. Utilizing the OAuth 2.0 REST Users API for Partners (Public Preview), the platform enables administrative user management—including listing, retrieval, suspension, and reactivation of team members—without requiring vault access. Additionally, it tracks audit activities and actions performed by team members, delivering a centralized view of changes made to the account, vaults, groups, users, and security settings.",
         "solutionCategories": [
             "Password Mgmt",
             "IAM"
         ],
         "assetsFetched": [
-            "Audit Activities"
+            "Audit Activities",
+            "Users"
         ]
     },
     {
@@ -114,7 +115,8 @@
             "Networking"
         ],
         "assetsFetched": [
-            "Devices"
+            "Devices",
+            "Load Balancers"
         ]
     },
     {
@@ -154,8 +156,9 @@
             "Email Security"
         ],
         "assetsFetched": [
-            "Users",
-            "Incidents"
+            "Incidents",
+            "Secrets",
+            "Users"
         ]
     },
     {
@@ -277,6 +280,7 @@
         "href": "/docs/acunetix",
         "description": "Acunetix is an automated web application security testing tool that checks for vulnerabilities like SQL Injection, Cross-site scripting, and other exploitable vulnerabilities.",
         "solutionCategories": [
+            "AppSec",
             "Cloud Security",
             "DevOps",
             "Risk Mgmt",
@@ -296,6 +300,7 @@
         "href": "/docs/acunetix-premium",
         "description": " Acunetix Premium is an automated web application security tool that identifies and analyzes vulnerabilities in web applications and APIs.",
         "solutionCategories": [
+            "AppSec",
             "Cyber Intelligence",
             "VA Tool"
         ],
@@ -546,6 +551,7 @@
         "href": "/docs/Akamai-Api-Security",
         "description": "Akamai API Security is an API security platform that provides API discovery, posture management, runtime threat detection, and compliance monitoring across enterprise API environments.",
         "solutionCategories": [
+            "AppSec",
             "Attack Surface Management",
             "Audit/Compliance"
         ],
@@ -561,6 +567,7 @@
         "href": "/docs/Akamai-Application-Security",
         "description": "Akamai Application Security is a solution that provides continuous API discovery, runtime threat detection, and active testing to protect APIs across environments",
         "solutionCategories": [
+            "AppSec",
             "Attack Surface Management",
             "VA Tool"
         ],
@@ -577,6 +584,7 @@
             "Cloud Infra",
             "Cloud Mgmt",
             "Cloud Security",
+            "AppSec",
             "Secure Web Gateways"
         ],
         "assetsFetched": [
@@ -603,6 +611,7 @@
         "href": "/docs/akamai-kona-waf",
         "description": "Kona Web Application Firewall provides protection against web application attacks including SQL injections, cross-site scripting, and remote file inclusion.",
         "solutionCategories": [
+            "AppSec",
             "Firewall"
         ],
         "assetsFetched": [
@@ -837,6 +846,23 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/anthropic_adapter.svg",
+        "name": "Anthropic (Claude)",
+        "href": "/docs/anthropic",
+        "description": "Anthropic is an AI assistant platform that provides enterprise administration capabilities for API key inventory, user and group management, and compliance activity monitoring.",
+        "solutionCategories": [
+            "IAM",
+            "SaaS Management",
+            "Audit/Compliance"
+        ],
+        "assetsFetched": [
+            "Secrets",
+            "Users",
+            "Groups",
+            "Security Roles"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/anvilogic_adapter.svg",
         "name": "Anvilogic",
         "href": "/docs/Anvilogic",
@@ -871,7 +897,9 @@
         "name": "Appknox",
         "href": "/docs/Appknox",
         "description": "Appknox is a tool that provides mobile app security testing and analysis. It allows you to identify and fix security vulnerabilities in your mobile apps, ensuring that they are secure and compliant with industry standards.",
-        "solutionCategories": [],
+        "solutionCategories": [
+            "AppSec"
+        ],
         "assetsFetched": [
             "Application Resources",
             "Discovered Saas Applications",
@@ -896,9 +924,9 @@
     },
     {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/apple_business_manager_ade_adapter.svg",
-        "name": "Apple Business Manager",
+        "name": "Apple Business Manager v2",
         "href": "/docs/Apple-Business-Manager-Ade",
-        "description": "Apple Business Manager is a web-based portal that provides device management, app distribution, and user access control for organizations integrating with Mobile Device Management (MDM) solutions.",
+        "description": "Apple Business Manager v2 is a web-based portal that provides device management, app distribution, and user access control for organizations integrating with Mobile Device Management (MDM) solutions.",
         "solutionCategories": [
             "MDM/EMM",
             "Cloud Mgmt",
@@ -910,9 +938,9 @@
     },
     {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/apple_business_manager_adapter.svg",
-        "name": "Apple Device Management",
+        "name": "Apple Device Management (Legacy)",
         "href": "/docs/apple-business-manager",
-        "description": "Apple Device Management is a service that enables administrators to remotely enrol, configure, monitor and secure Apple devices via configuration profiles and commands.",
+        "description": "Apple Device Management (Legacy) is a service that enables administrators to remotely enrol, configure, monitor and secure Apple devices via configuration profiles and commands.",
         "solutionCategories": [
             "MDM/EMM",
             "ITAM/ITSM"
@@ -1026,7 +1054,8 @@
         "assetsFetched": [
             "Users",
             "Devices",
-            "Applications"
+            "Applications",
+            "Application Settings"
         ]
     },
     {
@@ -1089,6 +1118,7 @@
         "href": "/docs/Armor-Code",
         "description": "ArmorCode is an application security posture management platform that provides unified exposure management, vulnerability prioritization, and remediation orchestration across security and development tooling.",
         "solutionCategories": [
+            "AppSec",
             "VA Tool",
             "Risk Mgmt"
         ],
@@ -1511,6 +1541,19 @@
         "name": "Axonius BACnet Scanner",
         "href": "/docs/bacnet-scanner",
         "description": "Axonius-provided BACnet scanner, discovers BACnet devices on a network using the BACnet/IP protocol (Who-Is/I-Am)",
+        "solutionCategories": [
+            "Networking",
+            "Active Scanner"
+        ],
+        "assetsFetched": [
+            "Devices"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/cip_scanner_adapter.svg",
+        "name": "Axonius CIP Scanner",
+        "href": "/docs/cip-scanner",
+        "description": "Axonius-provided CIP scanner, discovers EtherNet/IP devices on a network using the Common Industrial Protocol ListIdentity command (0x63)",
         "solutionCategories": [
             "Networking",
             "Active Scanner"
@@ -2071,7 +2114,9 @@
         "name": "Bionic",
         "href": "/docs/bionic",
         "description": "Bionic is an agentless platform that helps teams to manage, operate and protect applications.",
-        "solutionCategories": [],
+        "solutionCategories": [
+            "AppSec"
+        ],
         "assetsFetched": [
             "Devices"
         ]
@@ -2191,6 +2236,7 @@
         "href": "/docs/WhiteHat",
         "description": "Black Duck Continuous Dynamic (formerly NTT Application Security/WhiteHat Security) is a Dynamic Application Security Testing (DAST) tool that provides automated dynamic analysis to identify runtime vulnerabilities during application testing and development workflows.",
         "solutionCategories": [
+            "AppSec",
             "VA Tool"
         ],
         "assetsFetched": [
@@ -2419,6 +2465,20 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/bmc_helix_itsm_adapter.svg",
+        "name": "BMC Helix ITSM",
+        "href": "/docs/bmc-helix-itsm",
+        "description": "BMC Helix ITSM is an IT service management platform that provides incident, change, and problem management workflows with platform REST API integration capabilities.",
+        "solutionCategories": [
+            "ITAM/ITSM",
+            "Ticketing",
+            "CMDB"
+        ],
+        "assetsFetched": [
+            "Tickets"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/bmc_truesight_server_automation_adapter.svg",
         "name": "BMC TrueSight Automation for Servers",
         "href": "/docs/bmc-truesight-automation-for-servers",
@@ -2443,11 +2503,25 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/bold_security_adapter.svg",
+        "name": "Bold Security",
+        "href": "/docs/Bold-Security",
+        "description": "Bold Security is an endpoint security platform that provides device inventory, agent status monitoring, and browser extension protection for enrolled organizational endpoints.",
+        "solutionCategories": [
+            "EDR/EPP",
+            "IT Agent"
+        ],
+        "assetsFetched": [
+            "Devices"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/boost_security_adapter.svg",
         "name": "BoostSecurity",
         "href": "/docs/BoostSecurity",
         "description": "BoostSecurity is an application security posture management (ASPM) platform that provides repository scanning coverage, scanner visibility, and security gap analysis across developer source code environments.",
         "solutionCategories": [
+            "AppSec",
             "DevOps",
             "Audit/Compliance"
         ],
@@ -2531,6 +2605,7 @@
         "href": "/docs/Bright-Security",
         "description": "Bright Security is a dynamic application and API security testing platform that automates vulnerability detection, remediation, and validation throughout the software development lifecycle.",
         "solutionCategories": [
+            "AppSec",
             "DevOps",
             "VA Tool"
         ],
@@ -2566,6 +2641,21 @@
         "assetsFetched": [
             "Users",
             "Devices"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/broadcom_layer7_api_gateway_adapter.svg",
+        "name": "Broadcom Layer7 API Gateway",
+        "href": "/docs/Broadcom-Layer7-Api-Gateway",
+        "description": "Layer7 API Gateway is an API management platform that provides service routing, policy enforcement, traffic management, and security controls for enterprise APIs.",
+        "solutionCategories": [
+            "AppSec",
+            "Networking",
+            "IAM"
+        ],
+        "assetsFetched": [
+            "Application Resources",
+            "Users"
         ]
     },
     {
@@ -2968,6 +3058,7 @@
         "href": "/docs/Checkmarx-One",
         "description": "Checkmarx One is an application security platform that provides static and dynamic application security testing.",
         "solutionCategories": [
+            "AppSec",
             "VA Tool",
             "Security Awareness"
         ],
@@ -2983,7 +3074,9 @@
         "name": "Checkmarx SAST",
         "href": "/docs/checkmarx-sast",
         "description": "Checkmarx SAST (CxSAST) is a static application security testing solution used to identify security vulnerabilities in custom code. It is used by development, DevOps, and security teams to scan source code early in the SDLC, identify vulnerabilities, and provide actionable insights to remediate them.",
-        "solutionCategories": [],
+        "solutionCategories": [
+            "AppSec"
+        ],
         "assetsFetched": [
             "Users",
             "Devices",
@@ -3094,10 +3187,11 @@
             "Encryption"
         ],
         "assetsFetched": [
-            "Devices",
             "Compute Services",
+            "Devices",
             "Discovered Saas Applications",
-            "Licenses"
+            "Licenses",
+            "Secrets"
         ]
     },
     {
@@ -3475,7 +3569,9 @@
         ],
         "assetsFetched": [
             "Users",
-            "Devices"
+            "Devices",
+            "Application Settings",
+            "Audit Activities"
         ]
     },
     {
@@ -3652,7 +3748,8 @@
         ],
         "assetsFetched": [
             "Users",
-            "Devices"
+            "Devices",
+            "Network Services"
         ]
     },
     {
@@ -3770,6 +3867,7 @@
         ],
         "assetsFetched": [
             "Users",
+            "Domains & URLs",
             "Devices"
         ]
     },
@@ -3891,7 +3989,9 @@
         "name": "Contrast Security",
         "href": "/docs/contrast-security",
         "description": "Contrast Security protects software applications against cyberattacks.",
-        "solutionCategories": [],
+        "solutionCategories": [
+            "AppSec"
+        ],
         "assetsFetched": [
             "Vulnerabilities",
             "Discovered Saas Applications",
@@ -4012,7 +4112,8 @@
             "Domains & URLs",
             "Containers",
             "Security Roles",
-            "Accounts"
+            "Accounts",
+            "Serverless Functions"
         ]
     },
     {
@@ -4254,11 +4355,15 @@
             "Network Services",
             "Certificates",
             "Compliance Findings",
+            "Permissions",
+            "Security Roles",
             "Firewalls",
             "Load Balancers",
             "Domains & URLs",
             "Network Routes",
-            "Licenses"
+            "Licenses",
+            "Application Settings",
+            "Compute Services"
         ]
     },
     {
@@ -4283,7 +4388,9 @@
             "PAM"
         ],
         "assetsFetched": [
-            "Devices"
+            "Devices",
+            "Discovered Saas Applications",
+            "Software"
         ]
     },
     {
@@ -4507,6 +4614,7 @@
         "description": "Data Theorem is an application security platform focusing on API Security, Web Security, Mobile Security, and Cloud Security.",
         "solutionCategories": [
             "Cloud Security",
+            "AppSec",
             "Data Security"
         ],
         "assetsFetched": [
@@ -4567,6 +4675,7 @@
         "href": "/docs/Dazz",
         "description": "Dazz provides automated remediation processes for applications, code, clouds, and infrastructure.",
         "solutionCategories": [
+            "AppSec",
             "Attack Surface Management",
             "VA Tool"
         ],
@@ -4594,6 +4703,7 @@
         "href": "/docs/Defect-Dojo",
         "description": "DefectDojo is an application security orchestration and vulnerability management platform that provides centralized tracking and workflow automation for security findings",
         "solutionCategories": [
+            "AppSec",
             "Risk Mgmt",
             "VA Tool"
         ],
@@ -4642,6 +4752,7 @@
         ],
         "assetsFetched": [
             "Audit Activities",
+            "Application Resources",
             "Devices",
             "Users"
         ]
@@ -4885,11 +4996,11 @@
         "href": "/docs/Detectify",
         "description": "Detectify is an external attack surface management platform that provides continuous asset discovery and dynamic automated security testing to identify vulnerabilities across web applications and domains.",
         "solutionCategories": [
+            "AppSec",
             "Attack Surface Management",
             "VA Tool"
         ],
         "assetsFetched": [
-            "Devices",
             "Domains & URLs",
             "Vulnerabilities",
             "Discovered Saas Applications"
@@ -5235,6 +5346,7 @@
         "href": "/docs/dryrun-security",
         "description": "DryRun Security is an AI-native application security solution that provides contextual code analysis and automated security insights to detect and mitigate vulnerabilities during software development workflows.",
         "solutionCategories": [
+            "AppSec",
             "VA Tool",
             "DevOps"
         ],
@@ -5252,7 +5364,8 @@
         ],
         "assetsFetched": [
             "Users",
-            "Devices"
+            "Devices",
+            "Application Settings"
         ]
     },
     {
@@ -5324,6 +5437,20 @@
         "assetsFetched": [
             "Devices",
             "Users"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/easy_dns_adapter.svg",
+        "name": "EasyDNS",
+        "href": "/docs/Easy-DNS",
+        "description": "EasyDNS is a domain registrar and DNS management platform that provides domain registration, zone management, and DNS record configuration services.",
+        "solutionCategories": [
+            "Attack Surface Management",
+            "IPAM",
+            "Networking"
+        ],
+        "assetsFetched": [
+            "Network Services"
         ]
     },
     {
@@ -6005,7 +6132,8 @@
         "description": "F5 Distributed Cloud is a cloud-based security and application management platform.",
         "solutionCategories": [
             "Cloud Security",
-            "Cloud Mgmt"
+            "Cloud Mgmt",
+            "AppSec"
         ],
         "assetsFetched": [
             "Devices",
@@ -6050,7 +6178,8 @@
         "description": "Fastly is an edge cloud platform that provides content delivery, network acceleration, API security, DDoS protection and web application firewall services to process, deliver and secure traffic.",
         "solutionCategories": [
             "Cloud Infra",
-            "Cloud Security"
+            "Cloud Security",
+            "AppSec"
         ],
         "assetsFetched": [
             "Certificates"
@@ -6082,6 +6211,22 @@
         ],
         "assetsFetched": [
             "Devices"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/figma_adapter.svg",
+        "name": "Figma",
+        "href": "/docs/Figma",
+        "description": "Figma is a design platform that provides collaborative interface design, prototyping, design system management, and developer handoff capabilities for product teams.",
+        "solutionCategories": [
+            "Collaboration",
+            "License Mgmt",
+            "SaaS Management"
+        ],
+        "assetsFetched": [
+            "Users",
+            "Groups",
+            "Audit Activities"
         ]
     },
     {
@@ -6438,6 +6583,7 @@
         "href": "/docs/Fortify-On-Demand",
         "description": "Fortify On Demand delivers application security as a service, providing security testing and vulnerability management.",
         "solutionCategories": [
+            "AppSec",
             "VA Tool"
         ],
         "assetsFetched": [
@@ -6452,7 +6598,9 @@
         "name": "Fortify Software Security Center",
         "href": "/docs/fortify-software-security-center",
         "description": "Fortify Software offers security assurance solutions that address the threats posed by security flaws in business-critical software apps.",
-        "solutionCategories": [],
+        "solutionCategories": [
+            "AppSec"
+        ],
         "assetsFetched": [
             "Devices"
         ]
@@ -6590,7 +6738,10 @@
             "Networking"
         ],
         "assetsFetched": [
-            "Users"
+            "Users",
+            "Software",
+            "Devices",
+            "Discovered Saas Applications"
         ]
     },
     {
@@ -6644,7 +6795,8 @@
             "Ticketing"
         ],
         "assetsFetched": [
-            "Users"
+            "Users",
+            "Tickets"
         ]
     },
     {
@@ -6776,6 +6928,7 @@
         "href": "/docs/Git-Guardian",
         "description": "GitGuardian is a security platform that offers secret detection and monitoring for code repositories.",
         "solutionCategories": [
+            "AppSec",
             "Cyber Intelligence"
         ],
         "assetsFetched": [
@@ -6816,7 +6969,8 @@
             "Vulnerabilities",
             "Repository Vulnerabilities",
             "Software",
-            "Tickets"
+            "Tickets",
+            "Accounts"
         ]
     },
     {
@@ -7034,6 +7188,28 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/google_threat_intelligence_asm_adapter.svg",
+        "name": "Google Threat Intelligence Attack Surface Management (ASM)",
+        "href": "/docs/Google-Threat-Intelligence-Asm",
+        "description": "Google Threat Intelligence ASM is an attack surface management platform that provides continuous discovery, external asset monitoring, exposure analysis, and threat intelligence context for internet-facing environments.",
+        "solutionCategories": [
+            "Attack Surface Management",
+            "Cyber Intelligence",
+            "VA Tool"
+        ],
+        "assetsFetched": [
+            "Domains & URLs",
+            "Discovered Saas Applications",
+            "Networks",
+            "Network Services",
+            "Object Storages",
+            "Certificates",
+            "Users",
+            "Secrets",
+            "Vulnerabilities"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/google_threat_intel_adapter.svg",
         "name": "Google Threat Intelligence Vulnerability Intelligence",
         "href": "/docs/Google-Threat-Intelligence-Vulnerability-Intelligence",
@@ -7096,6 +7272,22 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/grammarly_adapter.svg",
+        "name": "Grammarly",
+        "href": "/docs/grammarly",
+        "description": "Grammarly is an enterprise writing assistance platform that provides AI-powered grammar, style, and tone suggestions along with license management and usage analytics for organizations.",
+        "solutionCategories": [
+            "SaaS Management",
+            "Collaboration",
+            "License Mgmt"
+        ],
+        "assetsFetched": [
+            "Discovered Saas Applications",
+            "Licenses",
+            "Users"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/openvas_adapter.svg",
         "name": "Greenbone Vulnerability Management (OpenVAS)",
         "href": "/docs/openvas",
@@ -7133,6 +7325,21 @@
             "Vulnerabilities",
             "Discovered Saas Applications",
             "Devices"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/grip_security_adapter.svg",
+        "name": "Grip Security",
+        "href": "/docs/Grip-Security",
+        "description": "Grip Security is a SaaS Security Control Plane that provides continuous discovery, identity risk management, and access governance for SaaS and AI services.",
+        "solutionCategories": [
+            "Cloud Security",
+            "IAM",
+            "SaaS Management"
+        ],
+        "assetsFetched": [
+            "Users",
+            "Discovered Saas Applications"
         ]
     },
     {
@@ -7211,7 +7418,8 @@
         "description": "HackerOne is a vulnerability coordination platform that provides bug bounty programs, penetration testing, and coordinated disclosure for ethical security research.",
         "solutionCategories": [
             "VA Tool",
-            "Risk Mgmt"
+            "Risk Mgmt",
+            "AppSec"
         ],
         "assetsFetched": [
             "Devices",
@@ -7373,7 +7581,8 @@
         "description": "hCaptcha is a privacy-focused service that protects online applications from spam, bots, and other automated threats.",
         "solutionCategories": [
             "Collaboration",
-            "Secure Web Gateways"
+            "Secure Web Gateways",
+            "AppSec"
         ],
         "assetsFetched": [
             "Users"
@@ -7386,7 +7595,8 @@
         "description": "HCL AppScan is an application security tool that provides vulnerability assessment and management.",
         "solutionCategories": [
             "DevOps",
-            "VA Tool"
+            "VA Tool",
+            "AppSec"
         ],
         "assetsFetched": [
             "Business Applications",
@@ -7417,6 +7627,21 @@
         ],
         "assetsFetched": [
             "Devices"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/hexnode_adapter.svg",
+        "name": "Hexnode",
+        "href": "/docs/hexnode",
+        "description": "Hexnode is a unified endpoint management platform that provides device enrollment, application management, security policy enforcement, and remote management across mobile and desktop endpoints.",
+        "solutionCategories": [
+            "MDM/EMM",
+            "UEM",
+            "Config/Patch Mgmt"
+        ],
+        "assetsFetched": [
+            "Devices",
+            "Users"
         ]
     },
     {
@@ -8204,6 +8429,7 @@
         "href": "/docs/Immuniweb",
         "description": " ImmuniWeb develops machine learning and AI technologies providing continuous monitoring for web applications and APIs.",
         "solutionCategories": [
+            "AppSec",
             "DevOps"
         ],
         "assetsFetched": [
@@ -8232,6 +8458,7 @@
         "href": "/docs/Imperva-Waf",
         "description": "Imperva Web Application Firewall (WAF) allows customers to monitor, filter, and block incoming and outgoing data packets from a web application or website.",
         "solutionCategories": [
+            "AppSec",
             "Firewall"
         ],
         "assetsFetched": [
@@ -8246,6 +8473,7 @@
         "href": "/docs/Imperva-Waf-Cloud",
         "description": "Imperva Web Application Firewall (WAF) allows customers to monitor, filter, and block incoming and outgoing data packets from a web application or website.",
         "solutionCategories": [
+            "AppSec",
             "Firewall"
         ],
         "assetsFetched": [
@@ -8267,6 +8495,22 @@
         ],
         "assetsFetched": [
             "Users"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/industrial_defender_asm_adapter.svg",
+        "name": "Industrial Defender ASM (Automation Systems Manager)",
+        "href": "/docs/Industrial-Defender-Asm",
+        "description": "Industrial Defender ASM (Automation Systems Manager) is an OT cyber risk management platform providing asset inventory, vulnerability management, configuration monitoring, and compliance reporting for industrial control system environments.",
+        "solutionCategories": [
+            "OT",
+            "VA Tool",
+            "Audit/Compliance"
+        ],
+        "assetsFetched": [
+            "Devices",
+            "Vulnerabilities",
+            "Discovered Saas Applications"
         ]
     },
     {
@@ -8504,7 +8748,9 @@
         "name": "Invicti",
         "href": "/docs/invicti",
         "description": "Invicti (formerly Netsparker) is DAST and IAST vulnerability scanning for web applications ",
-        "solutionCategories": [],
+        "solutionCategories": [
+            "AppSec"
+        ],
         "assetsFetched": [
             "Vulnerabilities",
             "Discovered Saas Applications",
@@ -8833,7 +9079,8 @@
         ],
         "assetsFetched": [
             "Users",
-            "Devices"
+            "Devices",
+            "Application Resources"
         ]
     },
     {
@@ -8842,6 +9089,7 @@
         "href": "/docs/JFrog-Xray",
         "description": "JFrog Xray is a software composition analysis (SCA) tool that scans software artifacts for security vulnerabilities, open source license compliance, and software quality.",
         "solutionCategories": [
+            "AppSec",
             "DevOps",
             "VA Tool"
         ],
@@ -8868,7 +9116,9 @@
             "Databases",
             "Software",
             "Discovered Saas Applications",
-            "Firewalls"
+            "Firewalls",
+            "Domains & URLs",
+            "Groups"
         ]
     },
     {
@@ -9290,6 +9540,21 @@
         "assetsFetched": [
             "Users",
             "Devices"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/lenovo_device_orchestration_adapter.svg",
+        "name": "Lenovo Device Orchestration",
+        "href": "/docs/lenovo-device-orchestration",
+        "description": "Lenovo Device Orchestration is a device management platform that provides AI-driven fleet health monitoring, hardware diagnostics, warranty tracking, and software update orchestration for Lenovo endpoints.",
+        "solutionCategories": [
+            "UEM",
+            "RMM",
+            "Infra Monitoring"
+        ],
+        "assetsFetched": [
+            "Devices",
+            "Users"
         ]
     },
     {
@@ -9934,6 +10199,7 @@
         "href": "/docs/Mend-Io",
         "description": "Mend.io is a software tool that provides automated open-source security and compliance management.",
         "solutionCategories": [
+            "AppSec",
             "DevOps"
         ],
         "assetsFetched": [
@@ -9986,55 +10252,6 @@
         "description": "Metasys is a building management system that provides integrated control and monitoring of facility operations.",
         "solutionCategories": [
             "Infra Monitoring"
-        ],
-        "assetsFetched": [
-            "Devices"
-        ]
-    },
-    {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/microfocus_groupwise_adapter.svg",
-        "name": "Micro Focus GroupWise",
-        "href": "/docs/micro-focus-groupwise",
-        "description": "Micro Focus GroupWise is a collaboration software solution that provides email, calendaring, and instant messaging.",
-        "solutionCategories": [
-            "Collaboration"
-        ],
-        "assetsFetched": [
-            "Users"
-        ]
-    },
-    {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/microfocus_sa_adapter.svg",
-        "name": "Micro Focus Server Automation (HP Server Automation, Opsware)",
-        "href": "/docs/microfocus-sa",
-        "description": "Micro Focus Server Automation (formerly known as HP Server Automation or Opsware) provides operating system provisioning, automated patch management, and compliance control.",
-        "solutionCategories": [
-            "Config/Patch Mgmt"
-        ],
-        "assetsFetched": [
-            "Devices"
-        ]
-    },
-    {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/hp_sitescope_adapter.svg",
-        "name": "Micro Focus SiteScope",
-        "href": "/docs/sitescope",
-        "description": "Micro Focus SiteScope (previously HPE SiteScope) provides monitoring capabilities for IT infrastructure, including servers, databases, network, media, and more. ",
-        "solutionCategories": [
-            "Cloud Mgmt",
-            "Infra Monitoring"
-        ],
-        "assetsFetched": [
-            "Devices"
-        ]
-    },
-    {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/universal_cmdb_adapter.svg",
-        "name": "Micro Focus Universal CMDB",
-        "href": "/docs/Universal-Cmdb",
-        "description": "Micro Focus Universal Discovery and Universal CMDB discovers, maps, and manages IT configurations.",
-        "solutionCategories": [
-            "CMDB"
         ],
         "assetsFetched": [
             "Devices"
@@ -10663,6 +10880,7 @@
         "description": "Morphisec Unified Threat Prevention Platform provides centralized control, monitoring, and configuration of Morphisec’s endpoint security solutions.",
         "solutionCategories": [
             "EDR/EPP",
+            "AppSec",
             "Config/Patch Mgmt"
         ],
         "assetsFetched": [
@@ -11434,7 +11652,8 @@
         "assetsFetched": [
             "Vulnerabilities",
             "Discovered Saas Applications",
-            "Devices"
+            "Devices",
+            "Users"
         ]
     },
     {
@@ -11610,7 +11829,8 @@
             "Networking"
         ],
         "assetsFetched": [
-            "Devices"
+            "Devices",
+            "Network Devices"
         ]
     },
     {
@@ -11682,6 +11902,7 @@
         "href": "/docs/Oligo",
         "description": "Oligo is a runtime application security platform that provides protection against vulnerabilities in open-source code.",
         "solutionCategories": [
+            "AppSec",
             "VA Tool"
         ],
         "assetsFetched": [
@@ -11768,6 +11989,20 @@
         "description": "OnDMARC provides automated management for DMARC, DKIM and SPF records.",
         "solutionCategories": [
             "Email Security"
+        ],
+        "assetsFetched": [
+            "Devices"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/one_identity_safeguard_adapter.svg",
+        "name": "One Identity Safeguard",
+        "href": "/docs/One-Identity-Safeguard",
+        "description": "One Identity Safeguard is a privileged access management solution that provides automated credential vaulting, session monitoring, and access request workflow for managed assets and accounts.",
+        "solutionCategories": [
+            "IAM",
+            "PAM",
+            "Audit/Compliance"
         ],
         "assetsFetched": [
             "Devices"
@@ -11919,7 +12154,34 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Compute Services"
+            "Compute Services",
+            "Networks",
+            "Network Services",
+            "Load Balancers"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/microfocus_groupwise_adapter.svg",
+        "name": "OpenText GroupWise",
+        "href": "/docs/micro-focus-groupwise",
+        "description": "OpenText GroupWise (formerly Micro Focus GroupWise) is a secure email, messaging, calendaring, contact management, and scheduling collaboration platform.",
+        "solutionCategories": [
+            "Collaboration"
+        ],
+        "assetsFetched": [
+            "Users"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/microfocus_sa_adapter.svg",
+        "name": "OpenText Server Automation",
+        "href": "/docs/microfocus-sa",
+        "description": "OpenText Server Automation (formerly Micro Focus Server Automation, HP Server Automation, and Opsware) provides operating system provisioning, automated patch management, and compliance control across physical and virtual servers.",
+        "solutionCategories": [
+            "Config/Patch Mgmt"
+        ],
+        "assetsFetched": [
+            "Devices"
         ]
     },
     {
@@ -11934,6 +12196,31 @@
         ],
         "assetsFetched": [
             "Tickets"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/hp_sitescope_adapter.svg",
+        "name": "OpenText SiteScope",
+        "href": "/docs/sitescope",
+        "description": "OpenText SiteScope (formerly Micro Focus SiteScope and HPE SiteScope) provides agentless monitoring of IT infrastructure, including servers, databases, network, media, and applications.",
+        "solutionCategories": [
+            "Cloud Mgmt",
+            "Infra Monitoring"
+        ],
+        "assetsFetched": [
+            "Devices"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/universal_cmdb_adapter.svg",
+        "name": "OpenText Universal CMDB",
+        "href": "/docs/Universal-Cmdb",
+        "description": "OpenText Universal Discovery and Universal CMDB (formerly Micro Focus Universal CMDB) discovers, maps, and manages IT configurations and their relationships across on-premises and cloud environments.",
+        "solutionCategories": [
+            "CMDB"
+        ],
+        "assetsFetched": [
+            "Devices"
         ]
     },
     {
@@ -12045,7 +12332,10 @@
             "Users",
             "Load Balancers",
             "Network Routes",
-            "Accounts"
+            "Accounts",
+            "Secrets",
+            "Configurations",
+            "Object Storages"
         ]
     },
     {
@@ -13470,7 +13760,8 @@
         "href": "/docs/Qualys-Was",
         "description": "Qualys WAS is a web application scanning tool for identifying vulnerabilities in web applications.",
         "solutionCategories": [
-            "VA Tool"
+            "VA Tool",
+            "AppSec"
         ],
         "assetsFetched": [
             "Application Services",
@@ -13609,6 +13900,7 @@
         "href": "/docs/Rapid7-Insight-Appsec",
         "description": "Rapid7 Insight AppSec performs black-box security testing to identify vulnerabilities, triage vulnerabilities, prioritize actions, and remediate application risk.",
         "solutionCategories": [
+            "AppSec",
             "VA Tool",
             "Risk Mgmt"
         ],
@@ -13873,7 +14165,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Containers"
+            "Containers",
+            "Compute Images"
         ]
     },
     {
@@ -14688,6 +14981,7 @@
         "href": "/docs/SD-Elements",
         "description": "SD Elements is a threat modeling and security requirements management platform that automates the identification of security controls and compliance requirements throughout the software development lifecycle.",
         "solutionCategories": [
+            "AppSec",
             "DevOps",
             "Audit/Compliance"
         ],
@@ -14867,6 +15161,7 @@
         "href": "/docs/security-journey",
         "description": "Security Journey is a secure coding training platform that offers hands‑on lessons, assessments, and a reporting API for capturing developer learning metrics.",
         "solutionCategories": [
+            "AppSec",
             "Security Awareness",
             "Audit/Compliance"
         ],
@@ -15032,6 +15327,19 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/serval_adapter.svg",
+        "name": "Serval",
+        "href": "/docs/serval",
+        "description": "Serval is an identity and access management platform that provides user lifecycle management and access control capabilities.",
+        "solutionCategories": [
+            "IAM",
+            "ITAM/ITSM"
+        ],
+        "assetsFetched": [
+            "Users"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/service_now_adapter.svg",
         "name": "ServiceNow",
         "href": "/docs/servicenow",
@@ -15156,7 +15464,9 @@
         "name": "Signal Sciences",
         "href": "/docs/signal-sciences",
         "description": "Signal Sciences is a web protection platform that protects on-premise, multi-cloud and hybrid-cloud apps, within containers and serverless functions.",
-        "solutionCategories": [],
+        "solutionCategories": [
+            "AppSec"
+        ],
         "assetsFetched": [
             "Devices"
         ]
@@ -15273,7 +15583,7 @@
         ]
     },
     {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/smarthub_infer_adapter.ai.svg",
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/smarthub_infer_adapter.svg",
         "name": "SmartHub INFER",
         "href": "/docs/Smarthub-Infer",
         "description": "SmartHub INFER is a unified endpoint lifecycle management solution for edge devices that provides visibility, monitoring, asset management, and security.",
@@ -15433,6 +15743,7 @@
         "href": "/docs/snyk",
         "description": "Snyk is a developer security platform integrating directly into development tools, workflows, and automation pipelines.",
         "solutionCategories": [
+            "AppSec",
             "Containers",
             "DevOps",
             "Software Development Version Control"
@@ -15452,6 +15763,7 @@
         "href": "/docs/Socket",
         "description": "Socket is a developer-first platform that provides real-time monitoring and static analysis to prevent supply chain attacks in open source dependencies.",
         "solutionCategories": [
+            "AppSec",
             "Deception"
         ],
         "assetsFetched": [
@@ -15525,6 +15837,7 @@
         "href": "/docs/Sonar-Qube-Server",
         "description": "SonarQube Server is a tool that provides automated code review and static analysis to detect coding issues and enforce quality rules.",
         "solutionCategories": [
+            "AppSec",
             "DevOps",
             "VA Tool"
         ],
@@ -15541,6 +15854,7 @@
         "href": "/docs/Sonatype",
         "description": "Sonatype provides software supply chain management with a focus on speed and security in open source development.",
         "solutionCategories": [
+            "AppSec",
             "DevOps"
         ],
         "assetsFetched": [
@@ -15589,7 +15903,8 @@
         "assetsFetched": [
             "Devices",
             "Users",
-            "Groups"
+            "Groups",
+            "Incidents"
         ]
     },
     {
@@ -15779,7 +16094,8 @@
             "Databases",
             "Networks",
             "Accounts",
-            "Application Resources"
+            "Application Resources",
+            "Domains & URLs"
         ]
     },
     {
@@ -15850,7 +16166,9 @@
             "Audit/Compliance"
         ],
         "assetsFetched": [
-            "Devices"
+            "Devices",
+            "Discovered Saas Applications",
+            "Vulnerabilities"
         ]
     },
     {
@@ -16457,7 +16775,20 @@
         "assetsFetched": [
             "Devices",
             "Vulnerabilities",
-            "Discovered Saas Applications"
+            "Discovered Saas Applications",
+            "Containers",
+            "Users",
+            "Security Roles",
+            "Groups",
+            "Databases",
+            "Object Storages",
+            "Accounts",
+            "Networks",
+            "Load Balancers",
+            "Firewalls",
+            "Serverless Functions",
+            "Secrets",
+            "Certificates"
         ]
     },
     {
@@ -16777,6 +17108,7 @@
         "description": "Titan is a security platform that offers comprehensive protection and management for digital assets.",
         "solutionCategories": [
             "Risk Mgmt",
+            "AppSec",
             "VA Tool"
         ],
         "assetsFetched": [
@@ -17022,7 +17354,9 @@
         "name": "TrueFort",
         "href": "/docs/truefort",
         "description": "TrueFort offers application behavior analytics, control, and protection.",
-        "solutionCategories": [],
+        "solutionCategories": [
+            "AppSec"
+        ],
         "assetsFetched": [
             "Devices"
         ]
@@ -17189,6 +17523,18 @@
         "assetsFetched": [
             "Users",
             "Permissions"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/ukg_pro_hcm_raas_adapter.svg",
+        "name": "UKG Pro HCM Reports-as-a-Service (RaaS)",
+        "href": "/docs/Ukg-Pro-Hcm-Raas",
+        "description": "UKG Pro HCM Reports-as-a-Service is a SOAP-based web service that provides programmatic access to IBM Cognos reports for retrieving HRIS data such as employee, payroll, and benefits information.",
+        "solutionCategories": [
+            "HR"
+        ],
+        "assetsFetched": [
+            "Users"
         ]
     },
     {
@@ -17511,12 +17857,14 @@
         "href": "/docs/Veracode",
         "description": "Veracode provides static, dynamic, and software composition scanning to identify vulnerabilities in the software development lifecycle. ",
         "solutionCategories": [
+            "AppSec",
             "VA Tool"
         ],
         "assetsFetched": [
             "Vulnerabilities",
             "Discovered Saas Applications",
-            "Devices"
+            "Devices",
+            "Business Applications"
         ]
     },
     {
@@ -17556,7 +17904,8 @@
         "assetsFetched": [
             "Vulnerabilities",
             "Discovered Saas Applications",
-            "Devices"
+            "Devices",
+            "Software"
         ]
     },
     {
@@ -17791,6 +18140,7 @@
         "href": "/docs/vulcan",
         "description": "The Vulcan Cyber ExposureOS is designed to help information security teams aggregate, correlate, prioritize, and remediate exposure risk across all attack surfaces, from one platform.",
         "solutionCategories": [
+            "AppSec",
             "VA Tool"
         ],
         "assetsFetched": [
@@ -18306,6 +18656,22 @@
         ],
         "assetsFetched": [
             "Devices"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/yogosha_adapter.svg",
+        "name": "Yogosha",
+        "href": "/docs/Yogosha",
+        "description": "Yogosha is a penetration testing and bug bounty platform that manages security assessments, vulnerability tracking, and attack surface monitoring for digital assets.",
+        "solutionCategories": [
+            "AppSec",
+            "VA Tool",
+            "Attack Surface Management"
+        ],
+        "assetsFetched": [
+            "Domains & URLs",
+            "Discovered Saas Applications",
+            "Vulnerabilities"
         ]
     },
     {
