@@ -2281,6 +2281,23 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/black_duck_polaris_adapter.svg",
+        "name": "Black Duck Polaris",
+        "href": "/docs/Black-Duck-Polaris",
+        "description": "Black Duck Polaris is an application security platform that offers static analysis, software composition analysis, and dynamic testing across application portfolios and projects.",
+        "solutionCategories": [
+            "AppSec",
+            "DevOps",
+            "VA Tool"
+        ],
+        "assetsFetched": [
+            "Vulnerabilities",
+            "Discovered Saas Applications",
+            "Application Resources",
+            "Business Applications"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/black_kite_adapter.svg",
         "name": "Black Kite",
         "href": "/docs/black-kite",
@@ -2338,6 +2355,20 @@
         ],
         "assetsFetched": [
             "Incidents"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/blancco_management_portal_adapter.svg",
+        "name": "Blancco Management Portal",
+        "href": "/docs/Blancco-Management-Portal",
+        "description": "Blancco Management Portal is a data erasure management platform that provides centralized visibility, certified audit reporting, and device lifecycle tracking for enterprise IT decommissioning workflows.",
+        "solutionCategories": [
+            "Data Security",
+            "ITAM/ITSM",
+            "Audit/Compliance"
+        ],
+        "assetsFetched": [
+            "Devices"
         ]
     },
     {
@@ -3430,6 +3461,20 @@
         "assetsFetched": [
             "Devices",
             "Network Devices"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/cisco_iotcc_adapter.svg",
+        "name": "Cisco IoT Control Center (IoTCC)",
+        "href": "/docs/Cisco-Iotcc",
+        "description": "Cisco IoT Control Center is a connectivity management platform that offers device activation, usage monitoring, rate plan administration, and security controls for cellular IoT deployments.",
+        "solutionCategories": [
+            "ITAM/ITSM",
+            "IoT",
+            "Networking"
+        ],
+        "assetsFetched": [
+            "Devices"
         ]
     },
     {
@@ -5962,7 +6007,8 @@
             "SIEM"
         ],
         "assetsFetched": [
-            "Devices"
+            "Devices",
+            "Application Settings"
         ]
     },
     {
@@ -6810,7 +6856,8 @@
             "Users",
             "Software",
             "Devices",
-            "Discovered Saas Applications"
+            "Discovered Saas Applications",
+            "Vulnerabilities"
         ]
     },
     {
@@ -6963,7 +7010,8 @@
         ],
         "assetsFetched": [
             "Users",
-            "Application Settings"
+            "Application Settings",
+            "Security Roles"
         ]
     },
     {
@@ -7200,7 +7248,8 @@
             "Application Services",
             "Network Routes",
             "Network Devices",
-            "Domains & URLs"
+            "Domains & URLs",
+            "Secrets"
         ]
     },
     {
@@ -7724,7 +7773,9 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Users"
+            "Users",
+            "Software",
+            "Discovered Saas Applications"
         ]
     },
     {
@@ -8450,7 +8501,9 @@
             "ITAM/ITSM"
         ],
         "assetsFetched": [
-            "Devices"
+            "Devices",
+            "Software",
+            "Discovered Saas Applications"
         ]
     },
     {
@@ -8681,7 +8734,8 @@
             "Networking"
         ],
         "assetsFetched": [
-            "Devices"
+            "Devices",
+            "Application Settings"
         ]
     },
     {
@@ -8841,6 +8895,23 @@
             "Vulnerabilities",
             "Discovered Saas Applications",
             "Devices",
+            "Domains & URLs"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/invicti_platform_cloud_adapter.svg",
+        "name": "Invicti Platform Cloud",
+        "href": "/docs/invicti-platform-cloud",
+        "description": "Invicti Platform is a dynamic application security testing platform that provides proof-based web application and API vulnerability scanning.",
+        "solutionCategories": [
+            "AppSec",
+            "Attack Surface Management",
+            "VA Tool"
+        ],
+        "assetsFetched": [
+            "Vulnerabilities",
+            "Discovered Saas Applications",
+            "Business Applications",
             "Domains & URLs"
         ]
     },
@@ -9755,8 +9826,7 @@
         "href": "/docs/linux-ssh",
         "description": "Linux Secure Shell uses remote command execution over the SSH protocol to gather information about the endpoint Linux machine.",
         "solutionCategories": [
-            "ITAM/ITSM",
-            "Active Scanner"
+            "ITAM/ITSM"
         ],
         "assetsFetched": [
             "Devices"
@@ -10232,6 +10302,26 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/mashery_adapter.svg",
+        "name": "Mashery (Boomi Cloud API Management)",
+        "href": "/docs/Mashery",
+        "description": "Mashery is an API management platform that provides API lifecycle management, access control, security monitoring, and analytics for enterprise APIs and connected applications.",
+        "solutionCategories": [
+            "AppSec",
+            "IAM",
+            "SaaS Management"
+        ],
+        "assetsFetched": [
+            "Application Services",
+            "Business Applications",
+            "Organizational Units",
+            "Secrets",
+            "Security Roles",
+            "Domains & URLs",
+            "Users"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/masscan_adapter.svg",
         "name": "Masscan",
         "href": "/docs/masscan",
@@ -10414,7 +10504,9 @@
             "Configurations",
             "Cloud Security Exposures",
             "Network Routes",
-            "Software"
+            "Software",
+            "File Systems",
+            "Domains & URLs"
         ]
     },
     {
@@ -10583,7 +10675,8 @@
             "Software",
             "Organizational Units",
             "Certificates",
-            "Application Resources"
+            "Application Resources",
+            "Domains & URLs"
         ]
     },
     {
@@ -10826,6 +10919,21 @@
         ],
         "assetsFetched": [
             "Devices"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/mindtickle_adapter.svg",
+        "name": "Mindtickle",
+        "href": "/docs/Mindtickle",
+        "description": "Mindtickle is a sales enablement platform that offers sales readiness training, content management, conversation intelligence, and coaching tools for revenue teams.",
+        "solutionCategories": [
+            "Collaboration",
+            "CRM",
+            "HR"
+        ],
+        "assetsFetched": [
+            "Users",
+            "Groups"
         ]
     },
     {
@@ -12760,7 +12868,9 @@
         ],
         "assetsFetched": [
             "Users",
-            "Tickets"
+            "Tickets",
+            "Licenses",
+            "Discovered Saas Applications"
         ]
     },
     {
@@ -15400,7 +15510,8 @@
             "Devices",
             "Vulnerabilities",
             "Domains & URLs",
-            "Discovered Saas Applications"
+            "Discovered Saas Applications",
+            "Software"
         ]
     },
     {
@@ -15433,6 +15544,20 @@
             "Users",
             "Security Roles",
             "Application Settings"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/sel_blueframe_adapter.svg",
+        "name": "SEL Blueframe",
+        "href": "/docs/Sel-Blueframe",
+        "description": "SEL Data Management and Automation (DMA) is a platform that provides configuration monitoring, data collection, and automation capabilities for SEL (Schweitzer Engineering Laboratories) devices deployed in industrial and critical infrastructure environments.",
+        "solutionCategories": [
+            "Config/Patch Mgmt",
+            "ITAM/ITSM",
+            "OT"
+        ],
+        "assetsFetched": [
+            "Devices"
         ]
     },
     {
@@ -15798,6 +15923,19 @@
             "Application Addon Instances",
             "Application Keys",
             "User Initiated Extension Instances"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/smart_sd_adapter.svg",
+        "name": "Smart SD",
+        "href": "/docs/Smart-SD",
+        "description": "Smart SD is an IT asset inventory and site management platform that provides asset tracking, site membership enrichment, and incident ticketing support.",
+        "solutionCategories": [
+            "CMDB",
+            "ITAM/ITSM"
+        ],
+        "assetsFetched": [
+            "Devices"
         ]
     },
     {
@@ -16267,7 +16405,8 @@
             "Admin Managed Extension Instances",
             "User Initiated Extensions",
             "Admin Managed Extensions",
-            "Containers"
+            "Containers",
+            "Application Settings"
         ]
     },
     {
@@ -16426,6 +16565,19 @@
         "solutionCategories": [
             "Config/Patch Mgmt",
             "Audit/Compliance"
+        ],
+        "assetsFetched": [
+            "Devices"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/strong_dm_adapter.svg",
+        "name": "StrongDM",
+        "href": "/docs/strongdm",
+        "description": "StrongDM is a Privileged Access Management platform that delegates access to databases, servers, clusters, websites, and clouds through a proxy network.",
+        "solutionCategories": [
+            "PAM",
+            "IAM"
         ],
         "assetsFetched": [
             "Devices"
@@ -17268,7 +17420,8 @@
         "assetsFetched": [
             "Software",
             "Discovered Saas Applications",
-            "Devices"
+            "Devices",
+            "Application Settings"
         ]
     },
     {
@@ -17777,9 +17930,9 @@
     },
     {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/ultipro_adapter.svg",
-        "name": "UKG Pro (Ultimate Software UltiPro)",
-        "href": "/docs/ukg-pro-ultimate-software-ultipro",
-        "description": "UKG Pro (formerly Ultimate Software UltiPro) is cloud-based human capital management (HCM) software.",
+        "name": "UKG Pro",
+        "href": "/docs/ukg-pro",
+        "description": "UKG Pro is cloud-based human capital management (HCM) software.",
         "solutionCategories": [
             "HR"
         ],
@@ -18585,8 +18738,7 @@
         "href": "/docs/wmi",
         "description": "Windows Management Instrumentation (WMI) is a set of specifications from Microsoft for consolidating the management of devices and applications in a Windows network. WMI provides users with information about the status of local or remote computer systems.",
         "solutionCategories": [
-            "ITAM/ITSM",
-            "Active Scanner"
+            "ITAM/ITSM"
         ],
         "assetsFetched": [
             "Software",
