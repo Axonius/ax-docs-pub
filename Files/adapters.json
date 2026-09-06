@@ -187,7 +187,7 @@
             "MDM/EMM"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Devices",
             "Software"
         ]
@@ -220,8 +220,8 @@
         "assetsFetched": [
             "Devices",
             "Software",
-            "Vulnerabilities",
-            "Discovered Saas Applications"
+            "Aggregated Security Findings",
+            "SaaS Applications"
         ]
     },
     {
@@ -253,7 +253,7 @@
             "Application Addon Instances",
             "Application Keys",
             "User Initiated Extension Instances",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Admin Managed Extensions",
             "Application Addons",
             "User Initiated Extensions",
@@ -286,8 +286,8 @@
         "assetsFetched": [
             "Devices",
             "Users",
-            "Vulnerabilities",
-            "Discovered Saas Applications"
+            "Aggregated Security Findings",
+            "SaaS Applications"
         ]
     },
     {
@@ -304,8 +304,8 @@
             "Audit/Compliance"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Users",
             "Devices"
         ]
@@ -322,9 +322,8 @@
         ],
         "assetsFetched": [
             "Business Applications",
-            "Repository Vulnerabilities",
-            "Vulnerabilities",
-            "Discovered Saas Applications"
+            "Aggregated Security Findings",
+            "SaaS Applications"
         ]
     },
     {
@@ -350,7 +349,7 @@
             "Cloud Security"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Users",
             "Devices",
             "Software"
@@ -366,7 +365,7 @@
         ],
         "assetsFetched": [
             "Users",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Devices",
             "Software"
         ]
@@ -380,7 +379,7 @@
             "PAM"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Users",
             "Devices",
             "Software",
@@ -397,10 +396,10 @@
         ],
         "assetsFetched": [
             "Users",
-            "Security Roles",
+            "Roles",
             "Groups",
             "Licenses",
-            "Discovered Saas Applications"
+            "SaaS Applications"
         ]
     },
     {
@@ -572,9 +571,9 @@
             "Audit/Compliance"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Domains & URLs",
-            "Vulnerabilities"
+            "Aggregated Security Findings"
         ]
     },
     {
@@ -714,8 +713,8 @@
             "NDR"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Devices"
         ]
     },
@@ -756,8 +755,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Vulnerabilities",
-            "Discovered Saas Applications"
+            "Aggregated Security Findings",
+            "SaaS Applications"
         ]
     },
     {
@@ -788,7 +787,7 @@
             "Compute Images",
             "Disks",
             "Incidents",
-            "Security Roles",
+            "Roles",
             "Firewalls",
             "Networks",
             "Databases",
@@ -805,8 +804,8 @@
             "Containers",
             "Configurations",
             "Software",
-            "Discovered Saas Applications",
-            "Vulnerabilities",
+            "SaaS Applications",
+            "Aggregated Security Findings",
             "Cloud Security Exposures",
             "Users",
             "Network Routes",
@@ -877,7 +876,7 @@
             "Secrets",
             "Users",
             "Groups",
-            "Security Roles"
+            "Roles"
         ]
     },
     {
@@ -920,10 +919,9 @@
         ],
         "assetsFetched": [
             "Application Resources",
-            "Discovered Saas Applications",
-            "Repository Vulnerabilities",
+            "SaaS Applications",
             "Users",
-            "Vulnerabilities"
+            "Aggregated Security Findings"
         ]
     },
     {
@@ -1003,7 +1001,7 @@
             "Cloud Security"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Users"
         ]
     },
@@ -1042,8 +1040,8 @@
         ],
         "assetsFetched": [
             "Containers",
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Users",
             "Devices"
         ]
@@ -1098,10 +1096,10 @@
             "Networking"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Devices",
             "Software",
-            "Vulnerabilities"
+            "Aggregated Security Findings"
         ]
     },
     {
@@ -1126,8 +1124,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Vulnerabilities",
-            "Discovered Saas Applications"
+            "Aggregated Security Findings",
+            "SaaS Applications"
         ]
     },
     {
@@ -1142,10 +1140,10 @@
         ],
         "assetsFetched": [
             "Business Applications",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Groups",
             "Users",
-            "Vulnerabilities"
+            "Aggregated Security Findings"
         ]
     },
     {
@@ -1158,9 +1156,9 @@
             "Cloud Security"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Application Resources",
-            "Vulnerabilities"
+            "Aggregated Security Findings"
         ]
     },
     {
@@ -1200,8 +1198,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Software"
         ]
     },
@@ -1278,7 +1276,7 @@
             "ITAM/ITSM"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Devices",
             "Software"
         ]
@@ -1296,7 +1294,7 @@
             "Application Resources",
             "Accounts",
             "Application Settings",
-            "Security Roles",
+            "Roles",
             "Permissions",
             "Users",
             "Groups",
@@ -1353,7 +1351,6 @@
             "VA Tool"
         ],
         "assetsFetched": [
-            "Repository Vulnerabilities",
             "Business Applications"
         ]
     },
@@ -1408,7 +1405,7 @@
         "assetsFetched": [
             "Groups",
             "Permissions",
-            "Security Roles",
+            "Roles",
             "Users"
         ]
     },
@@ -1453,20 +1450,6 @@
         ]
     },
     {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/afs_adapter.svg",
-        "name": "Automated Financial Systems",
-        "href": "/docs/Afs",
-        "description": "AFS is a commercial lending platform that offers real-time portfolio management, integrated workflows, and API-driven automation for financial institutions.",
-        "solutionCategories": [
-            "ERP",
-            "Audit/Compliance"
-        ],
-        "assetsFetched": [
-            "Security Roles",
-            "Groups"
-        ]
-    },
-    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/automatos_adapter.svg",
         "name": "Automatos",
         "href": "/docs/Automatos",
@@ -1487,7 +1470,7 @@
             "Config/Patch Mgmt"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Users",
             "Devices",
             "Software"
@@ -1617,7 +1600,7 @@
         ],
         "assetsFetched": [
             "Users",
-            "Security Roles"
+            "Roles"
         ]
     },
     {
@@ -1642,8 +1625,8 @@
             "IoT"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Databases",
             "Network Services",
             "Networks",
@@ -1662,8 +1645,7 @@
         "assetsFetched": [
             "Users",
             "Application Resources",
-            "Audit Activities",
-            "Repository Vulnerabilities"
+            "Audit Activities"
         ]
     },
     {
@@ -1756,7 +1738,7 @@
             "UEM"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Devices",
             "Software"
         ]
@@ -1824,7 +1806,7 @@
             "Audit/Compliance"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications"
+            "SaaS Applications"
         ]
     },
     {
@@ -1864,7 +1846,7 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Software"
         ]
     },
@@ -1921,7 +1903,7 @@
             "Groups",
             "Application Resources",
             "Audit Activities",
-            "Security Roles"
+            "Roles"
         ]
     },
     {
@@ -2025,8 +2007,8 @@
             "IT Agent"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Devices",
             "Software"
         ]
@@ -2041,8 +2023,8 @@
             "Audit/Compliance"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Devices",
             "Compliance Findings"
         ]
@@ -2057,8 +2039,8 @@
             "IT Agent"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Devices",
             "Software"
         ]
@@ -2084,7 +2066,7 @@
             "HR"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Users",
             "Expenses"
         ]
@@ -2195,10 +2177,10 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Software",
             "Containers",
-            "Vulnerabilities"
+            "Aggregated Security Findings"
         ]
     },
     {
@@ -2225,13 +2207,13 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Domains & URLs",
             "Users",
             "Groups",
             "Certificates",
-            "Security Roles"
+            "Roles"
         ]
     },
     {
@@ -2257,8 +2239,8 @@
             "Containers"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
-            "Vulnerabilities",
+            "SaaS Applications",
+            "Aggregated Security Findings",
             "Application Resources",
             "Application Services"
         ]
@@ -2273,11 +2255,10 @@
             "VA Tool"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Users",
-            "Devices",
-            "Repository Vulnerabilities"
+            "Devices"
         ]
     },
     {
@@ -2291,8 +2272,8 @@
             "VA Tool"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Application Resources",
             "Business Applications"
         ]
@@ -2322,8 +2303,8 @@
             "Devices",
             "Domains & URLs",
             "Users",
-            "Vulnerabilities",
-            "Discovered Saas Applications"
+            "Aggregated Security Findings",
+            "SaaS Applications"
         ]
     },
     {
@@ -2337,7 +2318,7 @@
             "UEM"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Devices",
             "Software",
             "Users"
@@ -2380,7 +2361,7 @@
             "ITAM/ITSM"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Devices",
             "Software"
         ]
@@ -2463,7 +2444,7 @@
             "CMDB"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Devices",
             "Network Devices",
             "Software",
@@ -2483,7 +2464,7 @@
         "assetsFetched": [
             "Devices",
             "Software",
-            "Discovered Saas Applications"
+            "SaaS Applications"
         ]
     },
     {
@@ -2525,7 +2506,7 @@
             "RMM"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Devices",
             "Software"
         ]
@@ -2621,7 +2602,7 @@
         "assetsFetched": [
             "Application Settings",
             "Groups",
-            "Security Roles",
+            "Roles",
             "Users",
             "Permissions"
         ]
@@ -2649,7 +2630,7 @@
         ],
         "assetsFetched": [
             "Expenses",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Users"
         ]
     },
@@ -2677,8 +2658,8 @@
         ],
         "assetsFetched": [
             "Application Resources",
-            "Vulnerabilities",
-            "Discovered Saas Applications"
+            "Aggregated Security Findings",
+            "SaaS Applications"
         ]
     },
     {
@@ -2692,8 +2673,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Vulnerabilities",
-            "Discovered Saas Applications"
+            "Aggregated Security Findings",
+            "SaaS Applications"
         ]
     },
     {
@@ -2721,17 +2702,6 @@
         ],
         "assetsFetched": [
             "Application Resources",
-            "Users"
-        ]
-    },
-    {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/browser_extension_adapter.svg",
-        "name": "Browser Extension Adapter",
-        "href": "/docs/Agent-Chromium-Adapter",
-        "description": "Client Browser Extension Adapter",
-        "solutionCategories": [],
-        "assetsFetched": [
-            "Discovered Saas Applications",
             "Users"
         ]
     },
@@ -2771,8 +2741,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Discovered Saas Applications",
-            "Vulnerabilities",
+            "SaaS Applications",
+            "Aggregated Security Findings",
             "Domains & URLs"
         ]
     },
@@ -2865,7 +2835,7 @@
         "assetsFetched": [
             "Users",
             "Devices",
-            "Discovered Saas Applications"
+            "SaaS Applications"
         ]
     },
     {
@@ -2877,7 +2847,7 @@
             "License Mgmt"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Users",
             "Expenses",
             "Licenses"
@@ -2907,7 +2877,7 @@
         "assetsFetched": [
             "Devices",
             "Software",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Certificates",
             "Audit Activities",
             "Application Resources",
@@ -2950,7 +2920,7 @@
         "assetsFetched": [
             "Devices",
             "Software",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Certificates"
         ]
     },
@@ -2965,8 +2935,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Vulnerabilities",
-            "Discovered Saas Applications"
+            "Aggregated Security Findings",
+            "SaaS Applications"
         ]
     },
     {
@@ -3055,8 +3025,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Vulnerabilities",
-            "Discovered Saas Applications"
+            "Aggregated Security Findings",
+            "SaaS Applications"
         ]
     },
     {
@@ -3130,8 +3100,8 @@
         ],
         "assetsFetched": [
             "Application Services",
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Business Applications"
         ]
     },
@@ -3146,7 +3116,6 @@
         "assetsFetched": [
             "Users",
             "Devices",
-            "Repository Vulnerabilities",
             "Business Applications"
         ]
     },
@@ -3172,7 +3141,7 @@
             "Config/Patch Mgmt"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Users",
             "Devices",
             "Software"
@@ -3255,7 +3224,7 @@
         "assetsFetched": [
             "Compute Services",
             "Devices",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Licenses",
             "Secrets"
         ]
@@ -3310,8 +3279,8 @@
             "EDR/EPP"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Devices"
         ]
     },
@@ -3350,9 +3319,10 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Vulnerabilities",
-            "Discovered Saas Applications",
-            "Network Devices"
+            "Aggregated Security Findings",
+            "SaaS Applications",
+            "Network Devices",
+            "Licenses"
         ]
     },
     {
@@ -3428,7 +3398,9 @@
         "href": "/docs/cisco-identity-services-engine-ise",
         "description": "Cisco Identity Services Engine (ISE) is a network administration product that enables the creation and enforcement of security and access policies for endpoint devices connected to the company's routers and switches.",
         "solutionCategories": [
-            "IAM"
+            "IAM",
+            "NAC",
+            "Networking"
         ],
         "assetsFetched": [
             "Users",
@@ -3487,7 +3459,7 @@
         ],
         "assetsFetched": [
             "Networks",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Software",
             "Accounts",
             "Devices",
@@ -3537,7 +3509,7 @@
             "Networks",
             "Domains & URLs",
             "Organizational Units",
-            "Discovered Saas Applications"
+            "SaaS Applications"
         ]
     },
     {
@@ -3622,10 +3594,10 @@
             "SaaS Management"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Users",
             "Devices",
-            "Security Roles"
+            "Roles"
         ]
     },
     {
@@ -3752,8 +3724,8 @@
         "assetsFetched": [
             "Devices",
             "Software",
-            "Vulnerabilities",
-            "Discovered Saas Applications"
+            "Aggregated Security Findings",
+            "SaaS Applications"
         ]
     },
     {
@@ -3770,8 +3742,8 @@
             "Cyber Intelligence"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Devices",
             "Databases",
             "Network Devices"
@@ -3866,8 +3838,8 @@
             "Risk Mgmt"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Devices"
         ]
     },
@@ -3921,8 +3893,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Vulnerabilities",
-            "Discovered Saas Applications"
+            "Aggregated Security Findings",
+            "SaaS Applications"
         ]
     },
     {
@@ -3989,8 +3961,8 @@
             "VA Tool"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Devices"
         ]
     },
@@ -4005,7 +3977,7 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Software"
         ]
     },
@@ -4019,7 +3991,7 @@
             "Config/Patch Mgmt"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Devices",
             "Software"
         ]
@@ -4061,8 +4033,8 @@
             "AppSec"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Devices",
             "Software"
         ]
@@ -4079,9 +4051,9 @@
         "assetsFetched": [
             "Devices",
             "Users",
-            "Vulnerabilities",
+            "Aggregated Security Findings",
             "Software",
-            "Discovered Saas Applications"
+            "SaaS Applications"
         ]
     },
     {
@@ -4171,7 +4143,7 @@
         "assetsFetched": [
             "Audit Activities",
             "Devices",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Software",
             "Users"
         ]
@@ -4189,13 +4161,13 @@
         "assetsFetched": [
             "Incidents",
             "Devices",
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Users",
             "Application Settings",
             "Domains & URLs",
             "Containers",
-            "Security Roles",
+            "Roles",
             "Accounts",
             "Serverless Functions"
         ]
@@ -4209,11 +4181,11 @@
             "Networking"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Users",
             "Devices",
             "Software",
-            "Vulnerabilities"
+            "Aggregated Security Findings"
         ]
     },
     {
@@ -4280,8 +4252,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Users",
             "Software",
             "Databases",
@@ -4298,7 +4270,7 @@
             "SaaS Management"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Users",
             "Application Settings"
         ]
@@ -4312,7 +4284,7 @@
             "SaaS Management"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Users"
         ]
     },
@@ -4325,7 +4297,7 @@
             "SaaS Management"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Users",
             "Expenses"
         ]
@@ -4339,7 +4311,7 @@
             "SaaS Management"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Users",
             "Licenses"
         ]
@@ -4378,7 +4350,7 @@
             "ITAM/ITSM"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Software"
         ]
     },
@@ -4419,8 +4391,8 @@
             "Devices",
             "Users",
             "Software",
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Networks",
             "Containers",
             "User Extensions",
@@ -4440,7 +4412,7 @@
             "Certificates",
             "Compliance Findings",
             "Permissions",
-            "Security Roles",
+            "Roles",
             "Firewalls",
             "Load Balancers",
             "Domains & URLs",
@@ -4474,7 +4446,7 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Software"
         ]
     },
@@ -4504,7 +4476,7 @@
             "Users",
             "Secrets",
             "Groups",
-            "Security Roles",
+            "Roles",
             "Application Resources"
         ]
     },
@@ -4557,8 +4529,8 @@
             "External Attack Surface Management"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Devices",
             "Organizational Units",
             "Users",
@@ -4578,8 +4550,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Domains & URLs",
             "Certificates"
         ]
@@ -4638,8 +4610,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Vulnerabilities",
-            "Discovered Saas Applications"
+            "Aggregated Security Findings",
+            "SaaS Applications"
         ]
     },
     {
@@ -4719,7 +4691,7 @@
             "Devices",
             "Users",
             "Groups",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Application Settings"
         ]
     },
@@ -4733,12 +4705,28 @@
             "SaaS Management"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Users",
             "Devices",
             "Software",
             "Containers",
-            "Compute Images"
+            "Compute Images",
+            "Application Settings"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/data_dome_adapter.svg",
+        "name": "DataDome",
+        "href": "/docs/datadome",
+        "description": "DataDome is a bot protection platform that provides real-time detection and blocking of online fraud, account takeover, API abuse, and DDoS attacks across websites and mobile applications.",
+        "solutionCategories": [
+            "AppSec",
+            "Firewall",
+            "Risk Mgmt"
+        ],
+        "assetsFetched": [
+            "Business Applications",
+            "Firewalls"
         ]
     },
     {
@@ -4765,8 +4753,8 @@
             "VA Tool"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Devices"
         ]
     },
@@ -4794,8 +4782,8 @@
         ],
         "assetsFetched": [
             "Application Services",
-            "Discovered Saas Applications",
-            "Vulnerabilities"
+            "SaaS Applications",
+            "Aggregated Security Findings"
         ]
     },
     {
@@ -4807,7 +4795,7 @@
             "Cloud Mgmt"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Devices",
             "Software"
         ]
@@ -4855,7 +4843,7 @@
             "Users",
             "Application Resources",
             "Groups",
-            "Security Roles",
+            "Roles",
             "Secrets"
         ]
     },
@@ -4883,7 +4871,8 @@
             "Cloud Security"
         ],
         "assetsFetched": [
-            "Devices"
+            "Devices",
+            "Application Settings"
         ]
     },
     {
@@ -5087,8 +5076,8 @@
         ],
         "assetsFetched": [
             "Domains & URLs",
-            "Vulnerabilities",
-            "Discovered Saas Applications"
+            "Aggregated Security Findings",
+            "SaaS Applications"
         ]
     },
     {
@@ -5100,7 +5089,7 @@
             "CMDB"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Devices",
             "Software",
             "Network Devices"
@@ -5166,7 +5155,7 @@
         ],
         "assetsFetched": [
             "Certificates",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Devices",
             "Software"
         ]
@@ -5233,8 +5222,8 @@
             "External Attack Surface Management"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Devices"
         ]
     },
@@ -5304,7 +5293,7 @@
             "Application Addons",
             "Application Keys",
             "Devices",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Extensions",
             "Groups",
             "Organizational Units",
@@ -5378,8 +5367,8 @@
             "OT"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Devices"
         ]
     },
@@ -5395,7 +5384,7 @@
         "assetsFetched": [
             "Devices",
             "Users",
-            "Discovered Saas Applications"
+            "SaaS Applications"
         ]
     },
     {
@@ -5475,8 +5464,8 @@
             "Cloud Mgmt"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Users",
             "Devices",
             "Compute Services",
@@ -5597,8 +5586,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Vulnerabilities",
-            "Discovered Saas Applications"
+            "Aggregated Security Findings",
+            "SaaS Applications"
         ]
     },
     {
@@ -5610,8 +5599,8 @@
             "VA Tool"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Devices"
         ]
     },
@@ -5631,7 +5620,7 @@
         ],
         "assetsFetched": [
             "Software",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Devices",
             "Incidents"
         ]
@@ -5716,8 +5705,9 @@
             "Users",
             "Devices",
             "Software",
-            "Vulnerabilities",
-            "Discovered Saas Applications"
+            "Aggregated Security Findings",
+            "SaaS Applications",
+            "Application Settings"
         ]
     },
     {
@@ -5731,12 +5721,12 @@
         "assetsFetched": [
             "Incidents",
             "Devices",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Domains & URLs",
             "Object Storages",
             "Certificates",
             "Users",
-            "Vulnerabilities"
+            "Aggregated Security Findings"
         ]
     },
     {
@@ -5816,8 +5806,8 @@
             "VA Tool"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Application Resources"
         ]
     },
@@ -5924,7 +5914,7 @@
         "assetsFetched": [
             "Users",
             "Devices",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Software"
         ]
     },
@@ -5941,8 +5931,8 @@
         "assetsFetched": [
             "Devices",
             "Users",
-            "Discovered Saas Applications",
-            "Vulnerabilities",
+            "SaaS Applications",
+            "Aggregated Security Findings",
             "Serverless Functions",
             "Object Storages",
             "Databases"
@@ -5995,7 +5985,7 @@
         ],
         "assetsFetched": [
             "Users",
-            "Security Roles"
+            "Roles"
         ]
     },
     {
@@ -6061,7 +6051,7 @@
             "SaaS Management"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Users",
             "Expenses"
         ]
@@ -6151,8 +6141,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Vulnerabilities",
-            "Discovered Saas Applications"
+            "Aggregated Security Findings",
+            "SaaS Applications"
         ]
     },
     {
@@ -6296,8 +6286,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Vulnerabilities",
-            "Discovered Saas Applications"
+            "Aggregated Security Findings",
+            "SaaS Applications"
         ]
     },
     {
@@ -6403,7 +6393,7 @@
         "assetsFetched": [
             "Application Resources",
             "Groups",
-            "Security Roles",
+            "Roles",
             "Users"
         ]
     },
@@ -6416,8 +6406,8 @@
             "EDR/EPP"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Devices",
             "Software"
         ]
@@ -6431,7 +6421,7 @@
             "ITAM/ITSM"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Devices",
             "Containers",
             "Software"
@@ -6460,8 +6450,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Vulnerabilities",
-            "Discovered Saas Applications"
+            "Aggregated Security Findings",
+            "SaaS Applications"
         ]
     },
     {
@@ -6473,7 +6463,7 @@
             "License Mgmt"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Devices",
             "Licenses",
             "Software"
@@ -6531,7 +6521,7 @@
         "assetsFetched": [
             "Devices",
             "Users",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Software",
             "Audit Activities"
         ]
@@ -6573,7 +6563,7 @@
         "assetsFetched": [
             "Devices",
             "Software",
-            "Discovered Saas Applications"
+            "SaaS Applications"
         ]
     },
     {
@@ -6585,7 +6575,7 @@
             "NAC"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Devices",
             "Software"
         ]
@@ -6643,7 +6633,7 @@
             "EDR/EPP"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Devices",
             "Software"
         ]
@@ -6663,7 +6653,7 @@
             "Devices",
             "Firewalls",
             "Licenses",
-            "Discovered Saas Applications"
+            "SaaS Applications"
         ]
     },
     {
@@ -6704,8 +6694,8 @@
         "assetsFetched": [
             "Devices",
             "Users",
-            "Vulnerabilities",
-            "Discovered Saas Applications"
+            "Aggregated Security Findings",
+            "SaaS Applications"
         ]
     },
     {
@@ -6730,8 +6720,8 @@
             "Threat Intel"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Devices"
         ]
     },
@@ -6856,8 +6846,8 @@
             "Users",
             "Software",
             "Devices",
-            "Discovered Saas Applications",
-            "Vulnerabilities"
+            "SaaS Applications",
+            "Aggregated Security Findings"
         ]
     },
     {
@@ -6871,8 +6861,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Vulnerabilities",
-            "Discovered Saas Applications"
+            "Aggregated Security Findings",
+            "SaaS Applications"
         ]
     },
     {
@@ -6927,7 +6917,7 @@
         "assetsFetched": [
             "Devices",
             "Tickets",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Users",
             "Software"
         ]
@@ -6953,10 +6943,10 @@
             "VA Tool"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Devices",
             "Software",
-            "Vulnerabilities"
+            "Aggregated Security Findings"
         ]
     },
     {
@@ -7011,7 +7001,7 @@
         "assetsFetched": [
             "Users",
             "Application Settings",
-            "Security Roles"
+            "Roles"
         ]
     },
     {
@@ -7067,9 +7057,9 @@
             "Application Addons",
             "User Initiated Extensions",
             "Application Resources",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Application Settings",
-            "Security Roles",
+            "Roles",
             "Licenses",
             "Groups",
             "User Extensions",
@@ -7083,8 +7073,7 @@
             "Application Resources",
             "Devices",
             "Incidents",
-            "Vulnerabilities",
-            "Repository Vulnerabilities",
+            "Aggregated Security Findings",
             "Software",
             "Tickets",
             "Accounts"
@@ -7101,9 +7090,9 @@
         "assetsFetched": [
             "Devices",
             "Application Resources",
-            "Vulnerabilities",
-            "Discovered Saas Applications",
-            "Security Roles",
+            "Aggregated Security Findings",
+            "SaaS Applications",
+            "Roles",
             "Users",
             "Groups",
             "Application Settings"
@@ -7157,7 +7146,7 @@
         ],
         "assetsFetched": [
             "Users",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Devices",
             "Software"
         ]
@@ -7198,7 +7187,7 @@
             "SaaS Management"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Users",
             "Licenses",
             "Application Settings"
@@ -7213,8 +7202,8 @@
             "CMDB"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Devices",
             "Software"
         ]
@@ -7237,7 +7226,7 @@
             "Compute Services",
             "Application Resources",
             "Databases",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Accounts",
             "Load Balancers",
             "Object Storages",
@@ -7258,7 +7247,7 @@
         "href": "/docs/Google-Chronicle-Security",
         "description": "Google Security Operations SIEM is designed for enterprises to privately retain, analyze, and search security and network telemetry.",
         "solutionCategories": [
-            "Deception"
+            "SIEM"
         ],
         "assetsFetched": [
             "Devices"
@@ -7270,7 +7259,7 @@
         "href": "/docs/Google-Chronicle-Security-Rest",
         "description": "Google Chronicle REST adapter for Google Security Operations SIEM",
         "solutionCategories": [
-            "Deception"
+            "SIEM"
         ],
         "assetsFetched": [
             "Devices"
@@ -7300,8 +7289,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Users",
             "Software",
             "Domains & URLs"
@@ -7331,14 +7320,14 @@
         ],
         "assetsFetched": [
             "Domains & URLs",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Networks",
             "Network Services",
             "Object Storages",
             "Certificates",
             "Users",
             "Secrets",
-            "Vulnerabilities"
+            "Aggregated Security Findings"
         ]
     },
     {
@@ -7371,11 +7360,11 @@
             "Application Addons",
             "User Initiated Extensions",
             "Devices",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Accounts",
             "Users",
             "Application Settings",
-            "Security Roles",
+            "Roles",
             "Licenses",
             "Rules",
             "User Extensions",
@@ -7414,7 +7403,7 @@
             "License Mgmt"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Licenses",
             "Users"
         ]
@@ -7442,7 +7431,7 @@
         "assetsFetched": [
             "Users",
             "Permissions",
-            "Security Roles"
+            "Roles"
         ]
     },
     {
@@ -7454,8 +7443,8 @@
             "Threat Intel"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Devices"
         ]
     },
@@ -7471,7 +7460,7 @@
         ],
         "assetsFetched": [
             "Users",
-            "Discovered Saas Applications"
+            "SaaS Applications"
         ]
     },
     {
@@ -7542,8 +7531,8 @@
         "assetsFetched": [
             "Devices",
             "Domains & URLs",
-            "Vulnerabilities",
-            "Discovered Saas Applications"
+            "Aggregated Security Findings",
+            "SaaS Applications"
         ]
     },
     {
@@ -7609,8 +7598,8 @@
         ],
         "assetsFetched": [
             "Compute Images",
-            "Discovered Saas Applications",
-            "Vulnerabilities"
+            "SaaS Applications",
+            "Aggregated Security Findings"
         ]
     },
     {
@@ -7637,7 +7626,8 @@
             "Cloud Mgmt"
         ],
         "assetsFetched": [
-            "Users"
+            "Users",
+            "Application Settings"
         ]
     },
     {
@@ -7700,7 +7690,7 @@
             "NDR"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Users",
             "Devices",
             "Software"
@@ -7731,8 +7721,7 @@
             "AppSec"
         ],
         "assetsFetched": [
-            "Business Applications",
-            "Repository Vulnerabilities"
+            "Business Applications"
         ]
     },
     {
@@ -7775,7 +7764,7 @@
             "Devices",
             "Users",
             "Software",
-            "Discovered Saas Applications"
+            "SaaS Applications"
         ]
     },
     {
@@ -7828,8 +7817,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Vulnerabilities",
-            "Discovered Saas Applications"
+            "Aggregated Security Findings",
+            "SaaS Applications"
         ]
     },
     {
@@ -7844,7 +7833,7 @@
         ],
         "assetsFetched": [
             "Software",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Devices"
         ]
     },
@@ -8013,7 +8002,7 @@
         ],
         "assetsFetched": [
             "Software",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Devices"
         ]
     },
@@ -8206,7 +8195,7 @@
         ],
         "assetsFetched": [
             "Software",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Devices"
         ]
     },
@@ -8248,8 +8237,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Vulnerabilities",
-            "Discovered Saas Applications"
+            "Aggregated Security Findings",
+            "SaaS Applications"
         ]
     },
     {
@@ -8409,7 +8398,7 @@
             "Config/Patch Mgmt"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Devices",
             "Software"
         ]
@@ -8503,7 +8492,8 @@
         "assetsFetched": [
             "Devices",
             "Software",
-            "Discovered Saas Applications"
+            "SaaS Applications",
+            "Business Applications"
         ]
     },
     {
@@ -8648,8 +8638,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Vulnerabilities",
-            "Discovered Saas Applications"
+            "Aggregated Security Findings",
+            "SaaS Applications"
         ]
     },
     {
@@ -8675,8 +8665,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Users",
             "Software"
         ]
@@ -8835,8 +8825,8 @@
             "Cloud Security"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Devices",
             "Software"
         ]
@@ -8852,8 +8842,8 @@
         ],
         "assetsFetched": [
             "Domains & URLs",
-            "Vulnerabilities",
-            "Discovered Saas Applications"
+            "Aggregated Security Findings",
+            "SaaS Applications"
         ]
     },
     {
@@ -8878,8 +8868,8 @@
             "VA Tool"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Devices"
         ]
     },
@@ -8892,8 +8882,8 @@
             "AppSec"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Devices",
             "Domains & URLs"
         ]
@@ -8909,8 +8899,8 @@
             "VA Tool"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Business Applications",
             "Domains & URLs"
         ]
@@ -8926,8 +8916,8 @@
         "assetsFetched": [
             "Application Services",
             "Devices",
-            "Discovered Saas Applications",
-            "Vulnerabilities",
+            "SaaS Applications",
+            "Aggregated Security Findings",
             "Domains & URLs"
         ]
     },
@@ -8965,7 +8955,7 @@
             "Secure Web Gateways"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Software",
             "Users",
             "Devices"
@@ -8992,7 +8982,7 @@
             "CMDB"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Users",
             "Devices",
             "Software"
@@ -9082,10 +9072,10 @@
             "UEM"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Devices",
             "Software",
-            "Vulnerabilities"
+            "Aggregated Security Findings"
         ]
     },
     {
@@ -9097,7 +9087,7 @@
             "ITAM/ITSM"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Users",
             "Devices",
             "Software"
@@ -9114,7 +9104,7 @@
             "UEM"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Devices",
             "Software"
         ]
@@ -9133,7 +9123,7 @@
             "Users",
             "Devices",
             "Software",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Application Settings"
         ]
     },
@@ -9173,7 +9163,7 @@
         ],
         "assetsFetched": [
             "Software",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Devices"
         ]
     },
@@ -9200,7 +9190,7 @@
         ],
         "assetsFetched": [
             "Licenses",
-            "Discovered Saas Applications"
+            "SaaS Applications"
         ]
     },
     {
@@ -9273,7 +9263,7 @@
             "Application Services",
             "Databases",
             "Software",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Firewalls",
             "Object Storages",
             "Domains & URLs",
@@ -9302,8 +9292,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Users",
             "Software"
         ]
@@ -9324,7 +9314,7 @@
             "Admin Managed Extensions",
             "Application Addons",
             "User Initiated Extensions",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "User Extensions",
             "Admin Managed Extension Instances",
             "Application Addon Instances",
@@ -9374,11 +9364,11 @@
             "SaaS Management"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Users",
             "Devices",
             "Software",
-            "Vulnerabilities"
+            "Aggregated Security Findings"
         ]
     },
     {
@@ -9391,7 +9381,7 @@
             "IT Agent"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Devices",
             "Software"
         ]
@@ -9405,7 +9395,7 @@
             "EDR/EPP"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Devices",
             "Software"
         ]
@@ -9457,8 +9447,8 @@
             "VA Tool"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Devices",
             "Software"
         ]
@@ -9472,7 +9462,8 @@
             "IAM"
         ],
         "assetsFetched": [
-            "Users"
+            "Users",
+            "Application Settings"
         ]
     },
     {
@@ -9488,7 +9479,7 @@
             "Users",
             "Certificates",
             "Licenses",
-            "Discovered Saas Applications"
+            "SaaS Applications"
         ]
     },
     {
@@ -9579,8 +9570,8 @@
             "Cloud Security"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Users",
             "Devices",
             "Containers",
@@ -9609,7 +9600,7 @@
             "RMM"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Devices",
             "Software"
         ]
@@ -9624,7 +9615,7 @@
             "IT Agent"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Devices",
             "Software"
         ]
@@ -9639,10 +9630,10 @@
             "IT Agent"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Devices",
             "Software",
-            "Vulnerabilities"
+            "Aggregated Security Findings"
         ]
     },
     {
@@ -9669,7 +9660,7 @@
             "SaaS Management"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Users",
             "Application Settings"
         ]
@@ -9947,7 +9938,7 @@
             "UEM"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Users",
             "Devices",
             "Software"
@@ -9974,8 +9965,8 @@
             "EDR/EPP"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Devices"
         ]
     },
@@ -9989,10 +9980,10 @@
             "SaaS Management"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Application Settings",
             "Licenses",
-            "Security Roles",
+            "Roles",
             "Users"
         ]
     },
@@ -10021,8 +10012,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Vulnerabilities",
-            "Discovered Saas Applications"
+            "Aggregated Security Findings",
+            "SaaS Applications"
         ]
     },
     {
@@ -10077,9 +10068,9 @@
             "Config/Patch Mgmt"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Devices",
-            "Vulnerabilities",
+            "Aggregated Security Findings",
             "Software"
         ]
     },
@@ -10159,8 +10150,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Vulnerabilities",
-            "Discovered Saas Applications"
+            "Aggregated Security Findings",
+            "SaaS Applications"
         ]
     },
     {
@@ -10209,7 +10200,7 @@
             "ITAM/ITSM"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Devices",
             "Software",
             "Networks"
@@ -10225,8 +10216,8 @@
             "Threat Intel"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Devices",
             "Domains & URLs"
         ]
@@ -10316,7 +10307,7 @@
             "Business Applications",
             "Organizational Units",
             "Secrets",
-            "Security Roles",
+            "Roles",
             "Domains & URLs",
             "Users"
         ]
@@ -10342,8 +10333,8 @@
             "Networking"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Devices"
         ]
     },
@@ -10395,9 +10386,9 @@
             "DevOps"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
+            "Aggregated Security Findings",
             "Application Resources",
-            "Discovered Saas Applications"
+            "SaaS Applications"
         ]
     },
     {
@@ -10495,12 +10486,12 @@
             "Application Services",
             "Containers",
             "Object Storages",
-            "Security Roles",
+            "Roles",
             "Firewalls",
             "Groups",
             "Certificates",
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Configurations",
             "Cloud Security Exposures",
             "Network Routes",
@@ -10531,7 +10522,7 @@
             "SaaS Management"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Users",
             "User Extensions",
             "Admin Managed Extension Instances",
@@ -10555,8 +10546,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Domains & URLs",
             "Certificates"
         ]
@@ -10573,8 +10564,8 @@
         "assetsFetched": [
             "Incidents",
             "Devices",
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Users",
             "Software",
             "Network Devices",
@@ -10593,8 +10584,8 @@
         "assetsFetched": [
             "Incidents",
             "Devices",
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Users",
             "Software"
         ]
@@ -10620,7 +10611,7 @@
             "Config/Patch Mgmt"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Devices",
             "Software"
         ]
@@ -10635,7 +10626,7 @@
         ],
         "assetsFetched": [
             "Software",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Devices"
         ]
     },
@@ -10647,6 +10638,7 @@
         "solutionCategories": [
             "Directory",
             "IAM",
+            "MDM/EMM",
             "SaaS Management"
         ],
         "assetsFetched": [
@@ -10655,12 +10647,12 @@
             "Application Addons",
             "User Initiated Extensions",
             "Devices",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Accounts",
             "Configurations",
             "Users",
             "Secrets",
-            "Security Roles",
+            "Roles",
             "Licenses",
             "Application Settings",
             "Rules",
@@ -10715,7 +10707,7 @@
         "assetsFetched": [
             "Devices",
             "Software",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Configurations"
         ]
     },
@@ -10872,7 +10864,7 @@
             "Audit/Compliance"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Users"
         ]
     },
@@ -10971,10 +10963,10 @@
             "SaaS Management"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Application Settings",
             "Licenses",
-            "Security Roles",
+            "Roles",
             "Users",
             "Groups"
         ]
@@ -11004,7 +10996,7 @@
             "MDM/EMM"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Devices",
             "Software",
             "Certificates"
@@ -11025,10 +11017,10 @@
             "Application Addons",
             "User Initiated Extensions",
             "Application Resources",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Accounts",
             "Application Settings",
-            "Security Roles",
+            "Roles",
             "Licenses",
             "User Extensions",
             "Admin Managed Extension Instances",
@@ -11265,7 +11257,7 @@
             "RMM"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Devices",
             "Software"
         ]
@@ -11283,7 +11275,7 @@
         "assetsFetched": [
             "Devices",
             "Software",
-            "Discovered Saas Applications"
+            "SaaS Applications"
         ]
     },
     {
@@ -11401,7 +11393,7 @@
             "Devices",
             "Users",
             "Groups",
-            "Security Roles"
+            "Roles"
         ]
     },
     {
@@ -11480,7 +11472,7 @@
             "Networking"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Software",
             "Devices",
             "Network Devices",
@@ -11564,7 +11556,7 @@
             "Users",
             "Permissions",
             "Groups",
-            "Security Roles"
+            "Roles"
         ]
     },
     {
@@ -11623,7 +11615,7 @@
         "assetsFetched": [
             "Users",
             "Groups",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Extensions",
             "Admin Managed Extensions",
             "Application Addons",
@@ -11724,7 +11716,7 @@
             "RMM"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Devices",
             "Software",
             "Serverless Functions",
@@ -11734,7 +11726,7 @@
             "Containers",
             "Application Services",
             "Network Services",
-            "Vulnerabilities"
+            "Aggregated Security Findings"
         ]
     },
     {
@@ -11758,7 +11750,7 @@
             "ITAM/ITSM"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Users",
             "Devices",
             "Software"
@@ -11789,7 +11781,7 @@
         "assetsFetched": [
             "Devices",
             "Users",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Software"
         ]
     },
@@ -11844,7 +11836,7 @@
             "RMM"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Users",
             "Devices",
             "Software"
@@ -11859,8 +11851,8 @@
             "VA Tool"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Devices",
             "Software"
         ]
@@ -11874,8 +11866,8 @@
             "VA Tool"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Devices",
             "Users"
         ]
@@ -11914,8 +11906,8 @@
             "IoT"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Devices"
         ]
     },
@@ -11931,8 +11923,8 @@
         "assetsFetched": [
             "Devices",
             "Software",
-            "Vulnerabilities",
-            "Discovered Saas Applications"
+            "Aggregated Security Findings",
+            "SaaS Applications"
         ]
     },
     {
@@ -11957,8 +11949,8 @@
             "VA Tool"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Devices"
         ]
     },
@@ -11974,7 +11966,7 @@
         ],
         "assetsFetched": [
             "Application Addons",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Application Addon Instances",
             "Admin Managed Extensions",
             "Admin Managed Extension Instances",
@@ -12010,7 +12002,7 @@
         "assetsFetched": [
             "Users",
             "Expenses",
-            "Discovered Saas Applications"
+            "SaaS Applications"
         ]
     },
     {
@@ -12106,9 +12098,9 @@
         "assetsFetched": [
             "Devices",
             "Users",
-            "Vulnerabilities",
-            "Security Roles",
-            "Discovered Saas Applications"
+            "Aggregated Security Findings",
+            "Roles",
+            "SaaS Applications"
         ]
     },
     {
@@ -12126,10 +12118,10 @@
             "Application Addons",
             "User Initiated Extensions",
             "Devices",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Accounts",
             "Users",
-            "Security Roles",
+            "Roles",
             "Application Settings",
             "Groups",
             "Rules",
@@ -12155,9 +12147,8 @@
         ],
         "assetsFetched": [
             "Compute Images",
-            "Repository Vulnerabilities",
-            "Vulnerabilities",
-            "Discovered Saas Applications"
+            "Aggregated Security Findings",
+            "SaaS Applications"
         ]
     },
     {
@@ -12197,7 +12188,7 @@
             "UEM"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Users",
             "Devices",
             "Software"
@@ -12226,8 +12217,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Vulnerabilities",
-            "Discovered Saas Applications"
+            "Aggregated Security Findings",
+            "SaaS Applications"
         ]
     },
     {
@@ -12269,8 +12260,8 @@
             "Admin Managed Extensions",
             "Application Addons",
             "User Initiated Extensions",
-            "Discovered Saas Applications",
-            "Security Roles",
+            "SaaS Applications",
+            "Roles",
             "User Extensions",
             "Admin Managed Extension Instances",
             "Application Addon Instances",
@@ -12293,7 +12284,7 @@
         "assetsFetched": [
             "Groups",
             "Devices",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Users"
         ]
     },
@@ -12333,8 +12324,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Discovered Saas Applications",
-            "Vulnerabilities"
+            "SaaS Applications",
+            "Aggregated Security Findings"
         ]
     },
     {
@@ -12512,7 +12503,7 @@
         "assetsFetched": [
             "Users",
             "Groups",
-            "Security Roles"
+            "Roles"
         ]
     },
     {
@@ -12524,7 +12515,7 @@
             "ITAM/ITSM"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Devices",
             "Software",
             "Databases",
@@ -12560,8 +12551,8 @@
             "NAC"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Devices"
         ]
     },
@@ -12615,7 +12606,7 @@
         ],
         "assetsFetched": [
             "Users",
-            "Security Roles"
+            "Roles"
         ]
     },
     {
@@ -12628,7 +12619,7 @@
         ],
         "assetsFetched": [
             "Users",
-            "Security Roles"
+            "Roles"
         ]
     },
     {
@@ -12644,7 +12635,7 @@
             "Audit/Compliance"
         ],
         "assetsFetched": [
-            "Security Roles",
+            "Roles",
             "Users"
         ]
     },
@@ -12661,7 +12652,7 @@
         "assetsFetched": [
             "Users",
             "Groups",
-            "Security Roles",
+            "Roles",
             "Permissions"
         ]
     },
@@ -12686,9 +12677,9 @@
             "ERP"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Expenses",
-            "Security Roles",
+            "Roles",
             "Users"
         ]
     },
@@ -12716,8 +12707,8 @@
         "assetsFetched": [
             "Incidents",
             "Devices",
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Containers",
             "Serverless Functions",
             "Software",
@@ -12728,7 +12719,7 @@
             "Object Storages",
             "Application Services",
             "File Systems",
-            "Security Roles",
+            "Roles",
             "Compute Services",
             "Disks",
             "Compute Images",
@@ -12776,8 +12767,8 @@
             "External Attack Surface Management"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Devices"
         ]
     },
@@ -12870,7 +12861,7 @@
             "Users",
             "Tickets",
             "Licenses",
-            "Discovered Saas Applications"
+            "SaaS Applications"
         ]
     },
     {
@@ -12913,9 +12904,9 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Vulnerabilities",
-            "Discovered Saas Applications",
-            "Security Roles",
+            "Aggregated Security Findings",
+            "SaaS Applications",
+            "Roles",
             "Users",
             "Groups",
             "Software",
@@ -12935,8 +12926,8 @@
             "Devices",
             "Certificates",
             "Compute Services",
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Domains & URLs",
             "Alert Findings"
         ]
@@ -12978,8 +12969,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Vulnerabilities",
-            "Discovered Saas Applications"
+            "Aggregated Security Findings",
+            "SaaS Applications"
         ]
     },
     {
@@ -13059,7 +13050,7 @@
             "Users",
             "Devices",
             "Disks",
-            "Security Roles",
+            "Roles",
             "Containers",
             "Compute Images",
             "Groups",
@@ -13076,8 +13067,8 @@
             "Compute Services",
             "Object Storages",
             "Databases",
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Software"
         ]
     },
@@ -13091,8 +13082,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Containers",
             "Software",
             "Compute Images"
@@ -13110,8 +13101,8 @@
         "assetsFetched": [
             "Devices",
             "Firewalls",
-            "Vulnerabilities",
-            "Discovered Saas Applications"
+            "Aggregated Security Findings",
+            "SaaS Applications"
         ]
     },
     {
@@ -13135,8 +13126,8 @@
             "Cyber Intelligence"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Devices"
         ]
     },
@@ -13227,7 +13218,7 @@
         ],
         "assetsFetched": [
             "Software",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Devices"
         ]
     },
@@ -13240,7 +13231,7 @@
             "ITAM/ITSM"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Users",
             "Devices",
             "Software"
@@ -13256,8 +13247,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Vulnerabilities",
-            "Discovered Saas Applications"
+            "Aggregated Security Findings",
+            "SaaS Applications"
         ]
     },
     {
@@ -13361,8 +13352,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Discovered Saas Applications",
-            "Vulnerabilities"
+            "SaaS Applications",
+            "Aggregated Security Findings"
         ]
     },
     {
@@ -13398,7 +13389,7 @@
             "Admin Managed Extensions",
             "Application Addons",
             "User Initiated Extensions",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Certificates",
             "Application Services"
         ]
@@ -13439,7 +13430,7 @@
         "assetsFetched": [
             "Users",
             "Devices",
-            "Security Roles"
+            "Roles"
         ]
     },
     {
@@ -13586,7 +13577,7 @@
             "Infra Monitoring"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Devices",
             "Software"
         ]
@@ -13670,7 +13661,7 @@
         ],
         "assetsFetched": [
             "Licenses",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Expenses"
         ]
     },
@@ -13734,8 +13725,8 @@
             "EDR/EPP"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Devices",
             "Software"
         ]
@@ -13885,7 +13876,7 @@
             "RMM"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Devices",
             "Software"
         ]
@@ -13912,7 +13903,7 @@
             "Config/Patch Mgmt"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Devices",
             "Software"
         ]
@@ -13940,7 +13931,7 @@
         ],
         "assetsFetched": [
             "Users",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Incidents"
         ]
     },
@@ -13981,14 +13972,14 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Users",
             "Software",
             "Tickets",
             "Certificates",
             "Compliance Findings",
-            "Security Roles",
+            "Roles",
             "Accounts"
         ]
     },
@@ -14001,8 +13992,8 @@
             "Containers"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Containers",
             "Devices",
             "Compute Images"
@@ -14018,8 +14009,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Vulnerabilities",
-            "Discovered Saas Applications"
+            "Aggregated Security Findings",
+            "SaaS Applications"
         ]
     },
     {
@@ -14050,8 +14041,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Vulnerabilities",
-            "Discovered Saas Applications"
+            "Aggregated Security Findings",
+            "SaaS Applications"
         ]
     },
     {
@@ -14065,9 +14056,8 @@
         ],
         "assetsFetched": [
             "Application Services",
-            "Discovered Saas Applications",
-            "Vulnerabilities",
-            "Repository Vulnerabilities",
+            "SaaS Applications",
+            "Aggregated Security Findings",
             "Domains & URLs"
         ]
     },
@@ -14080,7 +14070,7 @@
             "Networking"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Devices",
             "Software"
         ]
@@ -14121,8 +14111,8 @@
             "OT"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Devices"
         ]
     },
@@ -14135,7 +14125,7 @@
             "Ticketing"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Users",
             "Expenses"
         ]
@@ -14149,7 +14139,7 @@
             "Containers"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Devices",
             "Software"
         ]
@@ -14177,8 +14167,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Compliance Findings"
         ]
     },
@@ -14206,8 +14196,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Business Applications",
             "Domains & URLs"
         ]
@@ -14227,9 +14217,9 @@
             "Object Storages",
             "Secrets",
             "Serverless Functions",
-            "Vulnerabilities",
-            "Security Roles",
-            "Discovered Saas Applications"
+            "Aggregated Security Findings",
+            "Roles",
+            "SaaS Applications"
         ]
     },
     {
@@ -14250,7 +14240,8 @@
         "href": "/docs/rapid7-insightidr",
         "description": "Rapid7's InsightIDR is a security center for incident detection and response, authentication monitoring, and endpoint visibility.",
         "solutionCategories": [
-            "EDR/EPP"
+            "EDR/EPP",
+            "SIEM"
         ],
         "assetsFetched": [
             "Devices",
@@ -14266,8 +14257,8 @@
             "VA Tool"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Devices"
         ]
     },
@@ -14281,8 +14272,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Users",
             "Software"
         ]
@@ -14296,8 +14287,8 @@
             "VA Tool"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Devices",
             "Software"
         ]
@@ -14355,8 +14346,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Discovered Saas Applications",
-            "Vulnerabilities"
+            "SaaS Applications",
+            "Aggregated Security Findings"
         ]
     },
     {
@@ -14407,7 +14398,7 @@
             "ITAM/ITSM"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Devices",
             "Software"
         ]
@@ -14450,8 +14441,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Vulnerabilities",
-            "Discovered Saas Applications"
+            "Aggregated Security Findings",
+            "SaaS Applications"
         ]
     },
     {
@@ -14478,8 +14469,8 @@
             "Config/Patch Mgmt"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Devices",
             "Software"
         ]
@@ -14496,11 +14487,11 @@
         ],
         "assetsFetched": [
             "Certificates",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Network Services",
             "Domains & URLs",
-            "Vulnerability Instances",
-            "Vulnerabilities"
+            "Security Findings",
+            "Aggregated Security Findings"
         ]
     },
     {
@@ -14512,8 +14503,8 @@
             "Networking"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Devices"
         ]
     },
@@ -14582,7 +14573,7 @@
         ],
         "assetsFetched": [
             "Users",
-            "Security Roles",
+            "Roles",
             "Groups"
         ]
     },
@@ -14676,8 +14667,8 @@
         "assetsFetched": [
             "Users",
             "Devices",
-            "Discovered Saas Applications",
-            "Vulnerabilities"
+            "SaaS Applications",
+            "Aggregated Security Findings"
         ]
     },
     {
@@ -14689,8 +14680,8 @@
             "VA Tool"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Devices"
         ]
     },
@@ -14760,8 +14751,8 @@
         "assetsFetched": [
             "Devices",
             "Users",
-            "Vulnerabilities",
-            "Discovered Saas Applications"
+            "Aggregated Security Findings",
+            "SaaS Applications"
         ]
     },
     {
@@ -14873,10 +14864,10 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Vulnerabilities",
+            "Aggregated Security Findings",
             "Certificates",
             "Domains & URLs",
-            "Discovered Saas Applications"
+            "SaaS Applications"
         ]
     },
     {
@@ -14904,7 +14895,7 @@
         "assetsFetched": [
             "Users",
             "Software",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Devices"
         ]
     },
@@ -14982,7 +14973,7 @@
         "assetsFetched": [
             "Users",
             "Accounts",
-            "Security Roles"
+            "Roles"
         ]
     },
     {
@@ -14999,8 +14990,8 @@
             "Admin Managed Extensions",
             "Application Addons",
             "User Initiated Extensions",
-            "Discovered Saas Applications",
-            "Security Roles",
+            "SaaS Applications",
+            "Roles",
             "User Extensions",
             "Admin Managed Extension Instances",
             "Application Addon Instances",
@@ -15036,7 +15027,7 @@
         ],
         "assetsFetched": [
             "Users",
-            "Security Roles",
+            "Roles",
             "Permissions"
         ]
     },
@@ -15056,9 +15047,9 @@
             "User Initiated Extensions",
             "Devices",
             "Application Resources",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Accounts",
-            "Security Roles",
+            "Roles",
             "Licenses",
             "Application Settings",
             "User Extensions",
@@ -15207,7 +15198,8 @@
         "assetsFetched": [
             "Users",
             "Groups",
-            "Security Roles"
+            "Roles",
+            "Accounts"
         ]
     },
     {
@@ -15220,7 +15212,7 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Software",
             "Users"
         ]
@@ -15355,8 +15347,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Vulnerabilities",
-            "Discovered Saas Applications"
+            "Aggregated Security Findings",
+            "SaaS Applications"
         ]
     },
     {
@@ -15411,8 +15403,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Vulnerabilities",
-            "Discovered Saas Applications"
+            "Aggregated Security Findings",
+            "SaaS Applications"
         ]
     },
     {
@@ -15424,7 +15416,7 @@
             "NAC"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Devices",
             "Software"
         ]
@@ -15450,8 +15442,8 @@
             "VA Tool"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Devices",
             "Software"
         ]
@@ -15508,9 +15500,9 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Vulnerabilities",
+            "Aggregated Security Findings",
             "Domains & URLs",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Software"
         ]
     },
@@ -15542,7 +15534,7 @@
         ],
         "assetsFetched": [
             "Users",
-            "Security Roles",
+            "Roles",
             "Application Settings"
         ]
     },
@@ -15597,9 +15589,9 @@
         "assetsFetched": [
             "Incidents",
             "Devices",
-            "Vulnerabilities",
-            "Discovered Saas Applications",
-            "Security Roles",
+            "Aggregated Security Findings",
+            "SaaS Applications",
+            "Roles",
             "Application Settings",
             "Users",
             "Groups",
@@ -15704,17 +15696,17 @@
             "Containers",
             "Databases",
             "Devices",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Groups",
             "Load Balancers",
             "Object Storages",
             "Permissions",
-            "Security Roles",
+            "Roles",
             "Software",
             "Tickets",
             "Domains & URLs",
             "Users",
-            "Vulnerabilities"
+            "Aggregated Security Findings"
         ]
     },
     {
@@ -15753,8 +15745,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Vulnerabilities",
-            "Discovered Saas Applications"
+            "Aggregated Security Findings",
+            "SaaS Applications"
         ]
     },
     {
@@ -15796,8 +15788,8 @@
             "IoT"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Devices",
             "Domains & URLs"
         ]
@@ -15888,8 +15880,8 @@
             "Firewall"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Firewalls",
             "Devices",
             "Network Routes",
@@ -15907,13 +15899,13 @@
         ],
         "assetsFetched": [
             "Application Resources",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Accounts",
             "Application Settings",
             "Licenses",
             "Users",
             "Groups",
-            "Security Roles",
+            "Roles",
             "Application Addons",
             "Extensions",
             "Admin Managed Extensions",
@@ -15963,7 +15955,7 @@
             "SaaS Management"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Application Settings",
             "Licenses",
             "Permissions",
@@ -16043,7 +16035,7 @@
         "assetsFetched": [
             "Devices",
             "Software",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Users"
         ]
     },
@@ -16056,7 +16048,7 @@
             "ITAM/ITSM"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Devices",
             "Software"
         ]
@@ -16087,7 +16079,7 @@
             "Devices",
             "Databases",
             "Application Settings",
-            "Security Roles",
+            "Roles",
             "Domains & URLs",
             "Application Resources",
             "Permissions"
@@ -16107,10 +16099,9 @@
         "assetsFetched": [
             "Users",
             "Devices",
-            "Discovered Saas Applications",
-            "Vulnerabilities",
-            "Application Resources",
-            "Repository Vulnerabilities"
+            "SaaS Applications",
+            "Aggregated Security Findings",
+            "Application Resources"
         ]
     },
     {
@@ -16124,8 +16115,8 @@
         ],
         "assetsFetched": [
             "Application Resources",
-            "Vulnerabilities",
-            "Discovered Saas Applications"
+            "Aggregated Security Findings",
+            "SaaS Applications"
         ]
     },
     {
@@ -16137,7 +16128,7 @@
             "ITAM/ITSM"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Devices",
             "Software",
             "Networks",
@@ -16168,7 +16159,7 @@
         "assetsFetched": [
             "Devices",
             "Tickets",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Users",
             "Software"
         ]
@@ -16200,8 +16191,9 @@
         "assetsFetched": [
             "Users",
             "Application Resources",
-            "Vulnerabilities",
-            "Discovered Saas Applications"
+            "Aggregated Security Findings",
+            "SaaS Applications",
+            "Application Settings"
         ]
     },
     {
@@ -16216,10 +16208,9 @@
         "assetsFetched": [
             "Users",
             "Business Applications",
-            "Vulnerabilities",
-            "Repository Vulnerabilities",
-            "Discovered Saas Applications",
-            "Security Roles",
+            "Aggregated Security Findings",
+            "SaaS Applications",
+            "Roles",
             "Organizational Units"
         ]
     },
@@ -16297,7 +16288,7 @@
             "MDM/EMM"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Devices",
             "Software",
             "Users"
@@ -16312,7 +16303,7 @@
             "Config/Patch Mgmt"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Devices",
             "Software"
         ]
@@ -16350,7 +16341,7 @@
             "Networking"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Devices",
             "Software"
         ]
@@ -16390,8 +16381,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Users",
             "Software",
             "Tickets",
@@ -16483,9 +16474,9 @@
             "Compute Services",
             "Containers",
             "Compute Images",
-            "Vulnerabilities",
+            "Aggregated Security Findings",
             "Software",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Alert Findings"
         ]
     },
@@ -16525,8 +16516,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Discovered Saas Applications",
-            "Vulnerabilities"
+            "SaaS Applications",
+            "Aggregated Security Findings"
         ]
     },
     {
@@ -16601,7 +16592,8 @@
         "href": "/docs/sumo-logic",
         "description": "Sumo Logic is a cloud-based service for logs & metrics management for modern apps",
         "solutionCategories": [
-            "Cloud Mgmt"
+            "Cloud Mgmt",
+            "SIEM"
         ],
         "assetsFetched": [
             "Users",
@@ -16771,7 +16763,7 @@
             "ITAM/ITSM"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Devices",
             "Software"
         ]
@@ -16864,7 +16856,7 @@
             "Devices",
             "Users",
             "Software",
-            "Discovered Saas Applications"
+            "SaaS Applications"
         ]
     },
     {
@@ -16919,8 +16911,8 @@
         "assetsFetched": [
             "Compute Services",
             "Devices",
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Software",
             "Users"
         ]
@@ -17019,7 +17011,7 @@
             "ITAM/ITSM"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Devices",
             "Software"
         ]
@@ -17046,8 +17038,8 @@
             "Audit/Compliance"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Devices",
             "Software"
         ]
@@ -17075,8 +17067,8 @@
             "ITAM/ITSM"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Devices",
             "Software",
             "Users",
@@ -17095,8 +17087,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Discovered Saas Applications",
-            "Vulnerabilities"
+            "SaaS Applications",
+            "Aggregated Security Findings"
         ]
     },
     {
@@ -17175,11 +17167,11 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Containers",
             "Users",
-            "Security Roles",
+            "Roles",
             "Groups",
             "Databases",
             "Object Storages",
@@ -17215,10 +17207,9 @@
             "VA Tool"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Devices",
-            "Repository Vulnerabilities",
             "Domains & URLs"
         ]
     },
@@ -17231,8 +17222,8 @@
             "VA Tool"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Devices"
         ]
     },
@@ -17247,12 +17238,12 @@
         "assetsFetched": [
             "Devices",
             "Groups",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Network Services",
             "Compliance Findings",
             "Users",
             "Software",
-            "Vulnerabilities",
+            "Aggregated Security Findings",
             "Load Balancers",
             "Containers",
             "Domains & URLs",
@@ -17270,8 +17261,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Vulnerabilities",
-            "Discovered Saas Applications"
+            "Aggregated Security Findings",
+            "SaaS Applications"
         ]
     },
     {
@@ -17296,8 +17287,8 @@
             "OT"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Devices"
         ]
     },
@@ -17324,8 +17315,8 @@
         "assetsFetched": [
             "Incidents",
             "Devices",
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Software",
             "Users",
             "Compliance Findings",
@@ -17419,7 +17410,7 @@
         ],
         "assetsFetched": [
             "Software",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Devices",
             "Application Settings"
         ]
@@ -17583,7 +17574,7 @@
             "EDR/EPP"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Devices",
             "Software"
         ]
@@ -17663,8 +17654,8 @@
             "Users",
             "Devices",
             "Networks",
-            "Discovered Saas Applications",
-            "Vulnerabilities"
+            "SaaS Applications",
+            "Aggregated Security Findings"
         ]
     },
     {
@@ -17676,8 +17667,8 @@
             "EDR/EPP"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Users",
             "Devices",
             "Software"
@@ -17717,10 +17708,11 @@
             "EDR/EPP"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Devices",
             "Software",
-            "Databases"
+            "Databases",
+            "Users"
         ]
     },
     {
@@ -17852,8 +17844,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Users",
             "Software",
             "Containers"
@@ -17884,8 +17876,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Software"
         ]
     },
@@ -18035,8 +18027,8 @@
             "Threat Intel"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Users",
             "Devices",
             "Domains & URLs"
@@ -18104,8 +18096,8 @@
             "File Systems",
             "Object Storages",
             "Secrets",
-            "Discovered Saas Applications",
-            "Vulnerabilities"
+            "SaaS Applications",
+            "Aggregated Security Findings"
         ]
     },
     {
@@ -18117,7 +18109,7 @@
             "Config/Patch Mgmt"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Devices",
             "Software"
         ]
@@ -18262,7 +18254,7 @@
             "Risk Mgmt"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Tickets",
             "Organizational Units"
         ]
@@ -18277,8 +18269,8 @@
             "VA Tool"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Devices",
             "Business Applications"
         ]
@@ -18318,8 +18310,8 @@
             "VA Tool"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Devices",
             "Software"
         ]
@@ -18388,7 +18380,7 @@
             "Devices",
             "Users",
             "Software",
-            "Discovered Saas Applications"
+            "SaaS Applications"
         ]
     },
     {
@@ -18400,11 +18392,11 @@
             "EDR/EPP"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Devices",
             "Users",
-            "Security Roles"
+            "Roles"
         ]
     },
     {
@@ -18561,8 +18553,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Application Services"
         ]
     },
@@ -18618,7 +18610,7 @@
         "assetsFetched": [
             "Devices",
             "Users",
-            "Discovered Saas Applications"
+            "SaaS Applications"
         ]
     },
     {
@@ -18661,10 +18653,10 @@
             "Application Resources",
             "Containers",
             "Devices",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Object Storages",
             "Domains & URLs",
-            "Vulnerabilities"
+            "Aggregated Security Findings"
         ]
     },
     {
@@ -18676,8 +18668,8 @@
             "EDR/EPP"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Devices",
             "Software"
         ]
@@ -18742,7 +18734,7 @@
         ],
         "assetsFetched": [
             "Software",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Users",
             "Devices"
         ]
@@ -18782,8 +18774,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Vulnerabilities",
-            "Discovered Saas Applications"
+            "Aggregated Security Findings",
+            "SaaS Applications"
         ]
     },
     {
@@ -18811,9 +18803,9 @@
             "Disks",
             "Devices",
             "Compute Services",
-            "Vulnerabilities",
+            "Aggregated Security Findings",
             "Databases",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Accounts",
             "Network Services",
             "Load Balancers",
@@ -18830,7 +18822,7 @@
             "Domains & URLs",
             "Certificates",
             "Permissions",
-            "Security Roles",
+            "Roles",
             "Secrets",
             "Configurations",
             "Firewalls",
@@ -18849,7 +18841,7 @@
             "Containers",
             "Databases",
             "Devices",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Object Storages",
             "Software"
         ]
@@ -18887,10 +18879,10 @@
             "Admin Managed Extensions",
             "Application Addons",
             "User Initiated Extensions",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Application Settings",
             "Devices",
-            "Security Roles"
+            "Roles"
         ]
     },
     {
@@ -19016,7 +19008,7 @@
         "assetsFetched": [
             "Devices",
             "Software",
-            "Discovered Saas Applications"
+            "SaaS Applications"
         ]
     },
     {
@@ -19044,8 +19036,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Vulnerabilities",
-            "Discovered Saas Applications"
+            "Aggregated Security Findings",
+            "SaaS Applications"
         ]
     },
     {
@@ -19085,8 +19077,8 @@
         ],
         "assetsFetched": [
             "Domains & URLs",
-            "Discovered Saas Applications",
-            "Vulnerabilities"
+            "SaaS Applications",
+            "Aggregated Security Findings"
         ]
     },
     {
@@ -19113,7 +19105,7 @@
         ],
         "assetsFetched": [
             "Software",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Devices"
         ]
     },
@@ -19127,9 +19119,9 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Vulnerabilities",
-            "Discovered Saas Applications",
-            "Vulnerability Instances"
+            "Aggregated Security Findings",
+            "SaaS Applications",
+            "Security Findings"
         ]
     },
     {
@@ -19143,10 +19135,10 @@
         ],
         "assetsFetched": [
             "Tickets",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Accounts",
             "Application Settings",
-            "Security Roles",
+            "Roles",
             "Licenses",
             "Users",
             "Groups"
@@ -19166,6 +19158,20 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/zentral_adapter.svg",
+        "name": "Zentral",
+        "href": "/docs/Zentral",
+        "description": "Zentral is an endpoint visibility and management platform that provides device inventory, compliance monitoring, and binary authorization for Apple, Linux, and Android endpoints.",
+        "solutionCategories": [
+            "MDM/EMM",
+            "UEM"
+        ],
+        "assetsFetched": [
+            "Devices",
+            "Users"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/zero_networks_adapter.svg",
         "name": "Zero Networks",
         "href": "/docs/Zero-Networks",
@@ -19175,6 +19181,20 @@
         ],
         "assetsFetched": [
             "Users",
+            "Devices"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/zero_touch_adapter.svg",
+        "name": "Zero Touch",
+        "href": "/docs/Zero-Touch",
+        "description": "ZeroTouch is a unified endpoint management and security platform that provides real-time device provisioning, patch management, application deployment, and remote endpoint action capabilities.",
+        "solutionCategories": [
+            "Config/Patch Mgmt",
+            "MDM/EMM",
+            "Asset Management"
+        ],
+        "assetsFetched": [
             "Devices"
         ]
     },
@@ -19237,11 +19257,11 @@
             "EDR/EPP"
         ],
         "assetsFetched": [
-            "Vulnerabilities",
-            "Discovered Saas Applications",
+            "Aggregated Security Findings",
+            "SaaS Applications",
             "Users",
             "Devices",
-            "Security Roles",
+            "Roles",
             "Incidents"
         ]
     },
@@ -19255,10 +19275,10 @@
         ],
         "assetsFetched": [
             "Licenses",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Users",
             "Groups",
-            "Security Roles",
+            "Roles",
             "Organizational Units"
         ]
     },
@@ -19273,7 +19293,7 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Accounts",
             "Application Settings",
             "Licenses",
@@ -19337,10 +19357,10 @@
         "assetsFetched": [
             "Users",
             "Network Services",
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Business Applications",
             "Firewalls",
-            "Vulnerabilities"
+            "Aggregated Security Findings"
         ]
     },
     {
@@ -19353,7 +19373,7 @@
             "SaaS Management"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Users",
             "Devices",
             "Firewalls",
@@ -19381,7 +19401,7 @@
             "RMM"
         ],
         "assetsFetched": [
-            "Discovered Saas Applications",
+            "SaaS Applications",
             "Users",
             "Devices",
             "Software"
