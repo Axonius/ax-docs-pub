@@ -1027,6 +1027,7 @@
             "Certificate Mgmt"
         ],
         "assetsFetched": [
+            "Application Settings",
             "Certificates"
         ]
     },
@@ -3638,8 +3639,7 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Load Balancers",
-            "Network Routes"
+            "Load Balancers"
         ]
     },
     {
@@ -3949,7 +3949,8 @@
         ],
         "assetsFetched": [
             "Users",
-            "Devices"
+            "Devices",
+            "Application Settings"
         ]
     },
     {
@@ -4079,7 +4080,8 @@
             "Audit/Compliance"
         ],
         "assetsFetched": [
-            "Contracts"
+            "Contracts",
+            "Users"
         ]
     },
     {
@@ -4169,7 +4171,8 @@
             "Containers",
             "Roles",
             "Accounts",
-            "Serverless Functions"
+            "Serverless Functions",
+            "Compute Services"
         ]
     },
     {
@@ -4376,6 +4379,20 @@
         ],
         "assetsFetched": [
             "Devices"
+        ]
+    },
+    {
+        "logo": null,
+        "name": "Custom Data Asset Source",
+        "href": "",
+        "description": "Built-in, Axonius-managed adapter that persists manually-entered ('Create New Asset') data as a real adapter contribution so it participates in correlation like any third-party adapter.",
+        "solutionCategories": [
+            "CMDB",
+            "ITAM/ITSM"
+        ],
+        "assetsFetched": [
+            "Devices",
+            "Users"
         ]
     },
     {
@@ -4711,7 +4728,8 @@
             "Software",
             "Containers",
             "Compute Images",
-            "Application Settings"
+            "Application Settings",
+            "Serverless Functions"
         ]
     },
     {
@@ -5411,7 +5429,8 @@
         "assetsFetched": [
             "Users",
             "Devices",
-            "Applications"
+            "Applications",
+            "Application Settings"
         ]
     },
     {
@@ -5426,6 +5445,24 @@
         ],
         "assetsFetched": [
             "Application Resources"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/dts_identity_adapter.svg",
+        "name": "DTS Identity",
+        "href": "/docs/DTS-Identity",
+        "description": "DTS Identity is an identity provider that offers user management, device inventory, multi-factor authentication, and vulnerability tracking for enterprise environments.",
+        "solutionCategories": [
+            "IAM",
+            "Directory",
+            "MDM/EMM"
+        ],
+        "assetsFetched": [
+            "Users",
+            "Devices",
+            "Aggregated Security Findings",
+            "SaaS Applications",
+            "Software"
         ]
     },
     {
@@ -7940,6 +7977,18 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/hpe_alletra_san_adapter.svg",
+        "name": "HPE Alletra SAN",
+        "href": "/docs/HPE-Alletra-SAN",
+        "description": "HPE Alletra SAN is a storage platform that provides block storage, volume provisioning, snapshots, replication, and lifecycle management for enterprise workloads.",
+        "solutionCategories": [
+            "Storage Mgmt"
+        ],
+        "assetsFetched": [
+            "Devices"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/aruba_adapter.svg",
         "name": "HPE Aruba Networking",
         "href": "/docs/aruba",
@@ -8020,24 +8069,24 @@
         ]
     },
     {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/hpe_oneview_adapter.svg",
-        "name": "HPE OneView",
-        "href": "/docs/hpe-oneview",
-        "description": "HPE OneView is an integrated IT management solution that transforms compute, storage, and networking into software-defined infrastructure to automate tasks.",
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/hpe_san_adapter.svg",
+        "name": "HPE Nimble SAN",
+        "href": "/docs/hpe-san",
+        "description": "HPE Nimble storage area networking (SAN) provides storage solutions for performance, scalability, and manageability.",
         "solutionCategories": [
-            "ITAM/ITSM"
+            "Storage Mgmt"
         ],
         "assetsFetched": [
             "Devices"
         ]
     },
     {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/hpe_san_adapter.svg",
-        "name": "HPE SAN",
-        "href": "/docs/hpe-san",
-        "description": "HPE storage area networking (SAN) provides storage solutions for performance, scalability, and manageability.",
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/hpe_oneview_adapter.svg",
+        "name": "HPE OneView",
+        "href": "/docs/hpe-oneview",
+        "description": "HPE OneView is an integrated IT management solution that transforms compute, storage, and networking into software-defined infrastructure to automate tasks.",
         "solutionCategories": [
-            "Storage Mgmt"
+            "ITAM/ITSM"
         ],
         "assetsFetched": [
             "Devices"
@@ -8331,7 +8380,9 @@
             "CMDB"
         ],
         "assetsFetched": [
-            "Devices"
+            "Users",
+            "Devices",
+            "Application Settings"
         ]
     },
     {
@@ -8537,7 +8588,8 @@
             "Load Balancers",
             "Firewalls",
             "Networks",
-            "Network Devices"
+            "Network Devices",
+            "Application Settings"
         ]
     },
     {
@@ -8943,7 +8995,8 @@
         ],
         "assetsFetched": [
             "Users",
-            "Groups"
+            "Groups",
+            "Contracts"
         ]
     },
     {
@@ -10304,6 +10357,7 @@
         ],
         "assetsFetched": [
             "Application Services",
+            "Application Settings",
             "Business Applications",
             "Organizational Units",
             "Secrets",
@@ -10924,6 +10978,7 @@
             "HR"
         ],
         "assetsFetched": [
+            "Application Settings",
             "Users",
             "Groups"
         ]
@@ -11061,6 +11116,20 @@
             "Audit Activities",
             "Application Resources",
             "Application Settings"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/moodys_creditlens_adapter.svg",
+        "name": "Moody's CreditLens",
+        "href": "/docs/Moodys-Creditlens",
+        "description": "Moody's CreditLens is a commercial lending and credit risk platform that helps financial institutions manage the full credit lifecycle. This adapter fetches user account data from the platform.",
+        "solutionCategories": [
+            "IAM",
+            "SaaS Management",
+            "Audit/Compliance"
+        ],
+        "assetsFetched": [
+            "Users"
         ]
     },
     {
@@ -11629,6 +11698,20 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/netspi_resolve_adapter.svg",
+        "name": "NetSPI Resolve",
+        "href": "/docs/NetSPI-Resolve",
+        "description": "NetSPI Resolve is a penetration testing management platform that provides vulnerability findings correlation, asset tracking, and remediation risk scoring for attack surface management.",
+        "solutionCategories": [
+            "Attack Surface Management",
+            "Risk Mgmt",
+            "VA Tool"
+        ],
+        "assetsFetched": [
+            "Devices"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/netspy_glass_adapter.svg",
         "name": "NetSpyglass",
         "href": "/docs/NetSpyglass",
@@ -11937,7 +12020,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Network Services"
+            "Network Services",
+            "Domains & URLs"
         ]
     },
     {
@@ -12269,6 +12353,22 @@
             "User Initiated Extension Instances",
             "Users",
             "Groups"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/onespan_adapter.svg",
+        "name": "OneSpan",
+        "href": "/docs/OneSpan",
+        "description": "OneSpan Sign is an e-signature platform that provides secure digital signing, user management, and document transaction workflows.",
+        "solutionCategories": [
+            "IAM",
+            "Collaboration",
+            "Audit/Compliance"
+        ],
+        "assetsFetched": [
+            "Users",
+            "Groups",
+            "Application Settings"
         ]
     },
     {
@@ -12653,7 +12753,8 @@
             "Users",
             "Groups",
             "Roles",
-            "Permissions"
+            "Permissions",
+            "Application Settings"
         ]
     },
     {
@@ -13980,7 +14081,8 @@
             "Certificates",
             "Compliance Findings",
             "Roles",
-            "Accounts"
+            "Accounts",
+            "Application Settings"
         ]
     },
     {
@@ -14114,6 +14216,21 @@
             "Aggregated Security Findings",
             "SaaS Applications",
             "Devices"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/radware_adapter.svg",
+        "name": "Radware Cloud Services",
+        "href": "/docs/radware",
+        "description": "Radware Cloud Services provides cloud web application and DDoS protection (Cloud Application Protection) and cloud infrastructure protection for network and server assets (Cloud Infrastructure Protection), exposed via a REST API.",
+        "solutionCategories": [
+            "AppSec",
+            "Config/Patch Mgmt",
+            "Cloud Security"
+        ],
+        "assetsFetched": [
+            "Networks",
+            "Application Settings"
         ]
     },
     {
@@ -16120,6 +16237,23 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/soc_radar_adapter.svg",
+        "name": "SOCRadar",
+        "href": "",
+        "description": "SOCRadar is an extended threat intelligence platform that provides cyber threat intelligence, attack surface management, digital risk protection, dark web monitoring, and vulnerability intelligence for security operations.",
+        "solutionCategories": [
+            "Attack Surface Management",
+            "Cyber Intelligence",
+            "Risk Mgmt"
+        ],
+        "assetsFetched": [
+            "Devices",
+            "Networks",
+            "Domains & URLs",
+            "Certificates"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/solarwinds_orion_adapter.svg",
         "name": "SolarWinds Network Performance Monitor",
         "href": "/docs/solarwinds-network-performance-monitor",
@@ -16295,6 +16429,19 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/spacelift_adapter.svg",
+        "name": "Spacelift",
+        "href": "/docs/spacelift",
+        "description": "Spacelift is an infrastructure-as-code management platform that orchestrates Terraform, OpenTofu, Pulumi and other IaC workflows with policy-based access control and CI/CD automation.",
+        "solutionCategories": [
+            "DevOps"
+        ],
+        "assetsFetched": [
+            "Users",
+            "Application Settings"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/spacewalk_adapter.svg",
         "name": "Spacewalk",
         "href": "/docs/spacewalk",
@@ -16397,6 +16544,7 @@
             "User Initiated Extensions",
             "Admin Managed Extensions",
             "Containers",
+            "Networks",
             "Application Settings"
         ]
     },
@@ -16444,7 +16592,8 @@
             "Accounts",
             "Application Resources",
             "Domains & URLs",
-            "Business Applications"
+            "Business Applications",
+            "Roles"
         ]
     },
     {
@@ -17908,6 +18057,19 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/ubiquiti_uisp_adapter.svg",
+        "name": "Ubiquiti UISP",
+        "href": "/docs/Ubiquiti-Uisp",
+        "description": "Ubiquiti UISP is a network management platform that provides centralized monitoring, configuration, and device management for wireless and wired network infrastructure.",
+        "solutionCategories": [
+            "Networking",
+            "Infra Monitoring"
+        ],
+        "assetsFetched": [
+            "Devices"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/udemy_adapter.svg",
         "name": "Udemy",
         "href": "/docs/Udemy",
@@ -17918,6 +18080,19 @@
         ],
         "assetsFetched": [
             "Users"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/uipath_adapter.svg",
+        "name": "UiPath",
+        "href": "/docs/UiPath",
+        "description": "UiPath is a robotic process automation (RPA) platform for building, deploying and managing software robots that automate business processes.",
+        "solutionCategories": [
+            "MDM/EMM"
+        ],
+        "assetsFetched": [
+            "Users",
+            "Application Settings"
         ]
     },
     {
@@ -18096,8 +18271,12 @@
             "File Systems",
             "Object Storages",
             "Secrets",
+            "Application Services",
+            "Roles",
+            "Accounts",
             "SaaS Applications",
-            "Aggregated Security Findings"
+            "Aggregated Security Findings",
+            "Containers"
         ]
     },
     {
@@ -18575,7 +18754,7 @@
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/vulndb_enrichment_adapter.svg",
         "name": "VulnDB Enrichment",
         "href": "/docs/Vulndb-Enrichment",
-        "description": "VulnDB is a vulnerability intelligence platform that offers detailed information on software, hardware, and third-party library vulnerabilities to support risk assessment and remediation efforts.",
+        "description": "VulnDB is a vulnerability intelligence platform that offers detailed information on software, hardware, and third-party library vulnerabilities to support risk assessment and remediation efforts. The adapter supports both the legacy VulnDB API and the Flashpoint Ignite API.",
         "solutionCategories": [
             "Cyber Intelligence",
             "Risk Mgmt",
@@ -18856,6 +19035,22 @@
         ],
         "assetsFetched": [
             "Users"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/wordpress_toolkit_adapter.svg",
+        "name": "WordPress Toolkit",
+        "href": "/docs/WordPress-Toolkit",
+        "description": "WordPress Toolkit is a Plesk management extension that provides installation, plugin, theme, update, security hardening, and vulnerability scanning capabilities for WordPress sites.",
+        "solutionCategories": [
+            "AppSec",
+            "Config/Patch Mgmt",
+            "VA Tool"
+        ],
+        "assetsFetched": [
+            "Domains & URLs",
+            "Aggregated Security Findings",
+            "SaaS Applications"
         ]
     },
     {
@@ -19141,6 +19336,7 @@
             "Roles",
             "Licenses",
             "Users",
+            "Devices",
             "Groups"
         ]
     },
