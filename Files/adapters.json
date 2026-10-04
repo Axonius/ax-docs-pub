@@ -571,8 +571,10 @@
             "Audit/Compliance"
         ],
         "assetsFetched": [
+            "Application Settings",
             "SaaS Applications",
             "Domains & URLs",
+            "Users",
             "Aggregated Security Findings"
         ]
     },
@@ -1073,6 +1075,21 @@
             "Devices",
             "Applications",
             "Application Settings"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/arcon_pam_adapter.svg",
+        "name": "ARCON PAM",
+        "href": "/docs/arcon-pam",
+        "description": "ARCON Privileged Access Management (PAM) secures privileged accounts and provides session control, credential vaulting, and monitoring of user and service accounts.",
+        "solutionCategories": [
+            "PAM",
+            "IAM",
+            "Password Mgmt"
+        ],
+        "assetsFetched": [
+            "Users",
+            "Devices"
         ]
     },
     {
@@ -2148,7 +2165,8 @@
         "assetsFetched": [
             "Devices",
             "Domains & URLs",
-            "Networks"
+            "Networks",
+            "Network Services"
         ]
     },
     {
@@ -4454,6 +4472,21 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/cyberark_certificate_manager_saas_adapter.svg",
+        "name": "CyberArk Certificate Manager - SaaS",
+        "href": "/docs/cyberark-certificate-manager-saas",
+        "description": "CyberArk Certificate Manager - SaaS is a certificate lifecycle management platform that discovers, monitors, and manages TLS/SSL certificates across networks to prevent outages and security exposures.",
+        "solutionCategories": [
+            "Certificate Mgmt",
+            "IAM"
+        ],
+        "assetsFetched": [
+            "Certificates",
+            "Devices",
+            "Users"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/cyberark_epm_adapter.svg",
         "name": "CyberArk Endpoint Privilege Manager",
         "href": "/docs/cyberark-endpoint-privilege-manager",
@@ -4799,7 +4832,7 @@
             "VA Tool"
         ],
         "assetsFetched": [
-            "Application Services",
+            "Application Resources",
             "SaaS Applications",
             "Aggregated Security Findings"
         ]
@@ -5509,7 +5542,8 @@
             "Containers",
             "Databases",
             "Load Balancers",
-            "Object Storages"
+            "Object Storages",
+            "Application Settings"
         ]
     },
     {
@@ -5817,7 +5851,8 @@
             "SOAR"
         ],
         "assetsFetched": [
-            "Devices"
+            "Aggregated Security Findings",
+            "SaaS Applications"
         ]
     },
     {
@@ -6115,6 +6150,7 @@
         ],
         "assetsFetched": [
             "Devices",
+            "Compute Services",
             "Networks"
         ]
     },
@@ -6884,7 +6920,8 @@
             "Software",
             "Devices",
             "SaaS Applications",
-            "Aggregated Security Findings"
+            "Aggregated Security Findings",
+            "Firewalls"
         ]
     },
     {
@@ -7132,7 +7169,8 @@
             "Roles",
             "Users",
             "Groups",
-            "Application Settings"
+            "Application Settings",
+            "Software"
         ]
     },
     {
@@ -7378,7 +7416,8 @@
             "VA Tool"
         ],
         "assetsFetched": [
-            "Devices"
+            "Aggregated Security Findings",
+            "SaaS Applications"
         ]
     },
     {
@@ -7511,7 +7550,8 @@
             "SOAR"
         ],
         "assetsFetched": [
-            "Devices"
+            "Aggregated Security Findings",
+            "SaaS Applications"
         ]
     },
     {
@@ -7650,7 +7690,9 @@
             "UEBA"
         ],
         "assetsFetched": [
-            "Devices"
+            "Devices",
+            "Software",
+            "SaaS Applications"
         ]
     },
     {
@@ -8380,7 +8422,6 @@
             "CMDB"
         ],
         "assetsFetched": [
-            "Users",
             "Devices",
             "Application Settings"
         ]
@@ -9503,7 +9544,8 @@
             "Aggregated Security Findings",
             "SaaS Applications",
             "Devices",
-            "Software"
+            "Software",
+            "Domains & URLs"
         ]
     },
     {
@@ -9851,6 +9893,21 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/link_shadow_adapter.svg",
+        "name": "LinkShadow",
+        "href": "/docs/linkshadow",
+        "description": "LinkShadow is a network detection and response platform that provides network traffic analysis, behavioral analytics, threat detection, and anomaly identification across devices and users.",
+        "solutionCategories": [
+            "NDR",
+            "UEBA",
+            "Cyber Intelligence"
+        ],
+        "assetsFetched": [
+            "Devices",
+            "Users"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/linode_adapter.svg",
         "name": "Linode",
         "href": "/docs/Linode",
@@ -10190,7 +10247,9 @@
         ],
         "assetsFetched": [
             "Users",
-            "Devices"
+            "Devices",
+            "Software",
+            "SaaS Applications"
         ]
     },
     {
@@ -10512,6 +10571,7 @@
             "Compute Services",
             "Organizational Units",
             "Domains & URLs",
+            "Certificates",
             "Permissions"
         ]
     },
@@ -10653,7 +10713,9 @@
             "HR"
         ],
         "assetsFetched": [
-            "Devices"
+            "Users",
+            "Devices",
+            "Application Settings"
         ]
     },
     {
@@ -10762,7 +10824,8 @@
             "Devices",
             "Software",
             "SaaS Applications",
-            "Configurations"
+            "Configurations",
+            "Application Settings"
         ]
     },
     {
@@ -10801,7 +10864,8 @@
         "assetsFetched": [
             "Groups",
             "Users",
-            "Compute Services"
+            "Compute Services",
+            "Application Settings"
         ]
     },
     {
@@ -10814,7 +10878,8 @@
             "SaaS Management"
         ],
         "assetsFetched": [
-            "Application Resources"
+            "Application Resources",
+            "Application Settings"
         ]
     },
     {
@@ -10858,7 +10923,8 @@
             "Devices",
             "Groups",
             "Users",
-            "Application Resources"
+            "Application Resources",
+            "Application Settings"
         ]
     },
     {
@@ -11129,7 +11195,8 @@
             "Audit/Compliance"
         ],
         "assetsFetched": [
-            "Users"
+            "Users",
+            "Application Settings"
         ]
     },
     {
@@ -12184,7 +12251,8 @@
             "Users",
             "Aggregated Security Findings",
             "Roles",
-            "SaaS Applications"
+            "SaaS Applications",
+            "Tickets"
         ]
     },
     {
@@ -12351,6 +12419,21 @@
             "Application Addon Instances",
             "Application Keys",
             "User Initiated Extension Instances",
+            "Users",
+            "Groups"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/onesource_adapter.svg",
+        "name": "ONESOURCE",
+        "href": "/docs/Onesource",
+        "description": "ONESOURCE is a Thomson Reuters tax compliance platform that provides user and group administration, client management, and access control across direct and indirect tax workflows.",
+        "solutionCategories": [
+            "SaaS Management",
+            "ERP",
+            "IAM"
+        ],
+        "assetsFetched": [
             "Users",
             "Groups"
         ]
@@ -16239,7 +16322,7 @@
     {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/soc_radar_adapter.svg",
         "name": "SOCRadar",
-        "href": "",
+        "href": "/docs/socradar",
         "description": "SOCRadar is an extended threat intelligence platform that provides cyber threat intelligence, attack surface management, digital risk protection, dark web monitoring, and vulnerability intelligence for security operations.",
         "solutionCategories": [
             "Attack Surface Management",
@@ -16593,7 +16676,10 @@
             "Application Resources",
             "Domains & URLs",
             "Business Applications",
-            "Roles"
+            "Roles",
+            "Serverless Functions",
+            "Containers",
+            "Compute Images"
         ]
     },
     {
@@ -17473,6 +17559,23 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/tencent_cloud_edgeone_adapter.svg",
+        "name": "Tencent Cloud EdgeOne",
+        "href": "/docs/tencent-cloud-edgeone",
+        "description": "Tencent Cloud EdgeOne is an edge security acceleration platform that provides web application firewall protection, DDoS mitigation, bot management, and rate-limiting rules for internet-facing services.",
+        "solutionCategories": [
+            "AppSec",
+            "Attack Surface Management",
+            "Firewall"
+        ],
+        "assetsFetched": [
+            "Domains & URLs",
+            "Firewalls",
+            "Load Balancers",
+            "Compute Services"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/teqtivity_adapter.svg",
         "name": "TeQube Teqtivity",
         "href": "/docs/teqube-teqtivity",
@@ -17575,7 +17678,8 @@
             "VA Tool"
         ],
         "assetsFetched": [
-            "Devices"
+            "Aggregated Security Findings",
+            "SaaS Applications"
         ]
     },
     {
@@ -18761,7 +18865,8 @@
             "VA Tool"
         ],
         "assetsFetched": [
-            "Devices"
+            "Aggregated Security Findings",
+            "SaaS Applications"
         ]
     },
     {
@@ -19006,23 +19111,6 @@
             "Configurations",
             "Firewalls",
             "Organizational Units"
-        ]
-    },
-    {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/wiz_reports_adapter.svg",
-        "name": "Wiz Reports",
-        "href": "/docs/wiz-reports",
-        "description": "Wiz Reports provides additional data for Wiz assets.",
-        "solutionCategories": [
-            "Cloud Security"
-        ],
-        "assetsFetched": [
-            "Containers",
-            "Databases",
-            "Devices",
-            "SaaS Applications",
-            "Object Storages",
-            "Software"
         ]
     },
     {
@@ -19302,6 +19390,23 @@
             "Software",
             "SaaS Applications",
             "Devices"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/zadara_zcompute_adapter.svg",
+        "name": "Zadara zCompute",
+        "href": "/docs/Zadara-Zcompute",
+        "description": "Zadara zCompute is a cloud compute platform that provides virtual machines, block and object storage, virtual networking, and machine images for building private and hybrid cloud infrastructure.",
+        "solutionCategories": [
+            "Cloud Infra",
+            "Virtualization",
+            "Cloud Mgmt"
+        ],
+        "assetsFetched": [
+            "Devices",
+            "Compute Images",
+            "Disks",
+            "Firewalls"
         ]
     },
     {
