@@ -812,7 +812,8 @@
             "Users",
             "Network Routes",
             "Domains & URLs",
-            "Expenses"
+            "Expenses",
+            "Ai Knowledge Sources"
         ]
     },
     {
@@ -2697,6 +2698,22 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/britive_adapter.svg",
+        "name": "Britive",
+        "href": "/docs/Britive",
+        "description": "Britive is a privileged access management platform that offers just-in-time access provisioning, permission visibility, and identity governance across cloud infrastructure and SaaS environments.",
+        "solutionCategories": [
+            "PAM",
+            "IAM",
+            "Cloud Security"
+        ],
+        "assetsFetched": [
+            "Users",
+            "Groups",
+            "Roles"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/brivo_adapter.svg",
         "name": "Brivo",
         "href": "/docs/Brivo",
@@ -2873,7 +2890,7 @@
         ]
     },
     {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/censys_adapter.png",
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/censys_adapter.svg",
         "name": "Censys",
         "href": "/docs/censys",
         "description": "Censys monitors infrastructure and discovers unknown assets across the Internet.",
@@ -3341,7 +3358,8 @@
             "Aggregated Security Findings",
             "SaaS Applications",
             "Network Devices",
-            "Licenses"
+            "Licenses",
+            "Networks"
         ]
     },
     {
@@ -4190,7 +4208,8 @@
             "Roles",
             "Accounts",
             "Serverless Functions",
-            "Compute Services"
+            "Compute Services",
+            "Object Storages"
         ]
     },
     {
@@ -7024,6 +7043,21 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/fujitsu_ism_adapter.svg",
+        "name": "Fujitsu ISM",
+        "href": "/docs/fujitsu-ism",
+        "description": "Fujitsu ISM (Infrastructure Manager) is an infrastructure management platform that provides centralized monitoring, firmware lifecycle management, and hardware inventory for Fujitsu servers, storage arrays, and network switches.",
+        "solutionCategories": [
+            "ITAM/ITSM",
+            "Infra Monitoring",
+            "Config/Patch Mgmt"
+        ],
+        "assetsFetched": [
+            "Devices",
+            "Groups"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/gainsightpx_adapter.svg",
         "name": "Gainsight PX",
         "href": "/docs/Gainsightpx",
@@ -7745,7 +7779,8 @@
         ],
         "assetsFetched": [
             "Users",
-            "Application Resources"
+            "Application Resources",
+            "Secrets"
         ]
     },
     {
@@ -8656,7 +8691,6 @@
         ],
         "assetsFetched": [
             "Incidents",
-            "Applications",
             "Devices",
             "Domains & URLs"
         ]
@@ -9105,7 +9139,9 @@
         ],
         "assetsFetched": [
             "Users",
-            "Devices"
+            "Devices",
+            "Licenses",
+            "SaaS Applications"
         ]
     },
     {
@@ -9980,6 +10016,20 @@
         "description": "LivePerson is a conversational AI platform that enables businesses to engage with customers through messaging, chatbots, and agent tools.",
         "solutionCategories": [
             "HR"
+        ],
+        "assetsFetched": [
+            "Users"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/living_security_adapter.svg",
+        "name": "Living Security",
+        "href": "/docs/living-security",
+        "description": "Living Security is a human risk management platform that provides security awareness training, phishing simulation, and identity risk scoring for workforce identities.",
+        "solutionCategories": [
+            "Security Awareness",
+            "Risk Mgmt",
+            "UEBA"
         ],
         "assetsFetched": [
             "Users"
@@ -12168,7 +12218,9 @@
         ],
         "assetsFetched": [
             "Users",
-            "Devices"
+            "Devices",
+            "Licenses",
+            "SaaS Applications"
         ]
     },
     {
@@ -12480,7 +12532,8 @@
             "Risk Mgmt"
         ],
         "assetsFetched": [
-            "Devices"
+            "Devices",
+            "Users"
         ]
     },
     {
@@ -13687,7 +13740,9 @@
             "Cloud Mgmt"
         ],
         "assetsFetched": [
-            "Devices"
+            "Devices",
+            "Compute Images",
+            "Applications"
         ]
     },
     {
@@ -14587,6 +14642,27 @@
         ],
         "assetsFetched": [
             "Compute Services"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/stackrox_adapter.svg",
+        "name": "Red Hat Advanced Cluster Security (StackRox)",
+        "href": "/docs/Stackrox",
+        "description": "Red Hat Advanced Cluster Security (formerly StackRox) provides Kubernetes-native container security for vulnerability management, compliance, network policy, risk profiling, and runtime threat detection.",
+        "solutionCategories": [
+            "Containers",
+            "VA Tool",
+            "Audit/Compliance"
+        ],
+        "assetsFetched": [
+            "Devices",
+            "Compute Services",
+            "Containers",
+            "Compute Images",
+            "Aggregated Security Findings",
+            "Software",
+            "SaaS Applications",
+            "Alert Findings"
         ]
     },
     {
@@ -15901,6 +15977,7 @@
             "Load Balancers",
             "Object Storages",
             "Permissions",
+            "Secrets",
             "Roles",
             "Software",
             "Tickets",
@@ -16679,7 +16756,9 @@
             "Roles",
             "Serverless Functions",
             "Containers",
-            "Compute Images"
+            "Compute Images",
+            "Licenses",
+            "SaaS Applications"
         ]
     },
     {
@@ -16692,27 +16771,6 @@
         ],
         "assetsFetched": [
             "Devices"
-        ]
-    },
-    {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/stackrox_adapter.svg",
-        "name": "StackRox",
-        "href": "/docs/Stackrox",
-        "description": "StackRox is a container security platform that protects cloud-based applications, detects threats, and manages vulnerabilities, compliance requirements, and configurations.",
-        "solutionCategories": [
-            "Containers",
-            "VA Tool",
-            "Audit/Compliance"
-        ],
-        "assetsFetched": [
-            "Devices",
-            "Compute Services",
-            "Containers",
-            "Compute Images",
-            "Aggregated Security Findings",
-            "Software",
-            "SaaS Applications",
-            "Alert Findings"
         ]
     },
     {
@@ -19421,7 +19479,11 @@
             "Devices",
             "Aggregated Security Findings",
             "SaaS Applications",
-            "Security Findings"
+            "Security Findings",
+            "Containers",
+            "Compute Images",
+            "Compute Services",
+            "Serverless Functions"
         ]
     },
     {
