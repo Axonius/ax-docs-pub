@@ -744,7 +744,13 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Users"
+            "Users",
+            "Object Storages",
+            "Compute Services",
+            "Databases",
+            "Load Balancers",
+            "Networks",
+            "Disks"
         ]
     },
     {
@@ -813,7 +819,8 @@
             "Network Routes",
             "Domains & URLs",
             "Expenses",
-            "Ai Knowledge Sources"
+            "Ai Knowledge Sources",
+            "Ai Autonomous Agents"
         ]
     },
     {
@@ -869,7 +876,7 @@
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/anthropic_adapter.svg",
         "name": "Anthropic (Claude)",
         "href": "/docs/anthropic",
-        "description": "Anthropic is an AI assistant platform that provides enterprise administration capabilities for API key inventory, user and group management, and compliance activity monitoring.",
+        "description": "Anthropic is an AI assistant platform that provides enterprise administration capabilities for API key inventory, user and group management, compliance activity monitoring, and visibility into Claude managed agents and the files their sessions use as knowledge sources.",
         "solutionCategories": [
             "IAM",
             "SaaS Management",
@@ -879,7 +886,9 @@
             "Secrets",
             "Users",
             "Groups",
-            "Roles"
+            "Roles",
+            "Ai Knowledge Sources",
+            "Ai Autonomous Agents"
         ]
     },
     {
@@ -910,6 +919,23 @@
             "Users",
             "Domains & URLs",
             "Networks"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/apigee_edge_adapter.svg",
+        "name": "Apigee Edge",
+        "href": "/docs/apigee-edge",
+        "description": "Apigee Edge is an API management platform that provides tools for designing, securing, deploying, publishing, and analyzing APIs through API proxies, API products, and developer apps.",
+        "solutionCategories": [
+            "AppSec",
+            "DevOps",
+            "Cloud Mgmt"
+        ],
+        "assetsFetched": [
+            "Application Services",
+            "Application Resources",
+            "Users",
+            "Accounts"
         ]
     },
     {
@@ -1518,6 +1544,20 @@
         ],
         "assetsFetched": [
             "Devices"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/avaya_experience_platform_adapter.svg",
+        "name": "Avaya Experience Platform",
+        "href": "/docs/avaya-experience-platform",
+        "description": "Avaya Experience Platform is a contact center and unified communications platform that provides voice, chat, email, and messaging services along with agent and device management.",
+        "solutionCategories": [
+            "Collaboration",
+            "Remote Conferencing"
+        ],
+        "assetsFetched": [
+            "Devices",
+            "Users"
         ]
     },
     {
@@ -3258,6 +3298,7 @@
             "Encryption"
         ],
         "assetsFetched": [
+            "Certificates",
             "Compute Services",
             "Devices",
             "SaaS Applications",
@@ -3634,7 +3675,8 @@
             "SaaS Applications",
             "Users",
             "Devices",
-            "Roles"
+            "Roles",
+            "Networks"
         ]
     },
     {
@@ -4605,7 +4647,8 @@
             "Users",
             "Domains & URLs",
             "File Systems",
-            "Incidents"
+            "Incidents",
+            "Software"
         ]
     },
     {
@@ -5344,7 +5387,8 @@
             "Cloud Security"
         ],
         "assetsFetched": [
-            "Devices"
+            "Devices",
+            "Networks"
         ]
     },
     {
@@ -6879,7 +6923,8 @@
             "Incidents",
             "Groups",
             "Network Routes",
-            "Network Devices"
+            "Network Devices",
+            "Networks"
         ]
     },
     {
@@ -7110,6 +7155,20 @@
             "Users",
             "Application Settings",
             "Roles"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/genetec_security_center_adapter.svg",
+        "name": "Genetec Security Center",
+        "href": "/docs/genetec-security-center",
+        "description": "Genetec Security Center is a unified physical security platform that provides access control, video management, and license plate recognition through cardholder, credential, and access-event management.",
+        "solutionCategories": [
+            "IAM",
+            "IoT",
+            "Audit/Compliance"
+        ],
+        "assetsFetched": [
+            "Users"
         ]
     },
     {
@@ -7347,7 +7406,10 @@
             "Network Routes",
             "Network Devices",
             "Domains & URLs",
-            "Secrets"
+            "Secrets",
+            "Ai Autonomous Agents",
+            "Ai Models",
+            "Ai Guardrails"
         ]
     },
     {
@@ -7752,7 +7814,8 @@
             "Networking"
         ],
         "assetsFetched": [
-            "Devices"
+            "Devices",
+            "Firewalls"
         ]
     },
     {
@@ -7836,6 +7899,23 @@
         ],
         "assetsFetched": [
             "Business Applications"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/hcl_appscan_cloud_adapter.svg",
+        "name": "HCL AppScan on Cloud",
+        "href": "/docs/hcl-appscan-on-cloud",
+        "description": "HCL AppScan on Cloud is an application security testing platform that provides static, dynamic, interactive, and software composition analysis to identify vulnerabilities in web and mobile applications.",
+        "solutionCategories": [
+            "AppSec",
+            "VA Tool",
+            "DevOps"
+        ],
+        "assetsFetched": [
+            "Business Applications",
+            "Application Resources",
+            "Aggregated Security Findings",
+            "SaaS Applications"
         ]
     },
     {
@@ -8025,7 +8105,9 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Network Devices"
+            "Network Devices",
+            "Incidents",
+            "Networks"
         ]
     },
     {
@@ -8142,7 +8224,8 @@
         ],
         "assetsFetched": [
             "Users",
-            "Devices"
+            "Devices",
+            "Networks"
         ]
     },
     {
@@ -9901,7 +9984,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Network Devices"
+            "Network Devices",
+            "Networks"
         ]
     },
     {
@@ -10365,7 +10449,8 @@
             "SaaS Applications",
             "Devices",
             "Software",
-            "Networks"
+            "Networks",
+            "Contracts"
         ]
     },
     {
@@ -11675,7 +11760,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Network Devices"
+            "Network Devices",
+            "Networks"
         ]
     },
     {
@@ -12043,6 +12129,20 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/nlyte_adapter.svg",
+        "name": "Nlyte",
+        "href": "/docs/Nlyte",
+        "description": "Nlyte Asset Optimizer is a data center infrastructure management (DCIM) platform that provides asset lifecycle management, capacity planning, and audit and compliance tracking for data center assets.",
+        "solutionCategories": [
+            "ITAM/ITSM",
+            "Infra Monitoring",
+            "CMDB"
+        ],
+        "assetsFetched": [
+            "Devices"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/nmap_adapter.svg",
         "name": "Nmap Security Scanner",
         "href": "/docs/nmap-security-scanner",
@@ -12337,7 +12437,8 @@
             "Audit Activities",
             "Permissions",
             "Incidents",
-            "Application Resources"
+            "Application Resources",
+            "Business Applications"
         ]
     },
     {
@@ -13323,7 +13424,8 @@
             "SaaS Applications",
             "Containers",
             "Software",
-            "Compute Images"
+            "Compute Images",
+            "Firewalls"
         ]
     },
     {
@@ -13375,6 +13477,20 @@
         "description": "PaperCut is a print management solution that provides print job tracking and reporting.",
         "solutionCategories": [
             "IoT"
+        ],
+        "assetsFetched": [
+            "Devices"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/park_place_technologies_central_park_adapter.svg",
+        "name": "Park Place Technologies Central Park",
+        "href": "/docs/park-place-technologies-central-park",
+        "description": "Park Place Technologies Central Park is a data center maintenance platform that provides asset management, contract management, ticketing, and hardware monitoring through a unified support portal.",
+        "solutionCategories": [
+            "ITAM/ITSM",
+            "CMDB",
+            "Infra Monitoring"
         ],
         "assetsFetched": [
             "Devices"
@@ -14906,6 +15022,19 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/right_hand_cybersecurity_adapter.svg",
+        "name": "Right-Hand Cybersecurity",
+        "href": "/docs/right-hand-cybersecurity",
+        "description": "Right-Hand Cybersecurity is a Human Risk Management platform that offers security awareness training, phishing simulations, and behavior-based user risk scoring to reduce human cyber risk.",
+        "solutionCategories": [
+            "Security Awareness",
+            "Risk Mgmt"
+        ],
+        "assetsFetched": [
+            "Users"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/ring_central_adapter.svg",
         "name": "Ring Central",
         "href": "/docs/Ring-Central",
@@ -15140,6 +15269,7 @@
         ],
         "assetsFetched": [
             "Devices",
+            "Software",
             "Aggregated Security Findings",
             "Certificates",
             "Domains & URLs",
@@ -16166,6 +16296,21 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/skyhigh_security_adapter.svg",
+        "name": "Skyhigh Security",
+        "href": "/docs/Skyhigh-Security",
+        "description": "Skyhigh Security is a Security Service Edge platform that provides cloud security posture management, configuration auditing, and compliance monitoring across multi-cloud infrastructure.",
+        "solutionCategories": [
+            "Cloud Security",
+            "Cloud Infra",
+            "Audit/Compliance"
+        ],
+        "assetsFetched": [
+            "Accounts",
+            "Application Resources"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/slack_adapter.svg",
         "name": "Slack",
         "href": "/docs/slack",
@@ -16359,7 +16504,9 @@
             "Roles",
             "Domains & URLs",
             "Application Resources",
-            "Permissions"
+            "Permissions",
+            "Licenses",
+            "SaaS Applications"
         ]
     },
     {
@@ -16705,6 +16852,7 @@
             "Admin Managed Extensions",
             "Containers",
             "Networks",
+            "Network Devices",
             "Application Settings"
         ]
     },
@@ -17082,7 +17230,9 @@
             "EDR/EPP"
         ],
         "assetsFetched": [
-            "Devices"
+            "Devices",
+            "Licenses",
+            "SaaS Applications"
         ]
     },
     {
@@ -17501,6 +17651,7 @@
         ],
         "assetsFetched": [
             "Aggregated Security Findings",
+            "Security Findings",
             "SaaS Applications",
             "Devices",
             "Domains & URLs"
@@ -18643,6 +18794,20 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/viakoo_adapter.svg",
+        "name": "Viakoo",
+        "href": "/docs/viakoo",
+        "description": "Viakoo is an IoT device management platform that provides discovery, firmware and password remediation, and service assurance for physical security devices such as cameras and access control systems.",
+        "solutionCategories": [
+            "IoT",
+            "Config/Patch Mgmt",
+            "Infra Monitoring"
+        ],
+        "assetsFetched": [
+            "Devices"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/vicarius_adapter.svg",
         "name": "Vicarius",
         "href": "/docs/Vicarius",
@@ -18830,6 +18995,21 @@
         ],
         "assetsFetched": [
             "Devices"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/vmware_vcf_operations_adapter.svg",
+        "name": "VMware VCF Operations",
+        "href": "/docs/vmware-vcf-operations",
+        "description": "VMware Cloud Foundation Operations (formerly vRealize / Aria Operations) is an infrastructure operations management platform that provides monitoring, capacity planning, troubleshooting, and inventory visibility for vSphere and VCF environments.",
+        "solutionCategories": [
+            "Infra Monitoring",
+            "Virtualization",
+            "Cloud Mgmt"
+        ],
+        "assetsFetched": [
+            "Devices",
+            "Alert Findings"
         ]
     },
     {
@@ -19141,6 +19321,7 @@
             "Cloud Security"
         ],
         "assetsFetched": [
+            "Application Settings",
             "Networks",
             "Disks",
             "Devices",
