@@ -12765,10 +12765,7 @@
             "Data Security"
         ],
         "assetsFetched": [
-            "Users",
-            "Audit Activities",
-            "Ai Models",
-            "Ai Knowledge Sources"
+            "Users"
         ]
     },
     {
