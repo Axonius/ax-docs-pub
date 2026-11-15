@@ -818,9 +818,7 @@
             "Users",
             "Network Routes",
             "Domains & URLs",
-            "Expenses",
-            "Ai Knowledge Sources",
-            "Ai Autonomous Agents"
+            "Expenses"
         ]
     },
     {
@@ -886,9 +884,8 @@
             "Secrets",
             "Users",
             "Groups",
-            "Roles",
-            "Ai Knowledge Sources",
-            "Ai Autonomous Agents"
+            "Roles"
+    
         ]
     },
     {
@@ -1659,7 +1656,8 @@
         ],
         "assetsFetched": [
             "Users",
-            "Roles"
+            "Roles",
+            "Application Settings"
         ]
     },
     {
@@ -2318,7 +2316,8 @@
             "Aggregated Security Findings",
             "SaaS Applications",
             "Users",
-            "Devices"
+            "Devices",
+            "Domains & URLs"
         ]
     },
     {
@@ -3383,7 +3382,8 @@
             "Networking"
         ],
         "assetsFetched": [
-            "Devices"
+            "Devices",
+            "Firewalls"
         ]
     },
     {
@@ -3717,7 +3717,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Load Balancers"
+            "Load Balancers",
+            "Domains & URLs"
         ]
     },
     {
@@ -3866,7 +3867,8 @@
             "Domains & URLs",
             "Load Balancers",
             "Network Routes",
-            "Network Services"
+            "Network Services",
+            "Application Settings"
         ]
     },
     {
@@ -4087,6 +4089,19 @@
         ],
         "assetsFetched": [
             "Users"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/constellix_dns_adapter.svg",
+        "name": "Constellix DNS",
+        "href": "/docs/constellix-dns",
+        "description": "Constellix DNS is a managed authoritative DNS service that provides domain hosting, DNS record management, traffic routing, and monitoring through an API.",
+        "solutionCategories": [
+            "Networking",
+            "Attack Surface Management"
+        ],
+        "assetsFetched": [
+            "Domains & URLs"
         ]
     },
     {
@@ -4652,6 +4667,23 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/cycode_adapter.svg",
+        "name": "Cycode",
+        "href": "/docs/Cycode",
+        "description": "Cycode is an application security posture management platform that provides static code analysis, secret detection, dependency scanning, CI/CD pipeline protection, and risk-based vulnerability prioritization across the software development lifecycle.",
+        "solutionCategories": [
+            "AppSec",
+            "DevOps",
+            "VA Tool"
+        ],
+        "assetsFetched": [
+            "SaaS Applications",
+            "Application Resources",
+            "Users",
+            "Aggregated Security Findings"
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/cycognito_adapter.svg",
         "name": "CyCognito Platform",
         "href": "/docs/cycognito-platform",
@@ -5205,7 +5237,8 @@
             "SaaS Applications",
             "Devices",
             "Software",
-            "Network Devices"
+            "Network Devices",
+            "Networks"
         ]
     },
     {
@@ -7406,10 +7439,7 @@
             "Network Routes",
             "Network Devices",
             "Domains & URLs",
-            "Secrets",
-            "Ai Autonomous Agents",
-            "Ai Models",
-            "Ai Guardrails"
+            "Secrets"
         ]
     },
     {
@@ -8185,6 +8215,20 @@
             "Devices",
             "Users",
             "Network Devices"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/hpe_aruba_edgeconnect_adapter.svg",
+        "name": "HPE Aruba Networking EdgeConnect SD-WAN",
+        "href": "/docs/hpe-aruba-networking-edgeconnect-sd-wan",
+        "description": "HPE Aruba Networking EdgeConnect SD-WAN is a software-defined WAN platform that provides centralized orchestration, routing, security, and application-aware control across distributed edge appliances through the Orchestrator.",
+        "solutionCategories": [
+            "Networking",
+            "Infra Monitoring",
+            "Config/Patch Mgmt"
+        ],
+        "assetsFetched": [
+            "Devices"
         ]
     },
     {
@@ -8986,7 +9030,8 @@
             "Risk Mgmt"
         ],
         "assetsFetched": [
-            "Devices"
+            "Aggregated Security Findings",
+            "SaaS Applications"
         ]
     },
     {
@@ -9170,6 +9215,21 @@
             "Software",
             "Users",
             "Devices"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/iss_cyber_risk_score_adapter.svg",
+        "name": "ISS Cyber Risk Score",
+        "href": "/docs/iss-cyber-risk-score",
+        "description": "ISS Cyber Risk Score is a security ratings platform that provides external attack surface observations, domain-level findings, network attribution data, and vendor risk assessment scoring.",
+        "solutionCategories": [
+            "Attack Surface Management",
+            "Risk Mgmt"
+        ],
+        "assetsFetched": [
+            "Domains & URLs",
+            "Aggregated Security Findings",
+            "SaaS Applications"
         ]
     },
     {
@@ -9945,20 +10005,6 @@
         ],
         "assetsFetched": [
             "Devices"
-        ]
-    },
-    {
-        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/lets_encrypt_adapter.svg",
-        "name": "Let's Encrypt",
-        "href": "/docs/Lets-Encrypt",
-        "description": "Let's Encrypt is a non-profit certificate authority run by Internet Security Research Group that provides X.509 certificates for Transport Layer Security encryption at no charge.",
-        "solutionCategories": [
-            "Certificate Mgmt",
-            "DevOps",
-            "Encryption"
-        ],
-        "assetsFetched": [
-            "Certificates"
         ]
     },
     {
@@ -10750,6 +10796,20 @@
         ]
     },
     {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/azure_ai_adapter.svg",
+        "name": "Microsoft Azure AI",
+        "href": "/docs/azure-ai",
+        "description": "Microsoft Azure AI is Microsoft's platform for building, deploying and managing AI agents and models, and the tools, guardrails and resources they use across Azure AI Foundry and Azure OpenAI.",
+        "solutionCategories": [
+            "Cloud Infra",
+            "SaaS Management",
+            "Audit/Compliance"
+        ],
+        "assetsFetched": [
+             
+        ]
+    },
+    {
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/bitlocker_adapter.svg",
         "name": "Microsoft BitLocker Administration and Monitoring (MBAM)",
         "href": "/docs/mbam",
@@ -10864,6 +10924,7 @@
         "assetsFetched": [
             "SaaS Applications",
             "Devices",
+            "Compute Services",
             "Software"
         ]
     },
@@ -11225,6 +11286,20 @@
             "Roles",
             "Users",
             "Groups"
+        ]
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/misp_adapter.svg",
+        "name": "MISP",
+        "href": "/docs/misp",
+        "description": "MISP is an open source threat intelligence platform that collects, stores, correlates, analyzes, and shares structured indicators and cybersecurity intelligence. The adapter fetches MISP users and enriches CVEs with the published MISP events that reference them.",
+        "solutionCategories": [
+            "Cyber Intelligence"
+        ],
+        "assetsFetched": [
+            "Users",
+            "SaaS Applications",
+            "Aggregated Security Findings"
         ]
     },
     {
@@ -12621,6 +12696,7 @@
             "Groups",
             "Devices",
             "SaaS Applications",
+            "Business Applications",
             "Users"
         ]
     },
@@ -12682,15 +12758,14 @@
         "logo": "https://raw.githubusercontent.com/Axonius/ax-docs-pub/refs/heads/main/img/adapter_icons/open_ai_adapter.svg",
         "name": "OpenAI",
         "href": "/docs/Open-Ai",
-        "description": "OpenAI is a research and deployment AI platform that provides large language and multimodal models such as GPT and Sora for generative and reasoning capabilities.",
+        "description": "OpenAI is a research and deployment AI platform that provides large language and multimodal models such as GPT and Sora for generative and reasoning capabilities, along with an inventory of the models available to the organization.",
         "solutionCategories": [
             "Cyber Intelligence",
             "DevOps",
             "Data Security"
         ],
         "assetsFetched": [
-            "Users",
-            "Audit Activities"
+            "Users"
         ]
     },
     {
@@ -12916,7 +12991,9 @@
             "Secrets",
             "Configurations",
             "Object Storages",
-            "Disks"
+            "Disks",
+            "Serverless Functions",
+            "Application Services"
         ]
     },
     {
@@ -13341,7 +13418,8 @@
         ],
         "assetsFetched": [
             "Users",
-            "Devices"
+            "Devices",
+            "Application Settings"
         ]
     },
     {
@@ -13949,7 +14027,8 @@
         ],
         "assetsFetched": [
             "Devices",
-            "Networks"
+            "Networks",
+            "Domains & URLs"
         ]
     },
     {
@@ -14849,7 +14928,10 @@
         "assetsFetched": [
             "Devices",
             "Containers",
-            "Compute Images"
+            "Compute Images",
+            "Users",
+            "Network Services",
+            "Organizational Units"
         ]
     },
     {
@@ -16038,7 +16120,8 @@
             "VA Tool"
         ],
         "assetsFetched": [
-            "Devices"
+            "Devices",
+            "Users"
         ]
     },
     {
@@ -18832,7 +18915,8 @@
             "Secure Web Gateways"
         ],
         "assetsFetched": [
-            "Devices"
+            "Devices",
+            "Firewalls"
         ]
     },
     {
@@ -19842,6 +19926,7 @@
             "Application Settings",
             "Licenses",
             "Users",
+            "Groups",
             "Audit Activities"
         ]
     },
