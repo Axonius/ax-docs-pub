@@ -818,12 +818,7 @@
             "Users",
             "Network Routes",
             "Domains & URLs",
-            "Expenses",
-            "Ai Knowledge Sources",
-            "Ai Autonomous Agents",
-            "Ai Guardrails",
-            "Ai Mcp Servers",
-            "Ai Tools"
+            "Expenses"
         ]
     },
     {
@@ -889,11 +884,8 @@
             "Secrets",
             "Users",
             "Groups",
-            "Roles",
-            "Ai Knowledge Sources",
-            "Ai Autonomous Agents",
-            "Ai Models",
-            "Ai Tools"
+            "Roles"
+    
         ]
     },
     {
@@ -7447,13 +7439,7 @@
             "Network Routes",
             "Network Devices",
             "Domains & URLs",
-            "Secrets",
-            "Ai Autonomous Agents",
-            "Ai Models",
-            "Ai Guardrails",
-            "Ai Mcp Servers",
-            "Ai Knowledge Sources",
-            "Ai Tools"
+            "Secrets"
         ]
     },
     {
@@ -10820,10 +10806,7 @@
             "Audit/Compliance"
         ],
         "assetsFetched": [
-            "Ai Autonomous Agents",
-            "Ai Guardrails",
-            "Ai Models",
-            "Ai Knowledge Sources"
+             
         ]
     },
     {
